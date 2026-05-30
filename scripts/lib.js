@@ -219,11 +219,13 @@ export function generateKeywords(topicPath) {
 
 export function classifyImportance(topic) {
   if (topic.level <= 2) return "major";
+  const cleanTitle = stripLeadingCode(topic.title).toLowerCase();
+  if (cleanTitle === "electric charge") return "major";
   if (topic.level === 3) return "medium";
 
   const pathText = `${topic.title} ${topic.full_path.join(" ")}`.toLowerCase();
   const highValue =
-    /\b(cctv|camera|vms|nvr|access control|fire alarm|bms|bacnet|modbus|poe|vlan|ip address|subnet|protocol|gateway|controller|panel|detector|sensor|commissioning|integration|calculation|calculator|testing|handover|cybersecurity|network|architecture|storage|server|fiber|rack)\b/.test(
+    /\b(charge|current|voltage|resistance|conductance|power|energy|frequency|phase|rms|grounding|earthing|bonding|shielding|waveform|signal|noise|snr|bandwidth|attenuation|relay|transistor|rectifier|cctv|camera|vms|nvr|access control|fire alarm|bms|bacnet|modbus|poe|vlan|ip address|subnet|protocol|gateway|controller|panel|detector|sensor|commissioning|integration|calculation|calculator|testing|handover|cybersecurity|network|architecture|storage|server|fiber|rack)\b/.test(
       pathText
     );
   return highValue ? "medium" : "small";

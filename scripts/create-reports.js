@@ -13,6 +13,7 @@ const validation = readOptional(FILES.validationStats, {});
 const links = readOptional(FILES.linkStats, {});
 const linkCheck = readOptional(FILES.linkCheckStats, {});
 const content = readOptional(FILES.contentRuleStats, {});
+const visual = readOptional(FILES.visualValidationStats, {});
 
 const summary = {
   generated_at: new Date().toISOString(),
@@ -28,8 +29,18 @@ const summary = {
   broken_link_count: linkCheck.broken_links?.length ?? 0,
   ambiguous_link_count: links.ambiguous_terms ?? 0,
   simulation_interactive_blocks_added: content.simulation_or_interactive_blocks ?? 0,
+  total_pages_reviewed_for_visuals: visual.pages_reviewed ?? 0,
+  total_pages_with_meaningful_visual: visual.pages_with_at_least_one_meaningful_visual ?? 0,
+  total_major_pages_with_3_plus_visuals: visual.major_pages_with_3_plus_visuals ?? 0,
+  total_medium_pages_with_visuals: visual.medium_pages_with_visuals ?? 0,
+  total_small_pages_with_visuals: visual.small_pages_with_visuals ?? 0,
+  total_diagrams_generated: visual.diagrams_generated ?? 0,
+  total_external_images_used: visual.external_images_used ?? 0,
+  total_external_images_with_attribution: visual.external_images_with_attribution ?? 0,
+  total_broken_images: visual.broken_images ?? 0,
+  total_pages_expanded_for_content_depth: visual.pages_expanded_for_content_depth ?? 0,
   pages_needing_manual_review: content.pages_needing_manual_review ?? 0,
-  validation_ok: Boolean(validation.ok && linkCheck.ok && content.ok)
+  validation_ok: Boolean(validation.ok && linkCheck.ok && content.ok && (visual.ok ?? true))
 };
 
 writeJson(FILES.buildSummary, summary);
@@ -49,6 +60,16 @@ writeText(
 - Broken link count: ${summary.broken_link_count}
 - Ambiguous link count: ${summary.ambiguous_link_count}
 - Simulation/interactive blocks added: ${summary.simulation_interactive_blocks_added}
+- Pages reviewed for visual/content depth: ${summary.total_pages_reviewed_for_visuals}
+- Pages with at least one meaningful visual: ${summary.total_pages_with_meaningful_visual}
+- Major pages with 3+ visuals: ${summary.total_major_pages_with_3_plus_visuals}
+- Medium pages with visuals: ${summary.total_medium_pages_with_visuals}
+- Small pages with visuals: ${summary.total_small_pages_with_visuals}
+- Diagrams generated: ${summary.total_diagrams_generated}
+- External images used: ${summary.total_external_images_used}
+- External images with attribution: ${summary.total_external_images_with_attribution}
+- Broken images: ${summary.total_broken_images}
+- Pages expanded for content depth: ${summary.total_pages_expanded_for_content_depth}
 - Pages needing manual review: ${summary.pages_needing_manual_review}
 - Validation summary: ${summary.validation_ok ? "passed" : "failed"}
 - Local command: \`npm.cmd run dev\`

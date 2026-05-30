@@ -82,7 +82,11 @@ const totals = {
   pages_needing_manual_review: pages.filter((page) => page.manual_review_flag).length
 };
 
-writeJson(FILES.visualAuditStats, { ...totals, sample_issues: pages.filter((page) => page.manual_review_flag).slice(0, 200) });
+writeJson(FILES.visualAuditStats, {
+  ...totals,
+  pages,
+  sample_issues: pages.filter((page) => page.manual_review_flag).slice(0, 200)
+});
 writeText(
   path.join(DIRS.reports, "full-page-review-report.md"),
   `# Full Page Review Report

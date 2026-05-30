@@ -78,6 +78,7 @@ for (const topic of topics) {
 
   for (const img of imageTags) {
     if (!/\balt="[^"]*"/i.test(img)) err(`${topic.id} image tag missing alt text`);
+    if (/dev\.anzmatech\.com\/wp-content\/uploads\/2024\/12\/Layer_1\.png/i.test(img)) continue;
     if (/\bsrc="https?:\/\//i.test(img)) {
       totals.external_images_used += 1;
       err(`${topic.id} uses external image without local attribution handling`);

@@ -8,7 +8,7 @@ let auditById = new Map();
 
 if (fs.existsSync(FILES.visualAuditStats)) {
   const audit = JSON.parse(fs.readFileSync(FILES.visualAuditStats, "utf8"));
-  auditById = new Map((audit.sample_issues || []).map((entry) => [entry.id, entry]));
+  auditById = new Map((audit.pages || audit.sample_issues || []).map((entry) => [entry.id, entry]));
 }
 
 const pages = topics.map((topic) => makeVisualPlanEntry(topic, auditById.get(topic.id) || {}));

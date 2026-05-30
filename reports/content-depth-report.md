@@ -1,7 +1,6 @@
 # Content Depth Report
 
-- Major threshold: 3500 visible characters.
-- Medium threshold: 2400 visible characters.
-- Small threshold: 1500 visible characters.
-- Pages below threshold: 0
-- Pages passing threshold: 16180
+- Pages reviewed: 16180
+- Pages meeting content-depth threshold: 16180
+- Thresholds: major 3500, medium 2400, small 1500 visible characters
+- Validation status: passed

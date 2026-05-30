@@ -2,7 +2,7 @@
 
 - Total linkable topics: 16180
 - Total aliases: 34271
-- Total internal links inserted: 57916
+- Total internal links inserted: 58019
 - Broken links: checked by `check-links.js`
 - Ambiguous terms: 3677
 - Terms skipped because ambiguous: 0
