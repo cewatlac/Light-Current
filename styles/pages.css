@@ -60,6 +60,7 @@
   width: 100%;
   height: auto;
   min-height: 220px;
+  direction: ltr;
 }
 
 .technical-svg .visual-title {
@@ -85,8 +86,10 @@
 .technical-svg .visual-node text {
   fill: var(--text);
   font-family: var(--font-en);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
+  direction: ltr;
+  unicode-bidi: isolate;
 }
 
 .technical-svg .node-b rect {

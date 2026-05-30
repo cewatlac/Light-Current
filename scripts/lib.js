@@ -7,9 +7,14 @@ export const FOOTER_COPYRIGHT = "© Anzma Tech Academy. All rights reserved.";
 
 export const BANNED_VISIBLE_PHRASES = [
   "Anzma Tech website reference for brand direction",
-  "هنكتب المصطلحات العملية",
-  "ده اسمه هبل",
   "ELV engineers care",
+  "sits inside",
+  "should be read through its hierarchy",
+  "the parent sets the domain",
+  "This page is a leaf topic in the spreadsheet tree",
+  "Related topics will appear as the course grows",
+  "Use the parent topic to decide which drawing",
+  "as an isolated term without checking parent",
   "as an AI",
   "placeholder content",
   "lorem ipsum",

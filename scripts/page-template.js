@@ -1,5 +1,6 @@
 import { escapeAttr, escapeHtml, FOOTER_COPYRIGHT, rootRelativeUrl, stripLeadingCode } from "./lib.js";
 import { educationalFigure, makeVisualPlanEntry, strategyForTopic } from "./visual-system.js";
+import { lessonForTopic, quizForTopic, referencesForTopic, scenarioForTopic } from "./content-system.js";
 
 const LOGO_URL = "https://dev.anzmatech.com/wp-content/uploads/2024/12/Layer_1.png";
 const ANZMA_URL = "https://anzmatech.com/";
@@ -139,90 +140,7 @@ function plannedVisuals(topic, context = {}) {
 }
 
 function quizQuestions(topic, count) {
-  const path = topic.full_path.join(" / ");
-  const base = [
-    {
-      type: "choice",
-      q_ar: `ما أفضل وصف لدور ${topic.title} داخل المسار التعليمي؟`,
-      q_en: `What is the best description of ${topic.title} in this course path?`,
-      choices_ar: ["مفهوم مرتبط بالسياق العملي للمسار", "عنوان عشوائي خارج المنهج", "ملف خارجي غير مرتبط", "زر في الواجهة فقط"],
-      choices_en: ["A concept connected to the practical course path", "A random title outside the course", "An unrelated external file", "Only a user interface button"],
-      answer: 0,
-      feedback_ar: `${topic.title} مرتبط بمسار ${path} ويجب فهمه ضمن parent وchildren والموضوعات القريبة.`,
-      feedback_en: `${topic.title} belongs to ${path} and should be understood through its parent, children, and related topics.`
-    },
-    {
-      type: "choice",
-      q_ar: "عند قراءة صفحة فنية، ما أهم شيء قبل استخدام أي formula أو رقم؟",
-      q_en: "Before using a formula or number on a technical page, what matters most?",
-      choices_ar: ["فهم الرموز والوحدات والسياق", "نسخ الرقم فقط", "تجاهل الإشارات", "استخدام أي قيمة بدون مراجعة"],
-      choices_en: ["Understand symbols, units, and context", "Copy the number only", "Ignore signs", "Use any value without checking"],
-      answer: 0,
-      feedback_ar: "الفهم الصحيح للرموز والوحدات يمنع أخطاء التصميم والتنفيذ وcommissioning.",
-      feedback_en: "Correct symbols and units prevent design, installation, and commissioning mistakes."
-    },
-    {
-      type: "choice",
-      q_ar: `أين يجب مراجعة ${topic.title} عند وجود لبس؟`,
-      q_en: `Where should ${topic.title} be checked when there is uncertainty?`,
-      choices_ar: ["في parent topic والرسومات والمواصفات", "في العنوان فقط", "في اللون المستخدم في الصفحة", "في الذاكرة بدون مرجع"],
-      choices_en: ["In the parent topic, drawings, and specifications", "Only in the title", "In the page color", "From memory without references"],
-      answer: 0,
-      feedback_ar: "السياق الفني يأتي من المسار الكامل والرسومات والمواصفات وليس من الاسم وحده.",
-      feedback_en: "Technical context comes from the full path, drawings, and specifications, not the name alone."
-    },
-    {
-      type: "choice",
-      q_ar: "ما السلوك الصحيح عند ظهور مصطلح قريب في صفحة أخرى؟",
-      q_en: "What is the right behavior when a related term appears on another page?",
-      choices_ar: ["ربطه داخليًا إذا كان واضحًا وغير ملتبس", "ربطه بأي صفحة عشوائية", "تجاهله دائمًا", "تحويله إلى رابط خارجي"],
-      choices_en: ["Link it internally when the match is clear and unambiguous", "Link it to a random page", "Always ignore it", "Turn it into an external link"],
-      answer: 0,
-      feedback_ar: "الربط الداخلي الصحيح يساعد المتعلم بدون إنشاء روابط مضللة.",
-      feedback_en: "Correct internal linking helps learners without creating misleading links."
-    },
-    {
-      type: "choice",
-      q_ar: "لماذا نربط المفهوم بأمثلة عملية؟",
-      q_en: "Why connect the concept to practical examples?",
-      choices_ar: ["لتحويل التعريف إلى قرار تصميم أو تنفيذ", "لزيادة النص فقط", "لإخفاء نقص المحتوى", "لإلغاء الحاجة للفهم"],
-      choices_en: ["To turn a definition into a design or site decision", "Only to increase text length", "To hide missing content", "To remove the need for understanding"],
-      answer: 0,
-      feedback_ar: "الأمثلة العملية تربط المعرفة بالتصميم والتنفيذ والاختبار.",
-      feedback_en: "Practical examples connect knowledge to design, installation, and testing."
-    },
-    {
-      type: "choice",
-      q_ar: "أي عنصر يساعد في التعلم الذاتي داخل الصفحة؟",
-      q_en: "Which element helps self-learning on the page?",
-      choices_ar: ["quick check مع feedback", "رابط مكسور", "نص غير واضح", "صورة للزينة فقط"],
-      choices_en: ["A quick check with feedback", "A broken link", "Unclear text", "A decorative-only image"],
-      answer: 0,
-      feedback_ar: "الاختبارات القصيرة تعطي feedback سريع وتكشف نقاط الضعف.",
-      feedback_en: "Quick checks give immediate feedback and reveal weak spots."
-    },
-    {
-      type: "choice",
-      q_ar: "ما العلاقة بين الموضوعات المتجاورة؟",
-      q_en: "How are neighboring topics related?",
-      choices_ar: ["غالبًا تكمل نفس الجزء من النظام أو المستند", "ليست لها أي علاقة دائمًا", "كلها أسماء لنفس الصفحة", "لا تظهر في البحث"],
-      choices_en: ["They often complete the same system area or document set", "They are always unrelated", "They are all names for the same page", "They never appear in search"],
-      answer: 0,
-      feedback_ar: "siblings والموضوعات القريبة تساعد في تكوين الصورة الكاملة.",
-      feedback_en: "Siblings and nearby topics help build the complete picture."
-    },
-    {
-      type: "choice",
-      q_ar: "ما أفضل طريقة لاستخدام هذه الصفحة في مشروع؟",
-      q_en: "What is the best way to use this page on a project?",
-      choices_ar: ["كمراجعة سريعة ثم ربطها بالرسومات والمواصفات", "كبديل كامل عن كل المستندات", "كمصدر لأرقام غير مؤكدة", "كمحتوى غير مرتبط بالموقع"],
-      choices_en: ["As a quick review, then connect it to drawings and specifications", "As a complete replacement for all documents", "As a source of unchecked numbers", "As content unrelated to site work"],
-      answer: 0,
-      feedback_ar: "الصفحة التعليمية تساعدك، لكن القرار النهائي يحتاج مستندات المشروع.",
-      feedback_en: "The lesson helps, but final decisions still need project documents."
-    }
-  ];
-  return base.slice(0, count);
+  return quizForTopic(topic, count);
 }
 
 function quizBlock(topic, count) {
@@ -279,22 +197,23 @@ function visualGallery(topic, context = {}) {
 }
 
 function depthUpgradeSections(topic) {
-  const title = escapeHtml(topic.title);
-  const category = escapeHtml(topic.category || topic.unit || "this course area");
+  const lesson = lessonForTopic(topic);
+  const title = escapeHtml(stripLeadingCode(topic.title));
+  const mistakes = lesson.mistakes.map((item) => `<li data-linkable>${escapeHtml(item)}</li>`).join("");
   const majorExtra = topic.importance_type === "major"
     ? `<section class="section">
     <div class="wrap grid-2">
       <article class="card">
         <span class="chapter-num">SYSTEM</span>
         <h2>System Architecture</h2>
-        <p class="ar-block" data-linkable>في مستوى system، ${title} يحتاج قراءة من ثلاث زوايا: components، signal أو data flow، وinterface مع الأنظمة القريبة. ابدأ بتحديد مصدر المعلومة أو الطاقة، ثم نقطة المعالجة، ثم المخرج أو action المطلوب.</p>
-        <p class="en-block en" data-linkable>At system level, ${title} should be read through components, signal or data flow, and interfaces with nearby systems. Identify the source, processing point, and expected output or action.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.architecture_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.architecture_en)}</p>
       </article>
       <article class="card">
         <span class="chapter-num">FLOW</span>
         <h2>Signal, Data, Or Power Flow</h2>
-        <p class="ar-block" data-linkable>راجع اتجاه flow: هل هو current، network packet، alarm event، control command، audio signal، video stream، أو commissioning evidence؟ فهم الاتجاه يمنع توصيلات عكسية وقرارات design غير واضحة.</p>
-        <p class="en-block en" data-linkable>Check the direction of flow: current, network packet, alarm event, control command, audio signal, video stream, or commissioning evidence. Direction prevents wiring and design mistakes.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.flow_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.flow_en)}</p>
       </article>
     </div>
   </section>`
@@ -306,20 +225,20 @@ function depthUpgradeSections(topic) {
       <article class="card">
         <span class="chapter-num">DESIGN</span>
         <h2>Design Considerations</h2>
-        <p class="ar-block" data-linkable>قبل اعتماد ${title} في التصميم، اربطه بالscope، drawings، specifications، codes، وinterfaces. اسأل: ما القيمة أو الوظيفة المطلوبة؟ أين تظهر في layout أو schematic؟ وما dependencies مع ${category}؟</p>
-        <p class="en-block en" data-linkable>Before using ${title} in design, connect it to scope, drawings, specifications, codes, and interfaces. Ask what function is required, where it appears, and what depends on it.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.design_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.design_en)}</p>
       </article>
       <article class="card">
         <span class="chapter-num">SITE</span>
         <h2>Installation Considerations</h2>
-        <p class="ar-block" data-linkable>في الموقع، راجع labeling، cable route، mounting، termination، polarity أو addressing إن وجدت، ثم قارن التنفيذ مع approved shop drawings. أي اختلاف صغير قد يظهر لاحقًا كfault أو failed test.</p>
-        <p class="en-block en" data-linkable>On site, check labeling, cable route, mounting, termination, polarity or addressing when relevant, then compare the installation with approved shop drawings.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.site_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.site_en)}</p>
       </article>
       <article class="card">
         <span class="chapter-num">TEST</span>
         <h2>Testing And Commissioning</h2>
-        <p class="ar-block" data-linkable>أثناء testing، حدد expected result قبل القياس. سجّل evidence واضح: reading، screenshot، test sheet، أو functional result. اربط النتيجة بالparent topic حتى يكون handover traceable.</p>
-        <p class="en-block en" data-linkable>During testing, define the expected result before measuring. Record traceable evidence such as readings, screenshots, test sheets, or functional outcomes.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.test_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.test_en)}</p>
       </article>
     </div>
   </section>
@@ -329,40 +248,41 @@ function depthUpgradeSections(topic) {
       <article class="card">
         <span class="chapter-num">MISTAKES</span>
         <h2>Common Mistakes</h2>
-        <ul>
-          <li data-linkable>Reading ${title} as an isolated term without checking parent and sibling topics.</li>
-          <li data-linkable>Using a drawing symbol, device label, protocol name, or document title without confirming the project context.</li>
-          <li data-linkable>Skipping test evidence, which makes troubleshooting and handover weaker.</li>
-        </ul>
+        <ul>${mistakes}</ul>
       </article>
       <article class="card">
         <span class="chapter-num">TROUBLESHOOT</span>
         <h2>Troubleshooting Scenario</h2>
-        <p class="ar-block" data-linkable>لو حدث fault مرتبط بـ ${title}، ابدأ من source، ثم cable أو network path، ثم controller أو panel، ثم output أو document evidence. لا تقفز للجزء الأخير قبل تأكيد الأساسيات.</p>
-        <p class="en-block en" data-linkable>If a fault is related to ${title}, start at the source, then cable or network path, then controller or panel, then output or document evidence. Do not jump to the last step first.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.troubleshoot_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.troubleshoot_en)}</p>
       </article>
     </div>
   </section>`;
 }
 
 function interactiveBlock(topic) {
+  const lesson = lessonForTopic(topic);
+  const scenario = scenarioForTopic(topic);
+  const scenarioJson = JSON.stringify(scenario).replaceAll("</", "<\\/");
+  const initial = scenario.design;
   return `<section class="section" id="interactive">
   <div class="wrap grid-2">
     <div>
       <span class="chapter-num">INTERACTIVE</span>
       <h2>Interactive Simulation</h2>
-      <p class="ar-block" data-linkable>استخدم هذا scenario explorer لتفكر في ${escapeHtml(topic.title)} داخل المسار العملي. غيّر المرحلة ولاحظ كيف يتغير التركيز بين design وinstallation وtesting وmaintenance.</p>
-      <p class="en-block en" data-linkable>Use this scenario explorer to place ${escapeHtml(topic.title)} in context. Change the stage and notice how the focus moves between design, installation, testing, and maintenance.</p>
+      <p class="ar-block" data-linkable>${escapeHtml(lesson.architecture_ar)}</p>
+      <p class="en-block en" data-linkable>Use this scenario explorer for ${escapeHtml(stripLeadingCode(topic.title))}. It changes the checklist from design to site work to commissioning using the same topic-specific logic.</p>
     </div>
     <div class="sim-card" data-scenario>
+      <script type="application/json" data-scenario-copy>${scenarioJson}</script>
       <div class="segmented" role="tablist" aria-label="Scenario stage">
         <button type="button" class="active" data-scenario-btn="design">Design</button>
         <button type="button" data-scenario-btn="site">Site</button>
         <button type="button" data-scenario-btn="test">Testing</button>
       </div>
       <div class="scenario-output" data-scenario-output>
-        <strong>Design focus</strong>
-        <p>Confirm scope, parent system, interfaces, symbols, units, and coordination notes before issuing drawings.</p>
+        <strong>${escapeHtml(initial[0])}</strong>
+        <p>${escapeHtml(initial[1])}</p>
       </div>
     </div>
   </div>
@@ -370,13 +290,16 @@ function interactiveBlock(topic) {
 }
 
 function referencesBlock(topic) {
+  const refs = referencesForTopic(topic);
+  const items = refs.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   return `<section class="section" id="refs">
   <div class="wrap">
     <div class="card">
       <span class="chapter-num">REFERENCES</span>
       <h2>Learning References</h2>
-      <p class="ar-block">راجع رسومات المشروع، specifications، standards المعتمدة، وmanuals الخاصة بالمورد عند استخدام ${escapeHtml(topic.title)} في قرار تصميم أو تنفيذ.</p>
-      <p class="en-block en">Use project drawings, specifications, applicable standards, and vendor manuals before applying ${escapeHtml(topic.title)} to a design or installation decision.</p>
+      <p class="ar-block">${escapeHtml(refs.intro_ar)}</p>
+      <p class="en-block en">${escapeHtml(refs.intro_en)}</p>
+      <ul>${items}</ul>
     </div>
   </div>
 </section>`;
@@ -395,11 +318,12 @@ function pageNavigation(topic, topics, context = {}) {
 
 function standardTopicPage(topic, topics, context = {}) {
   const cleanTitle = stripLeadingCode(topic.title);
-  const path = topic.full_path.join(" / ");
-  const childList = topicList(topic, topics, topic.children_ids, "This page is a leaf topic in the spreadsheet tree.", 20, context);
-  const relatedList = topicList(topic, topics, topic.related_topic_ids, "Related topics will appear as the course grows.", 10, context);
+  const lesson = lessonForTopic(topic);
+  const childList = topicList(topic, topics, topic.children_ids, "No child topics are listed below this row.", 20, context);
+  const relatedList = topicList(topic, topics, topic.related_topic_ids, "No related topics are listed for this row.", 10, context);
   const quizCount = topic.importance_type === "major" ? 8 : topic.importance_type === "medium" ? 5 : 3;
   const includeInteractive = topic.importance_type !== "small";
+  const examples = lesson.examples.map((item) => `<li data-linkable>${escapeHtml(item)}</li>`).join("");
 
   return `<body class="lang-both topic-page" data-topic-id="${escapeAttr(topic.id)}" data-topic-url="${escapeAttr(topic.url)}">
 ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topics, context), sectionLabel: topic.importance_type })}
@@ -407,10 +331,10 @@ ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topic
   <section class="hero topic-hero">
     <div class="wrap hero-grid">
       <div class="reveal">
-        <div class="pill"><span class="pulse-dot"></span>${escapeHtml(topic.unit)} · Level ${topic.level}</div>
+        <div class="pill"><span class="pulse-dot"></span>${escapeHtml(topic.unit)} · Level ${topic.level} · ${escapeHtml(lesson.profile_name)}</div>
         <h1><span class="gradient">${escapeHtml(topic.title)}</span></h1>
-        <p class="lead ar-block" data-linkable>${escapeHtml(topic.title)} هو موضوع داخل مسار ${escapeHtml(path)}. الهدف هنا أن تفهم التعريف، مكان ظهوره في systems أو documents، وكيف تربطه بالموضوعات القريبة بدون حفظ منفصل عن السياق.</p>
-        <p class="lead en-block en" data-linkable>${escapeHtml(topic.title)} sits inside ${escapeHtml(path)}. This page explains the definition, where it appears in systems or documents, and how it connects to nearby topics.</p>
+        <p class="lead ar-block" data-linkable>${escapeHtml(lesson.hero_ar)}</p>
+        <p class="lead en-block en" data-linkable>${escapeHtml(lesson.hero_en)}</p>
         <div class="hero-actions">
           <a class="btn" href="#definition">Start</a>
           <a class="btn ghost" href="#quiz">Quick Check</a>
@@ -429,14 +353,14 @@ ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topic
       <article class="card">
         <span class="chapter-num">01</span>
         <h2>Quick Definition</h2>
-        <p class="ar-block" data-linkable>تعريف ${escapeHtml(cleanTitle)} يعتمد على مكانه في الhierarchy: parent topic يحدد المجال، والchildren أو siblings يوضحوا التفاصيل القريبة. اقرأه كجزء من ${escapeHtml(topic.category)} وليس كمصطلح منفصل.</p>
-        <p class="en-block en" data-linkable>${escapeHtml(cleanTitle)} should be read through its hierarchy: the parent sets the domain, while children and siblings define the nearby details.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.definition_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.definition_en)}</p>
       </article>
       <article class="card">
         <span class="chapter-num">02</span>
         <h2>Why It Matters</h2>
-        <p class="ar-block" data-linkable>في التطبيق العملي، هذا الموضوع يساعد في قراءة drawings، مراجعة specifications، تجهيز checklists، وربط design مع installation وcommissioning.</p>
-        <p class="en-block en" data-linkable>In practice, this topic supports drawing review, specification checks, checklist preparation, and coordination between design, installation, and commissioning.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.why_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.why_en)}</p>
       </article>
     </div>
   </section>
@@ -446,18 +370,14 @@ ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topic
       <article class="card">
         <span class="chapter-num">03</span>
         <h2>Where It Appears</h2>
-        <p class="ar-block" data-linkable>ستقابله غالبًا ضمن documents مثل method statement، material submittal، shop drawings، test sheets، أو handover records حسب نوع النظام.</p>
-        <p class="en-block en" data-linkable>You will usually meet it in documents such as method statements, material submittals, shop drawings, test sheets, or handover records depending on the system.</p>
+        <p class="ar-block" data-linkable>${escapeHtml(lesson.appears_ar)}</p>
+        <p class="en-block en" data-linkable>${escapeHtml(lesson.appears_en)}</p>
         <ul>${childList}</ul>
       </article>
       <article class="card">
         <span class="chapter-num">04</span>
         <h2>Practical Examples</h2>
-        <ul>
-          <li data-linkable>Use the parent topic to decide which drawing, panel, cable, sensor, controller, protocol, or report is relevant.</li>
-          <li data-linkable>Compare ${escapeHtml(topic.title)} with related topics before choosing a symbol, device, quantity, or checklist item.</li>
-          <li data-linkable>During testing, confirm the expected result and record evidence in the correct project document.</li>
-        </ul>
+        <ul>${examples}</ul>
       </article>
     </div>
   </section>
@@ -471,8 +391,8 @@ ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topic
       <div class="card">
         <span class="chapter-num">RELATED</span>
         <h2>Related Learning Path</h2>
-        <p class="ar-block" data-linkable>ابدأ من parent، ثم راجع siblings والchildren القريبة لتفهم الصورة الكاملة حول ${escapeHtml(topic.title)}.</p>
-        <p class="en-block en" data-linkable>Start with the parent, then review siblings and children to understand the full context around ${escapeHtml(topic.title)}.</p>
+        <p class="ar-block" data-linkable>راجع الموضوعات القريبة من ${escapeHtml(cleanTitle)} عندما تساعد على فهم نفس النظام أو نفس المستند أو نفس الاختبار.</p>
+        <p class="en-block en" data-linkable>Review nearby topics around ${escapeHtml(cleanTitle)} when they clarify the same system, document set, or commissioning check.</p>
         <ul class="link-grid">${relatedList}</ul>
       </div>
     </div>
@@ -506,7 +426,7 @@ ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topic
       <div class="reveal">
         <div class="pill"><span class="pulse-dot"></span> Electrical Basics · Basic electrical quantities</div>
         <h1><span class="gradient">Electric Charge</span><br><span class="ar-block">الشحنة الكهربائية</span></h1>
-        <p class="lead ar-block" data-linkable>الشحنة الكهربائية هي البداية الطبيعية قبل current وvoltage وelectric field وgrounding. من غير فهم charge، يصبح تفسير حركة الإلكترونات، الإشارات، والحماية الكهربائية ناقصًا.</p>
+        <p class="lead ar-block" data-linkable>الشحنة الكهربائية هي البداية الطبيعية قبل: current, voltage, electric field, grounding. من غير فهم charge، يصبح تفسير حركة الإلكترونات، الإشارات، والحماية الكهربائية ناقصًا.</p>
         <p class="lead en-block en" data-linkable>Electric charge is the starting point before current, voltage, electric field, and grounding. Without charge, electron movement, signals, and electrical protection are hard to reason about.</p>
         <div class="hero-actions">
           <a class="btn" href="#formula">Understand Formula</a>

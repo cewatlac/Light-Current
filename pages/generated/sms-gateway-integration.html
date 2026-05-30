@@ -43,49 +43,49 @@
   <section class="hero topic-hero">
     <div class="wrap hero-grid">
       <div class="reveal">
-        <div class="pill"><span class="pulse-dot"></span>B. ICT Backbone · Level 4</div>
+        <div class="pill"><span class="pulse-dot"></span>B. ICT Backbone · Level 4 · ELV networking and IP services</div>
         <h1><span class="gradient">SMS gateway integration</span></h1>
-        <p class="lead ar-block" data-linkable>SMS gateway integration هو موضوع داخل مسار B. ICT Backbone / B6. IP Systems / <a class="auto-link" href="./ip-system-integration.html">IP system integration</a> / SMS gateway integration. الهدف هنا أن تفهم التعريف، مكان ظهوره في systems أو documents، وكيف تربطه بالموضوعات القريبة بدون حفظ منفصل عن السياق.</p>
-        <p class="lead en-block en" data-linkable>SMS gateway integration sits inside B. ICT Backbone / B6. IP Systems / <a class="auto-link" href="./ip-system-integration.html">IP system integration</a> / SMS gateway integration. This page explains the definition, where it appears in systems or documents, and how it connects to nearby topics.</p>
+        <p class="lead ar-block" data-linkable>SMS gateway integration يرتبط بتوصيل ELV devices بالشبكة والخدمات مثل addressing، routing، security، monitoring، وtime synchronization.</p>
+        <p class="lead en-block en" data-linkable>SMS gateway integration connects ELV devices to network services such as addressing, routing, security, monitoring, storage, and time synchronization.</p>
         <div class="hero-actions">
           <a class="btn" href="#definition">Start</a>
           <a class="btn ghost" href="#quiz">Quick Check</a>
         </div>
       </div>
       <div class="hero-card reveal">
-        <figure class="educational-visual topology-diagram" id="topic-03415-concept" data-educational-visual="true" data-visual-id="topic-03415-concept" data-visual-source="local-svg" data-visual-purpose="SMS gateway integration core concept: Network segmentation and traffic path between services and field devices.">
-    <svg class="technical-svg" role="img" aria-label="SMS gateway integration concept diagram showing Router to Firewall to Switch to Segments." viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
-    <title>SMS gateway integration concept diagram showing Router to Firewall to Switch to Segments.</title>
+        <figure class="educational-visual network-topology" id="topic-03415-concept" data-educational-visual="true" data-visual-id="topic-03415-concept" data-visual-source="local-svg" data-visual-purpose="SMS gateway integration core concept: Network path from ELV endpoint to switching, routing, and shared services.">
+    <svg class="technical-svg" role="img" aria-label="SMS gateway integration concept diagram showing Endpoint to Access Switch to Core / Firewall to Services." viewBox="0 0 760 300" direction="ltr" xmlns="http://www.w3.org/2000/svg">
+    <title>SMS gateway integration concept diagram showing Endpoint to Access Switch to Core / Firewall to Services.</title>
     <defs>
       <marker id="arrow-topic-03415-concept" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
         <path d="M0,0 L10,4 L0,8 Z"></path>
       </marker>
     </defs>
     <text class="visual-title" x="28" y="34">SMS gateway integration</text>
-    <text class="visual-subtitle" x="28" y="58">Architecture · topology-diagram</text>
+    <text class="visual-subtitle" x="28" y="58">Architecture · network-topology</text>
     <g class="visual-node node-a">
-    <rect x="34" y="112" width="130" height="64" rx="10"></rect>
-    <text x="99" y="144" text-anchor="middle" dominant-baseline="middle">Router</text>
+    <rect x="34" y="112" width="132" height="64" rx="10"></rect>
+    <text x="100" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="100" dy="0">Endpoint</tspan></text>
   </g>
-    <path class="visual-arrow" d="M170 144 L224 144" marker-end="url(#arrow-topic-03415-concept)"></path>
+    <path class="visual-arrow" d="M172 144 L218 144" marker-end="url(#arrow-topic-03415-concept)"></path>
     <g class="visual-node node-b">
-    <rect x="230" y="96" width="150" height="96" rx="10"></rect>
-    <text x="305" y="144" text-anchor="middle" dominant-baseline="middle">Firewall</text>
+    <rect x="224" y="96" width="168" height="96" rx="10"></rect>
+    <text x="308" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="308" dy="0">Access Switch</tspan></text>
   </g>
-    <path class="visual-arrow" d="M386 144 L444 144" marker-end="url(#arrow-topic-03415-concept)"></path>
+    <path class="visual-arrow" d="M398 144 L438 144" marker-end="url(#arrow-topic-03415-concept)"></path>
     <g class="visual-node node-c">
-    <rect x="450" y="112" width="128" height="64" rx="10"></rect>
-    <text x="514" y="144" text-anchor="middle" dominant-baseline="middle">Switch</text>
+    <rect x="444" y="112" width="142" height="64" rx="10"></rect>
+    <text x="515" y="136" text-anchor="middle" dominant-baseline="middle"><tspan x="515" dy="0">Core /</tspan><tspan x="515" dy="17">Firewall</tspan></text>
   </g>
-    <path class="visual-arrow" d="M584 144 L634 144" marker-end="url(#arrow-topic-03415-concept)"></path>
+    <path class="visual-arrow" d="M592 144 L626 144" marker-end="url(#arrow-topic-03415-concept)"></path>
     <g class="visual-node node-d">
-    <rect x="638" y="112" width="64" height="64" rx="10"></rect>
-    <text x="670" y="144" text-anchor="middle" dominant-baseline="middle">Segments</text>
+    <rect x="632" y="104" width="106" height="80" rx="10"></rect>
+    <text x="685" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="685" dy="0">Services</tspan></text>
   </g>
-    <path class="visual-loop" d="M520 210 C430 260 250 258 142 210"></path>
-    <text class="visual-note" x="360" y="248" text-anchor="middle">design → installation → testing → handover</text>
+    <path class="visual-loop" d="M530 210 C430 260 260 258 142 210"></path>
+    <text class="visual-note" x="380" y="248" text-anchor="middle">design → installation → testing → handover</text>
   </svg>
-    <figcaption>SMS gateway integration visual: SMS gateway integration core concept: Network segmentation and traffic path between services and field devices.</figcaption>
+    <figcaption>SMS gateway integration visual: SMS gateway integration core concept: Network path from ELV endpoint to switching, routing, and shared services.</figcaption>
   </figure>
       </div>
     </div>
@@ -100,9 +100,9 @@
       </div>
     </div>
     <div class="grid-2 visual-grid">
-      <figure class="educational-visual process-diagram" id="topic-03415-application" data-educational-visual="true" data-visual-id="topic-03415-application" data-visual-source="local-svg" data-visual-purpose="SMS gateway integration field application: Network segmentation and traffic path between services and field devices.">
-    <svg class="technical-svg" role="img" aria-label="SMS gateway integration application diagram showing Router to Firewall to Switch to Segments." viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
-    <title>SMS gateway integration application diagram showing Router to Firewall to Switch to Segments.</title>
+      <figure class="educational-visual process-diagram" id="topic-03415-application" data-educational-visual="true" data-visual-id="topic-03415-application" data-visual-source="local-svg" data-visual-purpose="SMS gateway integration field application: Network path from ELV endpoint to switching, routing, and shared services.">
+    <svg class="technical-svg" role="img" aria-label="SMS gateway integration application diagram showing Endpoint to Access Switch to Core / Firewall to Services." viewBox="0 0 760 300" direction="ltr" xmlns="http://www.w3.org/2000/svg">
+    <title>SMS gateway integration application diagram showing Endpoint to Access Switch to Core / Firewall to Services.</title>
     <defs>
       <marker id="arrow-topic-03415-application" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
         <path d="M0,0 L10,4 L0,8 Z"></path>
@@ -111,28 +111,28 @@
     <text class="visual-title" x="28" y="34">SMS gateway integration</text>
     <text class="visual-subtitle" x="28" y="58">Field Use · process-diagram</text>
     <g class="visual-node node-a">
-    <rect x="34" y="112" width="130" height="64" rx="10"></rect>
-    <text x="99" y="144" text-anchor="middle" dominant-baseline="middle">Router</text>
+    <rect x="34" y="112" width="132" height="64" rx="10"></rect>
+    <text x="100" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="100" dy="0">Endpoint</tspan></text>
   </g>
-    <path class="visual-arrow" d="M170 144 L224 144" marker-end="url(#arrow-topic-03415-application)"></path>
+    <path class="visual-arrow" d="M172 144 L218 144" marker-end="url(#arrow-topic-03415-application)"></path>
     <g class="visual-node node-b">
-    <rect x="230" y="96" width="150" height="96" rx="10"></rect>
-    <text x="305" y="144" text-anchor="middle" dominant-baseline="middle">Firewall</text>
+    <rect x="224" y="96" width="168" height="96" rx="10"></rect>
+    <text x="308" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="308" dy="0">Access Switch</tspan></text>
   </g>
-    <path class="visual-arrow" d="M386 144 L444 144" marker-end="url(#arrow-topic-03415-application)"></path>
+    <path class="visual-arrow" d="M398 144 L438 144" marker-end="url(#arrow-topic-03415-application)"></path>
     <g class="visual-node node-c">
-    <rect x="450" y="112" width="128" height="64" rx="10"></rect>
-    <text x="514" y="144" text-anchor="middle" dominant-baseline="middle">Switch</text>
+    <rect x="444" y="112" width="142" height="64" rx="10"></rect>
+    <text x="515" y="136" text-anchor="middle" dominant-baseline="middle"><tspan x="515" dy="0">Core /</tspan><tspan x="515" dy="17">Firewall</tspan></text>
   </g>
-    <path class="visual-arrow" d="M584 144 L634 144" marker-end="url(#arrow-topic-03415-application)"></path>
+    <path class="visual-arrow" d="M592 144 L626 144" marker-end="url(#arrow-topic-03415-application)"></path>
     <g class="visual-node node-d">
-    <rect x="638" y="112" width="64" height="64" rx="10"></rect>
-    <text x="670" y="144" text-anchor="middle" dominant-baseline="middle">Segments</text>
+    <rect x="632" y="104" width="106" height="80" rx="10"></rect>
+    <text x="685" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="685" dy="0">Services</tspan></text>
   </g>
-    <path class="visual-loop" d="M520 210 C430 260 250 258 142 210"></path>
-    <text class="visual-note" x="360" y="248" text-anchor="middle">design → installation → testing → handover</text>
+    <path class="visual-loop" d="M530 210 C430 260 260 258 142 210"></path>
+    <text class="visual-note" x="380" y="248" text-anchor="middle">design → installation → testing → handover</text>
   </svg>
-    <figcaption>SMS gateway integration visual: SMS gateway integration field application: Network segmentation and traffic path between services and field devices.</figcaption>
+    <figcaption>SMS gateway integration visual: SMS gateway integration field application: Network path from ELV endpoint to switching, routing, and shared services.</figcaption>
   </figure>
     </div>
   </div>
@@ -143,14 +143,14 @@
       <article class="card">
         <span class="chapter-num">01</span>
         <h2>Quick Definition</h2>
-        <p class="ar-block" data-linkable>تعريف SMS gateway integration يعتمد على مكانه في الhierarchy: parent topic يحدد المجال، والchildren أو siblings يوضحوا التفاصيل القريبة. اقرأه كجزء من B6. IP Systems وليس كمصطلح منفصل.</p>
-        <p class="en-block en" data-linkable>SMS gateway integration should be read through its hierarchy: the parent sets the domain, while children and siblings define the nearby details.</p>
+        <p class="ar-block" data-linkable>اقرأ SMS gateway integration من خلال endpoint، switch port، IP/subnet/gateway، service port، security rule، وmonitoring requirement.</p>
+        <p class="en-block en" data-linkable>Read SMS gateway integration through endpoint, switch port, IP/subnet/gateway, service port, security rule, and monitoring requirement.</p>
       </article>
       <article class="card">
         <span class="chapter-num">02</span>
         <h2>Why It Matters</h2>
-        <p class="ar-block" data-linkable>في التطبيق العملي، هذا الموضوع يساعد في قراءة drawings، مراجعة specifications، تجهيز checklists، وربط design مع installation وcommissioning.</p>
-        <p class="en-block en" data-linkable>In practice, this topic supports drawing review, specification checks, checklist preparation, and coordination between design, installation, and commissioning.</p>
+        <p class="ar-block" data-linkable>أخطاء الشبكة قد تظهر كعطل في camera أو controller مع أن السبب الحقيقي IP، VLAN، firewall، DNS، أو NTP.</p>
+        <p class="en-block en" data-linkable>Network mistakes can look like camera or controller faults while the real cause is IP, VLAN, firewall, DNS, or NTP.</p>
       </article>
     </div>
   </section>
@@ -160,18 +160,14 @@
       <article class="card">
         <span class="chapter-num">03</span>
         <h2>Where It Appears</h2>
-        <p class="ar-block" data-linkable>ستقابله غالبًا ضمن documents مثل method statement، material submittal، shop drawings، test sheets، أو handover records حسب نوع النظام.</p>
-        <p class="en-block en" data-linkable>You will usually meet it in documents such as method statements, material submittals, shop drawings, test sheets, or handover records depending on the system.</p>
-        <ul><li>This page is a leaf topic in the spreadsheet tree.</li></ul>
+        <p class="ar-block" data-linkable>يظهر في network architecture، IP plan، switch schedule، rack layout، firewall matrix، server/storage design، وcommissioning reachability tests.</p>
+        <p class="en-block en" data-linkable>You meet it in network architecture, IP plans, switch schedules, rack layouts, firewall matrices, server/storage design, and reachability tests.</p>
+        <ul><li>No child topics are listed below this row.</li></ul>
       </article>
       <article class="card">
         <span class="chapter-num">04</span>
         <h2>Practical Examples</h2>
-        <ul>
-          <li data-linkable>Use the parent topic to decide which drawing, panel, cable, sensor, controller, protocol, or report is relevant.</li>
-          <li data-linkable>Compare SMS gateway integration with related topics before choosing a symbol, device, quantity, or checklist item.</li>
-          <li data-linkable>During testing, confirm the expected result and record evidence in the correct project document.</li>
-        </ul>
+        <ul><li data-linkable>Confirm IP address, subnet mask, gateway, DNS, NTP, and service ports.</li><li data-linkable>Match switch port speed, PoE, VLAN, and trunk/access settings.</li><li data-linkable>Coordinate firewall rules before integrating VMS, BMS, access, and servers.</li><li data-linkable>Use logs and packet-path checks before replacing hardware.</li></ul>
       </article>
     </div>
   </section>
@@ -182,20 +178,20 @@
       <article class="card">
         <span class="chapter-num">DESIGN</span>
         <h2>Design Considerations</h2>
-        <p class="ar-block" data-linkable>قبل اعتماد SMS gateway integration في التصميم، اربطه بالscope، drawings، specifications، codes، وinterfaces. اسأل: ما القيمة أو الوظيفة المطلوبة؟ أين تظهر في layout أو schematic؟ وما dependencies مع B6. IP Systems؟</p>
-        <p class="en-block en" data-linkable>Before using SMS gateway integration in design, connect it to scope, drawings, specifications, codes, and interfaces. Ask what function is required, where it appears, and what depends on it.</p>
+        <p class="ar-block" data-linkable>في التصميم، وثق addressing، VLANs، bandwidth، latency، services، security، redundancy، monitoring، وrack/power requirements.</p>
+        <p class="en-block en" data-linkable>In design, document addressing, VLANs, bandwidth, latency, services, security, redundancy, monitoring, and rack/power requirements.</p>
       </article>
       <article class="card">
         <span class="chapter-num">SITE</span>
         <h2>Installation Considerations</h2>
-        <p class="ar-block" data-linkable>في الموقع، راجع labeling، cable route، mounting، termination، polarity أو addressing إن وجدت، ثم قارن التنفيذ مع approved shop drawings. أي اختلاف صغير قد يظهر لاحقًا كfault أو failed test.</p>
-        <p class="en-block en" data-linkable>On site, check labeling, cable route, mounting, termination, polarity or addressing when relevant, then compare the installation with approved shop drawings.</p>
+        <p class="ar-block" data-linkable>في الموقع، راجع patching، port labels، link speed، PoE، IP settings، gateway، time sync، وbasic reachability.</p>
+        <p class="en-block en" data-linkable>On site, check patching, port labels, link speed, PoE, IP settings, gateway, time sync, and basic reachability.</p>
       </article>
       <article class="card">
         <span class="chapter-num">TEST</span>
         <h2>Testing And Commissioning</h2>
-        <p class="ar-block" data-linkable>أثناء testing، حدد expected result قبل القياس. سجّل evidence واضح: reading، screenshot، test sheet، أو functional result. اربط النتيجة بالparent topic حتى يكون handover traceable.</p>
-        <p class="en-block en" data-linkable>During testing, define the expected result before measuring. Record traceable evidence such as readings, screenshots, test sheets, or functional outcomes.</p>
+        <p class="ar-block" data-linkable>اختبر ping/port access، blocked traffic، bandwidth where needed، NTP، failover، logs، وsystem application connectivity.</p>
+        <p class="en-block en" data-linkable>Test ping and port access, blocked traffic, bandwidth where needed, NTP, failover, logs, and application connectivity.</p>
       </article>
     </div>
   </section>
@@ -205,17 +201,13 @@
       <article class="card">
         <span class="chapter-num">MISTAKES</span>
         <h2>Common Mistakes</h2>
-        <ul>
-          <li data-linkable>Reading SMS gateway integration as an isolated term without checking parent and sibling topics.</li>
-          <li data-linkable>Using a drawing symbol, device label, protocol name, or document title without confirming the project context.</li>
-          <li data-linkable>Skipping test evidence, which makes troubleshooting and handover weaker.</li>
-        </ul>
+        <ul><li data-linkable>Changing IP settings without updating the IP plan.</li><li data-linkable>Testing ping only and ignoring application ports.</li><li data-linkable>Mixing management and system traffic without segmentation.</li></ul>
       </article>
       <article class="card">
         <span class="chapter-num">TROUBLESHOOT</span>
         <h2>Troubleshooting Scenario</h2>
-        <p class="ar-block" data-linkable>لو حدث fault مرتبط بـ SMS gateway integration، ابدأ من source، ثم cable أو network path، ثم controller أو panel، ثم output أو document evidence. لا تقفز للجزء الأخير قبل تأكيد الأساسيات.</p>
-        <p class="en-block en" data-linkable>If a fault is related to SMS gateway integration, start at the source, then cable or network path, then controller or panel, then output or document evidence. Do not jump to the last step first.</p>
+        <p class="ar-block" data-linkable>لو الاتصال فشل، اتبع path: device IP، switch port، VLAN، gateway، firewall، server port، ثم application/service.</p>
+        <p class="en-block en" data-linkable>If communication fails, follow the path: device IP, switch port, VLAN, gateway, firewall, server port, then application/service.</p>
       </article>
     </div>
   </section>
@@ -225,18 +217,19 @@
     <div>
       <span class="chapter-num">INTERACTIVE</span>
       <h2>Interactive Simulation</h2>
-      <p class="ar-block" data-linkable>استخدم هذا scenario explorer لتفكر في SMS gateway integration داخل المسار العملي. غيّر المرحلة ولاحظ كيف يتغير التركيز بين design وinstallation وtesting وmaintenance.</p>
-      <p class="en-block en" data-linkable>Use this scenario explorer to place SMS gateway integration in context. Change the stage and notice how the focus moves between design, installation, testing, and maintenance.</p>
+      <p class="ar-block" data-linkable>الـ architecture يربط endpoint بالـ access switch، ثم core/firewall، ثم services مثل server، storage، NTP، DNS، وmanagement.</p>
+      <p class="en-block en" data-linkable>Use this scenario explorer for SMS gateway integration. It changes the checklist from design to site work to commissioning using the same topic-specific logic.</p>
     </div>
     <div class="sim-card" data-scenario>
+      <script type="application/json" data-scenario-copy>{"design":["Network design focus","Define IP plan, VLANs, bandwidth, services, firewall rules, monitoring, redundancy, and rack/power requirements."],"site":["Network site focus","Check patching, switch port, link speed, PoE, VLAN, gateway, DNS/NTP, and labels."],"test":["Network testing focus","Prove allowed services, blocked paths, time sync, logs, failover, and application connectivity."]}</script>
       <div class="segmented" role="tablist" aria-label="Scenario stage">
         <button type="button" class="active" data-scenario-btn="design">Design</button>
         <button type="button" data-scenario-btn="site">Site</button>
         <button type="button" data-scenario-btn="test">Testing</button>
       </div>
       <div class="scenario-output" data-scenario-output>
-        <strong>Design focus</strong>
-        <p>Confirm scope, parent system, interfaces, symbols, units, and coordination notes before issuing drawings.</p>
+        <strong>Network design focus</strong>
+        <p>Define IP plan, VLANs, bandwidth, services, firewall rules, monitoring, redundancy, and rack/power requirements.</p>
       </div>
     </div>
   </div>
@@ -247,8 +240,8 @@
       <div class="card">
         <span class="chapter-num">RELATED</span>
         <h2>Related Learning Path</h2>
-        <p class="ar-block" data-linkable>ابدأ من parent، ثم راجع siblings والchildren القريبة لتفهم الصورة الكاملة حول SMS gateway integration.</p>
-        <p class="en-block en" data-linkable>Start with the parent, then review siblings and children to understand the full context around SMS gateway integration.</p>
+        <p class="ar-block" data-linkable>راجع الموضوعات القريبة من SMS gateway integration عندما تساعد على فهم نفس النظام أو نفس المستند أو نفس الاختبار.</p>
+        <p class="en-block en" data-linkable>Review nearby topics around SMS gateway integration when they clarify the same system, document set, or commissioning check.</p>
         <ul class="link-grid"><li><a href="./ip-system-integration.html">IP system integration</a></li><li><a href="./api-integration-c706a8.html">API integration</a></li><li><a href="./sdk-concept.html">SDK concept</a></li><li><a href="./onvif-integration.html">ONVIF integration</a></li><li><a href="./sip-integration.html">SIP integration</a></li><li><a href="./rtsp-stream-integration.html">RTSP stream integration</a></li><li><a href="./bacnet-ip-integration-171a0c.html">BACnet/IP integration</a></li><li><a href="./modbus-tcp-integration-aaf038.html">Modbus TCP integration</a></li><li><a href="./mqtt-integration-c148e9.html">MQTT integration</a></li><li><a href="./email-notification-integration.html">Email notification integration</a></li></ul>
       </div>
     </div>
@@ -263,7 +256,7 @@
       </div>
     </div>
     <div class="quiz-shell" data-quiz>
-      <script type="application/json" data-quiz-data>[{"type":"choice","q_ar":"ما أفضل وصف لدور SMS gateway integration داخل المسار التعليمي؟","q_en":"What is the best description of SMS gateway integration in this course path?","choices_ar":["مفهوم مرتبط بالسياق العملي للمسار","عنوان عشوائي خارج المنهج","ملف خارجي غير مرتبط","زر في الواجهة فقط"],"choices_en":["A concept connected to the practical course path","A random title outside the course","An unrelated external file","Only a user interface button"],"answer":0,"feedback_ar":"SMS gateway integration مرتبط بمسار B. ICT Backbone / B6. IP Systems / IP system integration / SMS gateway integration ويجب فهمه ضمن parent وchildren والموضوعات القريبة.","feedback_en":"SMS gateway integration belongs to B. ICT Backbone / B6. IP Systems / IP system integration / SMS gateway integration and should be understood through its parent, children, and related topics."},{"type":"choice","q_ar":"عند قراءة صفحة فنية، ما أهم شيء قبل استخدام أي formula أو رقم؟","q_en":"Before using a formula or number on a technical page, what matters most?","choices_ar":["فهم الرموز والوحدات والسياق","نسخ الرقم فقط","تجاهل الإشارات","استخدام أي قيمة بدون مراجعة"],"choices_en":["Understand symbols, units, and context","Copy the number only","Ignore signs","Use any value without checking"],"answer":0,"feedback_ar":"الفهم الصحيح للرموز والوحدات يمنع أخطاء التصميم والتنفيذ وcommissioning.","feedback_en":"Correct symbols and units prevent design, installation, and commissioning mistakes."},{"type":"choice","q_ar":"أين يجب مراجعة SMS gateway integration عند وجود لبس؟","q_en":"Where should SMS gateway integration be checked when there is uncertainty?","choices_ar":["في parent topic والرسومات والمواصفات","في العنوان فقط","في اللون المستخدم في الصفحة","في الذاكرة بدون مرجع"],"choices_en":["In the parent topic, drawings, and specifications","Only in the title","In the page color","From memory without references"],"answer":0,"feedback_ar":"السياق الفني يأتي من المسار الكامل والرسومات والمواصفات وليس من الاسم وحده.","feedback_en":"Technical context comes from the full path, drawings, and specifications, not the name alone."},{"type":"choice","q_ar":"ما السلوك الصحيح عند ظهور مصطلح قريب في صفحة أخرى؟","q_en":"What is the right behavior when a related term appears on another page?","choices_ar":["ربطه داخليًا إذا كان واضحًا وغير ملتبس","ربطه بأي صفحة عشوائية","تجاهله دائمًا","تحويله إلى رابط خارجي"],"choices_en":["Link it internally when the match is clear and unambiguous","Link it to a random page","Always ignore it","Turn it into an external link"],"answer":0,"feedback_ar":"الربط الداخلي الصحيح يساعد المتعلم بدون إنشاء روابط مضللة.","feedback_en":"Correct internal linking helps learners without creating misleading links."},{"type":"choice","q_ar":"لماذا نربط المفهوم بأمثلة عملية؟","q_en":"Why connect the concept to practical examples?","choices_ar":["لتحويل التعريف إلى قرار تصميم أو تنفيذ","لزيادة النص فقط","لإخفاء نقص المحتوى","لإلغاء الحاجة للفهم"],"choices_en":["To turn a definition into a design or site decision","Only to increase text length","To hide missing content","To remove the need for understanding"],"answer":0,"feedback_ar":"الأمثلة العملية تربط المعرفة بالتصميم والتنفيذ والاختبار.","feedback_en":"Practical examples connect knowledge to design, installation, and testing."}]</script>
+      <script type="application/json" data-quiz-data>[{"type":"choice","q_ar":"ما أفضل وصف عملي لـ SMS gateway integration؟","q_en":"What is the best practical description of SMS gateway integration?","choices_ar":["The endpoint IP settings, switch/VLAN path, allowed ports, time services, and server reachability.","اسم عام لا يحتاج مراجعة رسومات أو مواصفات","عنصر ديكور في الصفحة فقط","قيمة عشوائية يمكن استخدامها بدون سياق"],"choices_en":["The endpoint IP settings, switch/VLAN path, allowed ports, time services, and server reachability.","A generic name that does not need drawings or specifications","Only a decorative page element","A random value that can be used without context"],"answer":0,"feedback_ar":"اقرأ SMS gateway integration من خلال endpoint، switch port، IP/subnet/gateway، service port، security rule، وmonitoring requirement.","feedback_en":"Read SMS gateway integration through endpoint, switch port, IP/subnet/gateway, service port, security rule, and monitoring requirement."},{"type":"choice","q_ar":"ما أول شيء تراجعه عند استخدام SMS gateway integration في التصميم؟","q_en":"What should be checked first when using SMS gateway integration in design?","choices_ar":["الوظيفة المطلوبة والمستند المعتمد والـ acceptance criteria","لون الكارت في الصفحة","أقرب عنوان في الفهرس فقط","أي رقم من الذاكرة"],"choices_en":["Required function, approved reference, and acceptance criteria","The color of the page card","Only the nearest heading in the tree","Any remembered number"],"answer":0,"feedback_ar":"في التصميم، وثق addressing، VLANs، bandwidth، latency، services، security، redundancy، monitoring، وrack/power requirements.","feedback_en":"In design, document addressing, VLANs, bandwidth, latency, services, security, redundancy, monitoring, and rack/power requirements."},{"type":"choice","q_ar":"أي دليل اختبار يناسب SMS gateway integration؟","q_en":"Which commissioning evidence fits SMS gateway integration?","choices_ar":["قراءة أو screenshot أو test sheet يثبت النتيجة المطلوبة","رابط بحث خارجي بدون نتيجة","صورة غير مرتبطة بالنظام","كلمة تم فقط بدون قياس أو تحقق"],"choices_en":["A reading, screenshot, or test sheet proving the required result","An external search link with no result","An image unrelated to the system","The word done without measurement or verification"],"answer":0,"feedback_ar":"اختبر ping/port access، blocked traffic، bandwidth where needed، NTP، failover، logs، وsystem application connectivity.","feedback_en":"Test ping and port access, blocked traffic, bandwidth where needed, NTP, failover, logs, and application connectivity."},{"type":"choice","q_ar":"أي ترتيب يوضح المسار الفني لـ SMS gateway integration؟","q_en":"Which order best represents the technical path for SMS gateway integration?","choices_ar":["Endpoint -> Access Switch -> Core / Firewall -> Services","Services -> Core / Firewall -> Access Switch -> Endpoint","Handover -> Random -> Color -> Logo","Title -> Title -> Title -> Title"],"choices_en":["Endpoint -> Access Switch -> Core / Firewall -> Services","Services -> Core / Firewall -> Access Switch -> Endpoint","Handover -> Random -> Color -> Logo","Title -> Title -> Title -> Title"],"answer":0,"feedback_ar":"الـ flow يعتمد على source/destination IP، protocol/port، VLAN، routing، وfirewall policy.","feedback_en":"The flow depends on source and destination IP, protocol/port, VLAN, routing, and firewall policy."},{"type":"choice","q_ar":"ما الخطأ الأخطر عند التعامل مع SMS gateway integration؟","q_en":"What is the riskiest mistake when working with SMS gateway integration?","choices_ar":["Changing IP settings without updating the IP plan.","توثيق الاختبار بالصور والقراءات","مراجعة المواصفات قبل التنفيذ","مطابقة الموقع مع الرسومات المعتمدة"],"choices_en":["Changing IP settings without updating the IP plan.","Documenting tests with photos and readings","Reviewing specifications before installation","Matching site work with approved drawings"],"answer":0,"feedback_ar":"لو الاتصال فشل، اتبع path: device IP، switch port، VLAN، gateway، firewall، server port، ثم application/service.","feedback_en":"If communication fails, follow the path: device IP, switch port, VLAN, gateway, firewall, server port, then application/service."}]</script>
       <div class="quiz-top">
         <span data-quiz-count>1 / 5</span>
         <div class="quiz-progress" aria-hidden="true"><span data-quiz-progress></span></div>
@@ -284,8 +277,9 @@
     <div class="card">
       <span class="chapter-num">REFERENCES</span>
       <h2>Learning References</h2>
-      <p class="ar-block">راجع رسومات المشروع، specifications، standards المعتمدة، وmanuals الخاصة بالمورد عند استخدام SMS gateway integration في قرار تصميم أو تنفيذ.</p>
-      <p class="en-block en">Use project drawings, specifications, applicable standards, and vendor manuals before applying SMS gateway integration to a design or installation decision.</p>
+      <p class="ar-block">للشبكات، استخدم IP plan، VLAN/firewall matrix، switch schedule، وapplication port requirements.</p>
+      <p class="en-block en">For networking, use the IP plan, VLAN/firewall matrix, switch schedule, and application port requirements.</p>
+      <ul><li>Approved project drawings and schedules</li><li>Project specifications and material submittals</li><li>Vendor installation, configuration, and commissioning manuals</li><li>Applicable local codes, authority requirements, and standards</li></ul>
     </div>
   </div>
 </section>

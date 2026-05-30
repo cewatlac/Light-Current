@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import { FILES } from "./config.js";
 import { escapeAttr, escapeHtml, stripLeadingCode } from "./lib.js";
+import { visualStrategyForTopic } from "./content-system.js";
 
 const STRATEGIES = [
   {
@@ -97,8 +98,21 @@ const DEFAULT_STRATEGY = {
 };
 
 export function strategyForTopic(topic) {
+  const profileStrategy = visualStrategyForTopic(topic);
+  if (profileStrategy) {
+    return {
+      id: profileStrategy.id ?? contentStrategyId(topic),
+      visualType: profileStrategy.visualType,
+      labels: profileStrategy.labels,
+      description: profileStrategy.description
+    };
+  }
   const text = `${topic.title} ${topic.full_path.join(" ")} ${topic.keywords?.join(" ") ?? ""}`;
   return STRATEGIES.find((strategy) => strategy.match.test(text)) ?? DEFAULT_STRATEGY;
+}
+
+function contentStrategyId(topic) {
+  return stripLeadingCode(topic.title).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "content-profile";
 }
 
 export function requiredVisualCount(topic) {
@@ -175,10 +189,41 @@ export function loadVisualPlan() {
   return new Map(plan.pages.map((entry) => [entry.page_id, entry]));
 }
 
+function wrapSvgLabel(label, width) {
+  const maxChars = width >= 150 ? 18 : width >= 120 ? 14 : 11;
+  const words = String(label ?? "")
+    .replace(/\s*\/\s*/g, " / ")
+    .split(/\s+/)
+    .filter(Boolean);
+  const lines = [];
+  let line = "";
+  for (const word of words) {
+    const next = line ? `${line} ${word}` : word;
+    if (next.length > maxChars && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = next;
+    }
+  }
+  if (line) lines.push(line);
+  if (lines.length > 3) {
+    const trimmed = lines.slice(0, 3);
+    trimmed[2] = `${trimmed[2].slice(0, Math.max(6, maxChars - 3))}...`;
+    return trimmed;
+  }
+  return lines.length ? lines : ["Topic"];
+}
+
 function svgNode(x, y, w, h, label, className = "visual-node") {
+  const lines = wrapSvgLabel(label, w);
+  const textY = y + h / 2 - (lines.length - 1) * 8;
+  const text = lines
+    .map((line, index) => `<tspan x="${x + w / 2}" dy="${index === 0 ? 0 : 17}">${escapeHtml(line)}</tspan>`)
+    .join("");
   return `<g class="${className}">
     <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="10"></rect>
-    <text x="${x + w / 2}" y="${y + h / 2}" text-anchor="middle" dominant-baseline="middle">${escapeHtml(label)}</text>
+    <text x="${x + w / 2}" y="${textY}" text-anchor="middle" dominant-baseline="middle">${text}</text>
   </g>`;
 }
 
@@ -192,7 +237,7 @@ export function educationalFigure(topic, visual, options = {}) {
   const safeId = escapeAttr(visual.visual_id);
   const markerId = `arrow-${visual.visual_id.replace(/[^a-z0-9-]/gi, "-")}`;
   const topLabel = visual.role === "practical" || visual.role === "application" ? "Field Use" : visual.role === "compact" ? "Concept" : "Architecture";
-  const svg = `<svg class="technical-svg" role="img" aria-label="${escapeAttr(visual.alt_text)}" viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
+  const svg = `<svg class="technical-svg" role="img" aria-label="${escapeAttr(visual.alt_text)}" viewBox="0 0 760 300" direction="ltr" xmlns="http://www.w3.org/2000/svg">
     <title>${escapeHtml(visual.alt_text)}</title>
     <defs>
       <marker id="${markerId}" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
@@ -201,15 +246,15 @@ export function educationalFigure(topic, visual, options = {}) {
     </defs>
     <text class="visual-title" x="28" y="34">${escapeHtml(title)}</text>
     <text class="visual-subtitle" x="28" y="58">${escapeHtml(topLabel)} · ${escapeHtml(visual.visual_type)}</text>
-    ${svgNode(34, 112, 130, 64, labels[0] ?? "Input", "visual-node node-a")}
-    ${svgArrow(170, 144, 224, 144).replace("url(#arrow)", `url(#${markerId})`)}
-    ${svgNode(230, 96, 150, 96, labels[1] ?? title, "visual-node node-b")}
-    ${svgArrow(386, 144, 444, 144).replace("url(#arrow)", `url(#${markerId})`)}
-    ${svgNode(450, 112, 128, 64, labels[2] ?? "Output", "visual-node node-c")}
-    ${svgArrow(584, 144, 634, 144).replace("url(#arrow)", `url(#${markerId})`)}
-    ${svgNode(638, 112, 64, 64, labels[3] ?? "Use", "visual-node node-d")}
-    <path class="visual-loop" d="M520 210 C430 260 250 258 142 210"></path>
-    <text class="visual-note" x="360" y="248" text-anchor="middle">design → installation → testing → handover</text>
+    ${svgNode(34, 112, 132, 64, labels[0] ?? "Input", "visual-node node-a")}
+    ${svgArrow(172, 144, 218, 144).replace("url(#arrow)", `url(#${markerId})`)}
+    ${svgNode(224, 96, 168, 96, labels[1] ?? title, "visual-node node-b")}
+    ${svgArrow(398, 144, 438, 144).replace("url(#arrow)", `url(#${markerId})`)}
+    ${svgNode(444, 112, 142, 64, labels[2] ?? "Output", "visual-node node-c")}
+    ${svgArrow(592, 144, 626, 144).replace("url(#arrow)", `url(#${markerId})`)}
+    ${svgNode(632, 104, 106, 80, labels[3] ?? "Use", "visual-node node-d")}
+    <path class="visual-loop" d="M530 210 C430 260 260 258 142 210"></path>
+    <text class="visual-note" x="380" y="248" text-anchor="middle">design → installation → testing → handover</text>
   </svg>`;
 
   return `<figure class="educational-visual ${escapeAttr(visual.visual_type)}" id="${safeId}" data-educational-visual="true" data-visual-id="${safeId}" data-visual-source="${escapeAttr(visual.source_type)}" data-visual-purpose="${escapeAttr(visual.visual_description)}">

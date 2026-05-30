@@ -154,7 +154,9 @@
 .pill {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
+  max-width: 100%;
   padding: 9px 12px;
   color: var(--brand);
   background: var(--chip);

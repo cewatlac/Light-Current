@@ -1,7 +1,14 @@
 (() => {
+  const escapeHtml = (value) => String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+
   document.querySelectorAll("[data-scenario]").forEach((card) => {
     const output = card.querySelector("[data-scenario-output]");
-    const copy = {
+    const customCopy = card.querySelector("[data-scenario-copy]");
+    const copy = customCopy ? JSON.parse(customCopy.textContent || "{}") : {
       design: ["Design focus", "Confirm scope, parent system, interfaces, symbols, units, and coordination notes before issuing drawings."],
       site: ["Site focus", "Check installation location, cable route, panel or device label, mounting requirements, and coordination with other systems."],
       test: ["Testing focus", "Define the expected result, record evidence, verify alarms or values, and keep the handover document traceable."]
@@ -11,7 +18,7 @@
         card.querySelectorAll("[data-scenario-btn]").forEach((btn) => btn.classList.remove("active"));
         button.classList.add("active");
         const [title, text] = copy[button.dataset.scenarioBtn] || copy.design;
-        output.innerHTML = `<strong>${title}</strong><p>${text}</p>`;
+        output.innerHTML = `<strong>${escapeHtml(title)}</strong><p>${escapeHtml(text)}</p>`;
       });
     });
   });

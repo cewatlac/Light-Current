@@ -8,7 +8,7 @@
 - Tree page created: yes
 - Search page created: yes
 - Glossary page created: yes
-- Global internal link count: 58019
+- Global internal link count: 26524
 - Broken link count: 0
 - Ambiguous link count: 3677
 - Simulation/interactive blocks added: 8685

@@ -43,49 +43,49 @@
   <section class="hero topic-hero">
     <div class="wrap hero-grid">
       <div class="reveal">
-        <div class="pill"><span class="pulse-dot"></span>D. Security Systems - Final Big Families · Level 4</div>
+        <div class="pill"><span class="pulse-dot"></span>D. Security Systems - Final Big Families · Level 4 · Access control and door security</div>
         <h1><span class="gradient">Normally locked</span></h1>
-        <p class="lead ar-block" data-linkable>Normally locked هو موضوع داخل مسار D. Security Systems - Final Big Families / D3. Access Control / <a class="auto-link" href="./locking-concepts.html">Locking concepts</a> / Normally locked. الهدف هنا أن تفهم التعريف، مكان ظهوره في systems أو documents، وكيف تربطه بالموضوعات القريبة بدون حفظ منفصل عن السياق.</p>
-        <p class="lead en-block en" data-linkable>Normally locked sits inside D. Security Systems - Final Big Families / D3. Access Control / <a class="auto-link" href="./locking-concepts.html">Locking concepts</a> / Normally locked. This page explains the definition, where it appears in systems or documents, and how it connects to nearby topics.</p>
+        <p class="lead ar-block" data-linkable>Normally locked يرتبط بقرار فتح الباب: reader أو credential يدخل الطلب، controller يطبق rules، ثم lock يعمل مع REX وdoor contact وalarm monitoring.</p>
+        <p class="lead en-block en" data-linkable>Normally locked is part of the door decision chain: a reader or credential requests access, the controller applies rules, then the lock, REX, door contact, and alarms report the result.</p>
         <div class="hero-actions">
           <a class="btn" href="#definition">Start</a>
           <a class="btn ghost" href="#quiz">Quick Check</a>
         </div>
       </div>
       <div class="hero-card reveal">
-        <figure class="educational-visual wiring-diagram" id="topic-04998-concept" data-educational-visual="true" data-visual-id="topic-04998-concept" data-visual-source="local-svg" data-visual-purpose="Normally locked core concept: Door hardware and controller relationship for access-control decisions.">
-    <svg class="technical-svg" role="img" aria-label="Normally locked concept diagram showing Reader to Controller to Lock / REX to Door Status." viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
-    <title>Normally locked concept diagram showing Reader to Controller to Lock / REX to Door Status.</title>
+        <figure class="educational-visual door-control-wiring" id="topic-04998-concept" data-educational-visual="true" data-visual-id="topic-04998-concept" data-visual-source="local-svg" data-visual-purpose="Normally locked core concept: Door decision path from credential input to controller logic, lock output, and status feedback.">
+    <svg class="technical-svg" role="img" aria-label="Normally locked concept diagram showing Reader to Door Controller to Lock / REX to Door Status / Alarm." viewBox="0 0 760 300" direction="ltr" xmlns="http://www.w3.org/2000/svg">
+    <title>Normally locked concept diagram showing Reader to Door Controller to Lock / REX to Door Status / Alarm.</title>
     <defs>
       <marker id="arrow-topic-04998-concept" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
         <path d="M0,0 L10,4 L0,8 Z"></path>
       </marker>
     </defs>
     <text class="visual-title" x="28" y="34">Normally locked</text>
-    <text class="visual-subtitle" x="28" y="58">Architecture · wiring-diagram</text>
+    <text class="visual-subtitle" x="28" y="58">Architecture · door-control-wiring</text>
     <g class="visual-node node-a">
-    <rect x="34" y="112" width="130" height="64" rx="10"></rect>
-    <text x="99" y="144" text-anchor="middle" dominant-baseline="middle">Reader</text>
+    <rect x="34" y="112" width="132" height="64" rx="10"></rect>
+    <text x="100" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="100" dy="0">Reader</tspan></text>
   </g>
-    <path class="visual-arrow" d="M170 144 L224 144" marker-end="url(#arrow-topic-04998-concept)"></path>
+    <path class="visual-arrow" d="M172 144 L218 144" marker-end="url(#arrow-topic-04998-concept)"></path>
     <g class="visual-node node-b">
-    <rect x="230" y="96" width="150" height="96" rx="10"></rect>
-    <text x="305" y="144" text-anchor="middle" dominant-baseline="middle">Controller</text>
+    <rect x="224" y="96" width="168" height="96" rx="10"></rect>
+    <text x="308" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="308" dy="0">Door Controller</tspan></text>
   </g>
-    <path class="visual-arrow" d="M386 144 L444 144" marker-end="url(#arrow-topic-04998-concept)"></path>
+    <path class="visual-arrow" d="M398 144 L438 144" marker-end="url(#arrow-topic-04998-concept)"></path>
     <g class="visual-node node-c">
-    <rect x="450" y="112" width="128" height="64" rx="10"></rect>
-    <text x="514" y="144" text-anchor="middle" dominant-baseline="middle">Lock / REX</text>
+    <rect x="444" y="112" width="142" height="64" rx="10"></rect>
+    <text x="515" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="515" dy="0">Lock / REX</tspan></text>
   </g>
-    <path class="visual-arrow" d="M584 144 L634 144" marker-end="url(#arrow-topic-04998-concept)"></path>
+    <path class="visual-arrow" d="M592 144 L626 144" marker-end="url(#arrow-topic-04998-concept)"></path>
     <g class="visual-node node-d">
-    <rect x="638" y="112" width="64" height="64" rx="10"></rect>
-    <text x="670" y="144" text-anchor="middle" dominant-baseline="middle">Door Status</text>
+    <rect x="632" y="104" width="106" height="80" rx="10"></rect>
+    <text x="685" y="136" text-anchor="middle" dominant-baseline="middle"><tspan x="685" dy="0">Door Status</tspan><tspan x="685" dy="17">/ Alarm</tspan></text>
   </g>
-    <path class="visual-loop" d="M520 210 C430 260 250 258 142 210"></path>
-    <text class="visual-note" x="360" y="248" text-anchor="middle">design → installation → testing → handover</text>
+    <path class="visual-loop" d="M530 210 C430 260 260 258 142 210"></path>
+    <text class="visual-note" x="380" y="248" text-anchor="middle">design → installation → testing → handover</text>
   </svg>
-    <figcaption>Normally locked visual: Normally locked core concept: Door hardware and controller relationship for access-control decisions.</figcaption>
+    <figcaption>Normally locked visual: Normally locked core concept: Door decision path from credential input to controller logic, lock output, and status feedback.</figcaption>
   </figure>
       </div>
     </div>
@@ -100,9 +100,9 @@
       </div>
     </div>
     <div class="grid-2 visual-grid">
-      <figure class="educational-visual process-diagram" id="topic-04998-application" data-educational-visual="true" data-visual-id="topic-04998-application" data-visual-source="local-svg" data-visual-purpose="Normally locked field application: Door hardware and controller relationship for access-control decisions.">
-    <svg class="technical-svg" role="img" aria-label="Normally locked application diagram showing Reader to Controller to Lock / REX to Door Status." viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
-    <title>Normally locked application diagram showing Reader to Controller to Lock / REX to Door Status.</title>
+      <figure class="educational-visual process-diagram" id="topic-04998-application" data-educational-visual="true" data-visual-id="topic-04998-application" data-visual-source="local-svg" data-visual-purpose="Normally locked field application: Door decision path from credential input to controller logic, lock output, and status feedback.">
+    <svg class="technical-svg" role="img" aria-label="Normally locked application diagram showing Reader to Door Controller to Lock / REX to Door Status / Alarm." viewBox="0 0 760 300" direction="ltr" xmlns="http://www.w3.org/2000/svg">
+    <title>Normally locked application diagram showing Reader to Door Controller to Lock / REX to Door Status / Alarm.</title>
     <defs>
       <marker id="arrow-topic-04998-application" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
         <path d="M0,0 L10,4 L0,8 Z"></path>
@@ -111,28 +111,28 @@
     <text class="visual-title" x="28" y="34">Normally locked</text>
     <text class="visual-subtitle" x="28" y="58">Field Use · process-diagram</text>
     <g class="visual-node node-a">
-    <rect x="34" y="112" width="130" height="64" rx="10"></rect>
-    <text x="99" y="144" text-anchor="middle" dominant-baseline="middle">Reader</text>
+    <rect x="34" y="112" width="132" height="64" rx="10"></rect>
+    <text x="100" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="100" dy="0">Reader</tspan></text>
   </g>
-    <path class="visual-arrow" d="M170 144 L224 144" marker-end="url(#arrow-topic-04998-application)"></path>
+    <path class="visual-arrow" d="M172 144 L218 144" marker-end="url(#arrow-topic-04998-application)"></path>
     <g class="visual-node node-b">
-    <rect x="230" y="96" width="150" height="96" rx="10"></rect>
-    <text x="305" y="144" text-anchor="middle" dominant-baseline="middle">Controller</text>
+    <rect x="224" y="96" width="168" height="96" rx="10"></rect>
+    <text x="308" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="308" dy="0">Door Controller</tspan></text>
   </g>
-    <path class="visual-arrow" d="M386 144 L444 144" marker-end="url(#arrow-topic-04998-application)"></path>
+    <path class="visual-arrow" d="M398 144 L438 144" marker-end="url(#arrow-topic-04998-application)"></path>
     <g class="visual-node node-c">
-    <rect x="450" y="112" width="128" height="64" rx="10"></rect>
-    <text x="514" y="144" text-anchor="middle" dominant-baseline="middle">Lock / REX</text>
+    <rect x="444" y="112" width="142" height="64" rx="10"></rect>
+    <text x="515" y="144" text-anchor="middle" dominant-baseline="middle"><tspan x="515" dy="0">Lock / REX</tspan></text>
   </g>
-    <path class="visual-arrow" d="M584 144 L634 144" marker-end="url(#arrow-topic-04998-application)"></path>
+    <path class="visual-arrow" d="M592 144 L626 144" marker-end="url(#arrow-topic-04998-application)"></path>
     <g class="visual-node node-d">
-    <rect x="638" y="112" width="64" height="64" rx="10"></rect>
-    <text x="670" y="144" text-anchor="middle" dominant-baseline="middle">Door Status</text>
+    <rect x="632" y="104" width="106" height="80" rx="10"></rect>
+    <text x="685" y="136" text-anchor="middle" dominant-baseline="middle"><tspan x="685" dy="0">Door Status</tspan><tspan x="685" dy="17">/ Alarm</tspan></text>
   </g>
-    <path class="visual-loop" d="M520 210 C430 260 250 258 142 210"></path>
-    <text class="visual-note" x="360" y="248" text-anchor="middle">design → installation → testing → handover</text>
+    <path class="visual-loop" d="M530 210 C430 260 260 258 142 210"></path>
+    <text class="visual-note" x="380" y="248" text-anchor="middle">design → installation → testing → handover</text>
   </svg>
-    <figcaption>Normally locked visual: Normally locked field application: Door hardware and controller relationship for access-control decisions.</figcaption>
+    <figcaption>Normally locked visual: Normally locked field application: Door decision path from credential input to controller logic, lock output, and status feedback.</figcaption>
   </figure>
     </div>
   </div>
@@ -143,14 +143,14 @@
       <article class="card">
         <span class="chapter-num">01</span>
         <h2>Quick Definition</h2>
-        <p class="ar-block" data-linkable>تعريف Normally locked يعتمد على مكانه في الhierarchy: parent topic يحدد المجال، والchildren أو siblings يوضحوا التفاصيل القريبة. اقرأه كجزء من D3. Access Control وليس كمصطلح منفصل.</p>
-        <p class="en-block en" data-linkable>Normally locked should be read through its hierarchy: the parent sets the domain, while children and siblings define the nearby details.</p>
+        <p class="ar-block" data-linkable>لا تقرأ Normally locked كقطعة منفصلة. الباب نظام صغير فيه safety, security, power, wiring, software permissions, and <a class="auto-link" href="./fail-safe-a118bd.html">fail-safe</a>/<a class="auto-link" href="./fail-secure-f72901.html">fail-secure</a> behavior.</p>
+        <p class="en-block en" data-linkable>Do not treat Normally locked as an isolated part. A door is a small system combining safety, security, power, wiring, permissions, and <a class="auto-link" href="./fail-safe-a118bd.html">fail-safe</a> or <a class="auto-link" href="./fail-secure-f72901.html">fail-secure</a> behavior.</p>
       </article>
       <article class="card">
         <span class="chapter-num">02</span>
         <h2>Why It Matters</h2>
-        <p class="ar-block" data-linkable>في التطبيق العملي، هذا الموضوع يساعد في قراءة drawings، مراجعة specifications، تجهيز checklists، وربط design مع installation وcommissioning.</p>
-        <p class="en-block en" data-linkable>In practice, this topic supports drawing review, specification checks, checklist preparation, and coordination between design, installation, and commissioning.</p>
+        <p class="ar-block" data-linkable>خطأ في lock type أو fire interface أو REX قد يمنع الخروج الآمن أو يفتح بابا بدون صلاحية.</p>
+        <p class="en-block en" data-linkable>A wrong lock type, fire interface, or REX setup can block safe egress or unlock a door without authorization.</p>
       </article>
     </div>
   </section>
@@ -160,18 +160,14 @@
       <article class="card">
         <span class="chapter-num">03</span>
         <h2>Where It Appears</h2>
-        <p class="ar-block" data-linkable>ستقابله غالبًا ضمن documents مثل method statement، material submittal، shop drawings، test sheets، أو handover records حسب نوع النظام.</p>
-        <p class="en-block en" data-linkable>You will usually meet it in documents such as method statements, material submittals, shop drawings, test sheets, or handover records depending on the system.</p>
-        <ul><li>This page is a leaf topic in the spreadsheet tree.</li></ul>
+        <p class="ar-block" data-linkable>يظهر في door schedule، riser، controller I/O list، cable schedule، access levels، fire alarm interface، وSAT door test.</p>
+        <p class="en-block en" data-linkable>You meet it in door schedules, risers, controller I/O lists, cable schedules, access levels, fire-alarm interfaces, and SAT door tests.</p>
+        <ul><li>No child topics are listed below this row.</li></ul>
       </article>
       <article class="card">
         <span class="chapter-num">04</span>
         <h2>Practical Examples</h2>
-        <ul>
-          <li data-linkable>Use the parent topic to decide which drawing, panel, cable, sensor, controller, protocol, or report is relevant.</li>
-          <li data-linkable>Compare Normally locked with related topics before choosing a symbol, device, quantity, or checklist item.</li>
-          <li data-linkable>During testing, confirm the expected result and record evidence in the correct project document.</li>
-        </ul>
+        <ul><li data-linkable>Check <a class="auto-link" href="./fail-safe-a118bd.html">fail-safe</a>/<a class="auto-link" href="./fail-secure-f72901.html">fail-secure</a> behavior against life-safety requirements.</li><li data-linkable>Match reader protocol such as OSDP or Wiegand with the controller.</li><li data-linkable>Confirm lock power, door contact, REX, <a class="auto-link" href="./emergency-release.html">emergency release</a>, and fire-alarm release wiring.</li><li data-linkable>During testing, prove valid access, denied access, forced door, door held open, and fire release.</li></ul>
       </article>
     </div>
   </section>
@@ -182,20 +178,20 @@
       <article class="card">
         <span class="chapter-num">DESIGN</span>
         <h2>Design Considerations</h2>
-        <p class="ar-block" data-linkable>قبل اعتماد Normally locked في التصميم، اربطه بالscope، drawings، specifications، codes، وinterfaces. اسأل: ما القيمة أو الوظيفة المطلوبة؟ أين تظهر في layout أو schematic؟ وما dependencies مع D3. Access Control؟</p>
-        <p class="en-block en" data-linkable>Before using Normally locked in design, connect it to scope, drawings, specifications, codes, and interfaces. Ask what function is required, where it appears, and what depends on it.</p>
+        <p class="ar-block" data-linkable>في التصميم، وثق door mode، hardware type، cable cores، power, battery backup، access levels، fire release، وegress path.</p>
+        <p class="en-block en" data-linkable>In design, document door mode, hardware type, cable cores, power, battery backup, access levels, fire release, and egress path.</p>
       </article>
       <article class="card">
         <span class="chapter-num">SITE</span>
         <h2>Installation Considerations</h2>
-        <p class="ar-block" data-linkable>في الموقع، راجع labeling، cable route، mounting، termination، polarity أو addressing إن وجدت، ثم قارن التنفيذ مع approved shop drawings. أي اختلاف صغير قد يظهر لاحقًا كfault أو failed test.</p>
-        <p class="en-block en" data-linkable>On site, check labeling, cable route, mounting, termination, polarity or addressing when relevant, then compare the installation with approved shop drawings.</p>
+        <p class="ar-block" data-linkable>في الموقع، راجع alignment، lock voltage، polarity، reader wiring، enclosure tamper، labels، وfire/egress interfaces.</p>
+        <p class="en-block en" data-linkable>On site, check alignment, lock voltage, polarity, reader wiring, enclosure tamper, labels, and fire/egress interfaces.</p>
       </article>
       <article class="card">
         <span class="chapter-num">TEST</span>
         <h2>Testing And Commissioning</h2>
-        <p class="ar-block" data-linkable>أثناء testing، حدد expected result قبل القياس. سجّل evidence واضح: reading، screenshot، test sheet، أو functional result. اربط النتيجة بالparent topic حتى يكون handover traceable.</p>
-        <p class="en-block en" data-linkable>During testing, define the expected result before measuring. Record traceable evidence such as readings, screenshots, test sheets, or functional outcomes.</p>
+        <p class="ar-block" data-linkable>اختبر valid/invalid credential، REX، forced/held open، fire release، battery backup، event logging، وanti-passback إن وجد.</p>
+        <p class="en-block en" data-linkable>Test valid and invalid credentials, REX, forced/held-open alarms, fire release, battery backup, event logging, and anti-passback when used.</p>
       </article>
     </div>
   </section>
@@ -205,17 +201,13 @@
       <article class="card">
         <span class="chapter-num">MISTAKES</span>
         <h2>Common Mistakes</h2>
-        <ul>
-          <li data-linkable>Reading Normally locked as an isolated term without checking parent and sibling topics.</li>
-          <li data-linkable>Using a drawing symbol, device label, protocol name, or document title without confirming the project context.</li>
-          <li data-linkable>Skipping test evidence, which makes troubleshooting and handover weaker.</li>
-        </ul>
+        <ul><li data-linkable>Selecting lock behavior without coordinating life safety.</li><li data-linkable>Testing only card unlock and missing forced-door or fire-release behavior.</li><li data-linkable>Mixing OSDP/Wiegand wiring or shielding requirements.</li></ul>
       </article>
       <article class="card">
         <span class="chapter-num">TROUBLESHOOT</span>
         <h2>Troubleshooting Scenario</h2>
-        <p class="ar-block" data-linkable>لو حدث fault مرتبط بـ Normally locked، ابدأ من source، ثم cable أو network path، ثم controller أو panel، ثم output أو document evidence. لا تقفز للجزء الأخير قبل تأكيد الأساسيات.</p>
-        <p class="en-block en" data-linkable>If a fault is related to Normally locked, start at the source, then cable or network path, then controller or panel, then output or document evidence. Do not jump to the last step first.</p>
+        <p class="ar-block" data-linkable>لو الباب لا يفتح أو يفتح عشوائيا، افحص credential، controller output، lock power، REX، contact state، fire input، وsoftware schedule.</p>
+        <p class="en-block en" data-linkable>If a door will not unlock or unlocks unexpectedly, check credential, controller output, lock power, REX, contact state, fire input, and software schedule.</p>
       </article>
     </div>
   </section>
@@ -225,18 +217,19 @@
     <div>
       <span class="chapter-num">INTERACTIVE</span>
       <h2>Interactive Simulation</h2>
-      <p class="ar-block" data-linkable>استخدم هذا scenario explorer لتفكر في Normally locked داخل المسار العملي. غيّر المرحلة ولاحظ كيف يتغير التركيز بين design وinstallation وtesting وmaintenance.</p>
-      <p class="en-block en" data-linkable>Use this scenario explorer to place Normally locked in context. Change the stage and notice how the focus moves between design, installation, testing, and maintenance.</p>
+      <p class="ar-block" data-linkable>الـ architecture يشمل reader، controller، lock power، door contact، REX، <a class="auto-link" href="./emergency-release.html">emergency release</a>، fire interface، وmanagement software.</p>
+      <p class="en-block en" data-linkable>Use this scenario explorer for Normally locked. It changes the checklist from design to site work to commissioning using the same topic-specific logic.</p>
     </div>
     <div class="sim-card" data-scenario>
+      <script type="application/json" data-scenario-copy>{"design":["Access design focus","Coordinate door schedule, lock behavior, egress, fire release, reader protocol, power backup, and access levels."],"site":["Access site focus","Verify reader wiring, lock alignment, power polarity, door contact state, REX location, labels, and enclosure tamper."],"test":["Access testing focus","Prove valid/denied access, REX, forced/held-open alarms, fire release, battery backup, and event logs."]}</script>
       <div class="segmented" role="tablist" aria-label="Scenario stage">
         <button type="button" class="active" data-scenario-btn="design">Design</button>
         <button type="button" data-scenario-btn="site">Site</button>
         <button type="button" data-scenario-btn="test">Testing</button>
       </div>
       <div class="scenario-output" data-scenario-output>
-        <strong>Design focus</strong>
-        <p>Confirm scope, parent system, interfaces, symbols, units, and coordination notes before issuing drawings.</p>
+        <strong>Access design focus</strong>
+        <p>Coordinate door schedule, lock behavior, egress, fire release, reader protocol, power backup, and access levels.</p>
       </div>
     </div>
   </div>
@@ -247,8 +240,8 @@
       <div class="card">
         <span class="chapter-num">RELATED</span>
         <h2>Related Learning Path</h2>
-        <p class="ar-block" data-linkable>ابدأ من parent، ثم راجع siblings والchildren القريبة لتفهم الصورة الكاملة حول Normally locked.</p>
-        <p class="en-block en" data-linkable>Start with the parent, then review siblings and children to understand the full context around Normally locked.</p>
+        <p class="ar-block" data-linkable>راجع الموضوعات القريبة من Normally locked عندما تساعد على فهم نفس النظام أو نفس المستند أو نفس الاختبار.</p>
+        <p class="en-block en" data-linkable>Review nearby topics around Normally locked when they clarify the same system, document set, or commissioning check.</p>
         <ul class="link-grid"><li><a href="./locking-concepts.html">Locking concepts</a></li><li><a href="./fail-safe-a118bd.html">Fail-safe</a></li><li><a href="./fail-secure-f72901.html">Fail-secure</a></li><li><a href="./normally-unlocked.html">Normally unlocked</a></li><li><a href="./free-egress.html">Free egress</a></li><li><a href="./controlled-egress.html">Controlled egress</a></li><li><a href="./delayed-egress.html">Delayed egress</a></li><li><a href="./emergency-release.html">Emergency release</a></li><li><a href="./fire-alarm-release-102d54.html">Fire alarm release</a></li></ul>
       </div>
     </div>
@@ -263,7 +256,7 @@
       </div>
     </div>
     <div class="quiz-shell" data-quiz>
-      <script type="application/json" data-quiz-data>[{"type":"choice","q_ar":"ما أفضل وصف لدور Normally locked داخل المسار التعليمي؟","q_en":"What is the best description of Normally locked in this course path?","choices_ar":["مفهوم مرتبط بالسياق العملي للمسار","عنوان عشوائي خارج المنهج","ملف خارجي غير مرتبط","زر في الواجهة فقط"],"choices_en":["A concept connected to the practical course path","A random title outside the course","An unrelated external file","Only a user interface button"],"answer":0,"feedback_ar":"Normally locked مرتبط بمسار D. Security Systems - Final Big Families / D3. Access Control / Locking concepts / Normally locked ويجب فهمه ضمن parent وchildren والموضوعات القريبة.","feedback_en":"Normally locked belongs to D. Security Systems - Final Big Families / D3. Access Control / Locking concepts / Normally locked and should be understood through its parent, children, and related topics."},{"type":"choice","q_ar":"عند قراءة صفحة فنية، ما أهم شيء قبل استخدام أي formula أو رقم؟","q_en":"Before using a formula or number on a technical page, what matters most?","choices_ar":["فهم الرموز والوحدات والسياق","نسخ الرقم فقط","تجاهل الإشارات","استخدام أي قيمة بدون مراجعة"],"choices_en":["Understand symbols, units, and context","Copy the number only","Ignore signs","Use any value without checking"],"answer":0,"feedback_ar":"الفهم الصحيح للرموز والوحدات يمنع أخطاء التصميم والتنفيذ وcommissioning.","feedback_en":"Correct symbols and units prevent design, installation, and commissioning mistakes."},{"type":"choice","q_ar":"أين يجب مراجعة Normally locked عند وجود لبس؟","q_en":"Where should Normally locked be checked when there is uncertainty?","choices_ar":["في parent topic والرسومات والمواصفات","في العنوان فقط","في اللون المستخدم في الصفحة","في الذاكرة بدون مرجع"],"choices_en":["In the parent topic, drawings, and specifications","Only in the title","In the page color","From memory without references"],"answer":0,"feedback_ar":"السياق الفني يأتي من المسار الكامل والرسومات والمواصفات وليس من الاسم وحده.","feedback_en":"Technical context comes from the full path, drawings, and specifications, not the name alone."},{"type":"choice","q_ar":"ما السلوك الصحيح عند ظهور مصطلح قريب في صفحة أخرى؟","q_en":"What is the right behavior when a related term appears on another page?","choices_ar":["ربطه داخليًا إذا كان واضحًا وغير ملتبس","ربطه بأي صفحة عشوائية","تجاهله دائمًا","تحويله إلى رابط خارجي"],"choices_en":["Link it internally when the match is clear and unambiguous","Link it to a random page","Always ignore it","Turn it into an external link"],"answer":0,"feedback_ar":"الربط الداخلي الصحيح يساعد المتعلم بدون إنشاء روابط مضللة.","feedback_en":"Correct internal linking helps learners without creating misleading links."},{"type":"choice","q_ar":"لماذا نربط المفهوم بأمثلة عملية؟","q_en":"Why connect the concept to practical examples?","choices_ar":["لتحويل التعريف إلى قرار تصميم أو تنفيذ","لزيادة النص فقط","لإخفاء نقص المحتوى","لإلغاء الحاجة للفهم"],"choices_en":["To turn a definition into a design or site decision","Only to increase text length","To hide missing content","To remove the need for understanding"],"answer":0,"feedback_ar":"الأمثلة العملية تربط المعرفة بالتصميم والتنفيذ والاختبار.","feedback_en":"Practical examples connect knowledge to design, installation, and testing."}]</script>
+      <script type="application/json" data-quiz-data>[{"type":"choice","q_ar":"ما أفضل وصف عملي لـ Normally locked؟","q_en":"What is the best practical description of Normally locked?","choices_ar":["The reader, controller, lock, REX, door contact, fire release, power backup, and access rule for the door.","اسم عام لا يحتاج مراجعة رسومات أو مواصفات","عنصر ديكور في الصفحة فقط","قيمة عشوائية يمكن استخدامها بدون سياق"],"choices_en":["The reader, controller, lock, REX, door contact, fire release, power backup, and access rule for the door.","A generic name that does not need drawings or specifications","Only a decorative page element","A random value that can be used without context"],"answer":0,"feedback_ar":"لا تقرأ Normally locked كقطعة منفصلة. الباب نظام صغير فيه safety, security, power, wiring, software permissions, and fail-safe/fail-secure behavior.","feedback_en":"Do not treat Normally locked as an isolated part. A door is a small system combining safety, security, power, wiring, permissions, and fail-safe or fail-secure behavior."},{"type":"choice","q_ar":"ما أول شيء تراجعه عند استخدام Normally locked في التصميم؟","q_en":"What should be checked first when using Normally locked in design?","choices_ar":["الوظيفة المطلوبة والمستند المعتمد والـ acceptance criteria","لون الكارت في الصفحة","أقرب عنوان في الفهرس فقط","أي رقم من الذاكرة"],"choices_en":["Required function, approved reference, and acceptance criteria","The color of the page card","Only the nearest heading in the tree","Any remembered number"],"answer":0,"feedback_ar":"في التصميم، وثق door mode، hardware type، cable cores، power, battery backup، access levels، fire release، وegress path.","feedback_en":"In design, document door mode, hardware type, cable cores, power, battery backup, access levels, fire release, and egress path."},{"type":"choice","q_ar":"أي دليل اختبار يناسب Normally locked؟","q_en":"Which commissioning evidence fits Normally locked?","choices_ar":["قراءة أو screenshot أو test sheet يثبت النتيجة المطلوبة","رابط بحث خارجي بدون نتيجة","صورة غير مرتبطة بالنظام","كلمة تم فقط بدون قياس أو تحقق"],"choices_en":["A reading, screenshot, or test sheet proving the required result","An external search link with no result","An image unrelated to the system","The word done without measurement or verification"],"answer":0,"feedback_ar":"اختبر valid/invalid credential، REX، forced/held open، fire release، battery backup، event logging، وanti-passback إن وجد.","feedback_en":"Test valid and invalid credentials, REX, forced/held-open alarms, fire release, battery backup, event logging, and anti-passback when used."},{"type":"choice","q_ar":"أي ترتيب يوضح المسار الفني لـ Normally locked؟","q_en":"Which order best represents the technical path for Normally locked?","choices_ar":["Reader -> Door Controller -> Lock / REX -> Door Status / Alarm","Door Status / Alarm -> Lock / REX -> Door Controller -> Reader","Handover -> Random -> Color -> Logo","Title -> Title -> Title -> Title"],"choices_en":["Reader -> Door Controller -> Lock / REX -> Door Status / Alarm","Door Status / Alarm -> Lock / REX -> Door Controller -> Reader","Handover -> Random -> Color -> Logo","Title -> Title -> Title -> Title"],"answer":0,"feedback_ar":"الـ flow يبدأ credential، ثم decision في controller/software، ثم lock output، ثم feedback من door contact وevents.","feedback_en":"The flow starts with the credential, then the controller or software decision, then lock output, then feedback from door contact and events."},{"type":"choice","q_ar":"ما الخطأ الأخطر عند التعامل مع Normally locked؟","q_en":"What is the riskiest mistake when working with Normally locked?","choices_ar":["Selecting lock behavior without coordinating life safety.","توثيق الاختبار بالصور والقراءات","مراجعة المواصفات قبل التنفيذ","مطابقة الموقع مع الرسومات المعتمدة"],"choices_en":["Selecting lock behavior without coordinating life safety.","Documenting tests with photos and readings","Reviewing specifications before installation","Matching site work with approved drawings"],"answer":0,"feedback_ar":"لو الباب لا يفتح أو يفتح عشوائيا، افحص credential، controller output، lock power، REX، contact state، fire input، وsoftware schedule.","feedback_en":"If a door will not unlock or unlocks unexpectedly, check credential, controller output, lock power, REX, contact state, fire input, and software schedule."}]</script>
       <div class="quiz-top">
         <span data-quiz-count>1 / 5</span>
         <div class="quiz-progress" aria-hidden="true"><span data-quiz-progress></span></div>
@@ -284,8 +277,9 @@
     <div class="card">
       <span class="chapter-num">REFERENCES</span>
       <h2>Learning References</h2>
-      <p class="ar-block">راجع رسومات المشروع، specifications، standards المعتمدة، وmanuals الخاصة بالمورد عند استخدام Normally locked في قرار تصميم أو تنفيذ.</p>
-      <p class="en-block en">Use project drawings, specifications, applicable standards, and vendor manuals before applying Normally locked to a design or installation decision.</p>
+      <p class="ar-block">لـ Access Control، راجع door schedule، hardware set، wiring details، access levels، وlife-safety approvals.</p>
+      <p class="en-block en">For access control, use the door schedule, hardware set, wiring details, access levels, and life-safety approvals.</p>
+      <ul><li>Approved project drawings and schedules</li><li>Project specifications and material submittals</li><li>Vendor installation, configuration, and commissioning manuals</li><li>Applicable local codes, authority requirements, and standards</li></ul>
     </div>
   </div>
 </section>
