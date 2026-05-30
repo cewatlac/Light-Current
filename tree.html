@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Tree | Light Current Course</title>
+<meta name="description" content="Full interactive tree explorer for all generated course topics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;600;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/theme.css">
+<link rel="stylesheet" href="./styles/components.css">
+<link rel="stylesheet" href="./styles/pages.css">
+<link rel="stylesheet" href="./styles/quiz.css">
+<link rel="stylesheet" href="./styles/tree.css">
+<link rel="stylesheet" href="./styles/print.css">
+</head>
+<body class="lang-both tree-page">
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="https://anzmatech.com/" target="_blank" rel="noopener" aria-label="Open Anzma Tech website">
+      <img src="https://dev.anzmatech.com/wp-content/uploads/2024/12/Layer_1.png" alt="Anzma Tech logo">
+      <span class="brand-fallback">ANZMA TECH</span>
+    </a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="./index.html">Home</a>
+      <a href="./tree.html">Tree</a>
+      <a href="./search.html">Search</a>
+      <a href="./glossary.html">Glossary</a>
+    </nav>
+    <div class="actions">
+      <button class="btn ghost" type="button" data-lang-toggle aria-label="Change language mode">AR + EN</button>
+      <button class="btn ghost" type="button" data-theme-toggle aria-label="Toggle dark and light mode">☾ / ☀</button>
+    </div>
+  </div>
+  <div class="wrap breadcrumb-row">
+    <span class="section-label">Explorer</span>
+    <nav class="breadcrumb" aria-label="Breadcrumb"><span>Tree</span></nav>
+  </div>
+  <div class="progress" data-scroll-progress></div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="chapter-num">FULL TREE</span>
+      <h1>Course Tree Explorer</h1>
+      <p class="lead ar-block">استكشف كل units وtopics من ملف CSV. كل node هنا يفتح صفحة HTML مستقلة.</p>
+      <p class="lead en-block en">Explore every unit and topic from the CSV. Every node links to a dedicated HTML page.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="toolbar">
+        <input type="search" data-tree-search placeholder="Filter tree..." aria-label="Filter tree topics">
+        <select data-tree-unit aria-label="Filter by unit"><option value="">All units</option><option value="A. Foundations">A. Foundations</option><option value="B. ICT Backbone">B. ICT Backbone</option><option value="D. Security Systems - Final Big Families">D. Security Systems - Final Big Families</option><option value="E. Life Safety & Emergency Systems">E. Life Safety & Emergency Systems</option><option value="F. Automation & Smart Building">F. Automation & Smart Building</option><option value="G. Project Delivery & Operations">G. Project Delivery & Operations</option></select>
+        <select data-tree-level aria-label="Filter by level">
+          <option value="">All levels</option>
+          <option value="1">Level 1</option>
+          <option value="2">Level 2</option>
+          <option value="3">Level 3</option>
+          <option value="4">Level 4</option>
+        </select>
+        <button class="btn ghost" type="button" data-expand-all>Expand all</button>
+        <button class="btn ghost" type="button" data-collapse-all>Collapse all</button>
+      </div>
+      <div class="tree-summary" data-tree-summary>16180 pages</div>
+      <div class="tree-view" data-tree-root></div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <strong>Eng Mohamed El-Sisi</strong><br>
+      <strong>Ashraf</strong><br>
+      <span>© Anzma Tech Academy. All rights reserved.</span>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="./index.html">Home</a>
+      <a href="./tree.html">Tree</a>
+      <a href="./search.html">Search</a>
+      <a href="./glossary.html">Glossary</a>
+    </nav>
+  </div>
+</footer>
+</body>
+<script src="./js/theme-toggle.js" defer></script>
+<script src="./js/language-toggle.js" defer></script>
+<script src="./js/main.js" defer></script>
+<script src="./js/quiz.js" defer></script>
+<script src="./js/simulations.js" defer></script>
+<script src="./js/internal-links.js" defer></script>
+<script src="./js/tree.js" defer></script>
+</html>

@@ -1,0 +1,59 @@
+.tree-view {
+  display: grid;
+  gap: 8px;
+}
+
+.tree-node {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.tree-node summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.tree-node a {
+  font-weight: 900;
+}
+
+.tree-meta {
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.tree-children {
+  display: grid;
+  gap: 8px;
+  padding: 0 12px 12px;
+  margin-inline-start: 18px;
+}
+
+.tree-leaf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.tree-summary,
+.glossary-summary,
+.search-meta {
+  color: var(--muted);
+  margin: 8px 0 16px;
+}
+
+.compact .tree-node:nth-of-type(n + 80),
+.compact .tree-leaf:nth-of-type(n + 80) {
+  display: none;
+}

@@ -1,0 +1,504 @@
+# Manual Review Report
+
+- Pages needing manual review: 5022
+
+- Row 6: Current (pages/generated/current-09e577.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 7: Voltage (pages/generated/voltage-8543c8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 12: Frequency (pages/generated/frequency-a94040.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 13: Period (pages/generated/period-cb739e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 14: Phase (pages/generated/phase-1360c8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 15: RMS value (pages/generated/rms-value-3a7aa2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 16: Peak value (pages/generated/peak-value-14a6ad.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 21: Ampere (pages/generated/ampere-841a57.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 22: Volt (pages/generated/volt-7b60d2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 28: Farad (pages/generated/farad-565a17.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 29: Henry (pages/generated/henry-c54420.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 33: dB SPL (pages/generated/db-spl-fa84dc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 34: Lux (pages/generated/lux-81f465.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 35: Lumen (pages/generated/lumen-e0fa41.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 36: Candela (pages/generated/candela-efdd47.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 37: Bit (pages/generated/bit-bc26ca.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 38: Byte (pages/generated/byte-fbd341.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 61: Open circuit (pages/generated/open-circuit-ab8d95.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 62: Short circuit (pages/generated/short-circuit-dcfdb8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 64: Source (pages/generated/source-d77e99.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 66: Voltage drop (pages/generated/voltage-drop-83dc1c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 81: Frequency (pages/generated/frequency-56e326.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 82: Period (pages/generated/period-ce5555.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 85: RMS value (pages/generated/rms-value-44fc30.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 86: Peak value (pages/generated/peak-value-14c03a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 92: Earth (pages/generated/earth-89aa2f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 94: Reactive power (pages/generated/reactive-power-57769b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 95: Apparent power (pages/generated/apparent-power-99d81c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 96: Power factor (pages/generated/power-factor-f183b8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 97: Harmonics (pages/generated/harmonics-e5bc95.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 98: Inrush current (pages/generated/inrush-current-3e8a76.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 112: Voltage drop calculation (pages/generated/voltage-drop-calculation-072f98.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 118: Lock current calculation (pages/generated/lock-current-calculation-9657c4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 124: Node (pages/generated/node-f6e32a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 133: Voltage drop (pages/generated/voltage-drop-eb5eb7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 143: Thermistor (pages/generated/thermistor-3ba018.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 144: LDR (pages/generated/ldr-06cbae.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 147: Transformer (pages/generated/transformer-e5d766.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 148: Fuse (pages/generated/fuse-f21db4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 151: Push button (pages/generated/push-button-4af960.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 159: Termination resistor (pages/generated/termination-resistor-77ed16.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 160: End-of-line resistor (pages/generated/end-of-line-resistor-cc1547.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 165: Farad (pages/generated/farad-d1f30a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 174: Smoothing capacitor (pages/generated/smoothing-capacitor-42ade0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 183: Leakage current (pages/generated/leakage-current-b23335.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 189: Henry (pages/generated/henry-25cd22.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 190: Coil (pages/generated/coil-5a4d4b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 191: Magnetic field (pages/generated/magnetic-field-311dfd.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 193: Back EMF (pages/generated/back-emf-6d02b8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 197: Relay coil (pages/generated/relay-coil-a57c78.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 204: Coil voltage (pages/generated/coil-voltage-b19c2d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 205: Coil suppression (pages/generated/coil-suppression-23e6c1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 207: Magnetic field (pages/generated/magnetic-field-952a6d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 227: Battery (pages/generated/battery-8dbbf2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 228: Adapter (pages/generated/adapter-8c3c94.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 229: Linear power supply (pages/generated/linear-power-supply-2b47bb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 230: SMPS (pages/generated/smps-2261ea.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 231: UPS (pages/generated/ups-3e14f4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 234: Unregulated DC supply (pages/generated/unregulated-dc-supply-9142a8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 236: PoE injector (pages/generated/poe-injector-5e3598.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 237: PoE switch (pages/generated/poe-switch-18a797.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 240: Battery charger (pages/generated/battery-charger-09e1de.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 241: Power budget (pages/generated/power-budget-16aad0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 249: Earth (pages/generated/earth-2d4b1e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 250: Protective earth (pages/generated/protective-earth-ca01c7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 257: Ground loop (pages/generated/ground-loop-503339.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 259: Equipotential bonding (pages/generated/equipotential-bonding-9ba051.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 260: Shield grounding (pages/generated/shield-grounding-050d09.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 267: Cable tray bonding (pages/generated/cable-tray-bonding-1e6996.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 271: Conductor (pages/generated/conductor-a5a642.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 272: Insulator (pages/generated/insulator-bdc98a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 277: Twisted pair (pages/generated/twisted-pair-84cd43.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 278: Shielded cable (pages/generated/shielded-cable-5aa61c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 280: Coaxial cable (pages/generated/coaxial-cable-16dc5a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 281: Fiber optic cable (pages/generated/fiber-optic-cable-657fd8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 283: Fire alarm cable (pages/generated/fire-alarm-cable-e0db9c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 293: Voltage drop (pages/generated/voltage-drop-7f711e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 295: Bend radius (pages/generated/bend-radius-933932.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 296: Pulling tension (pages/generated/pulling-tension-65139d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 297: Cable tray (pages/generated/cable-tray-d2626f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 298: Conduit (pages/generated/conduit-fe05bc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 299: Trunking (pages/generated/trunking-d35260.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 300: Cable ladder (pages/generated/cable-ladder-2f6923.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 301: Cable separation (pages/generated/cable-separation-962160.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 302: Cable segregation (pages/generated/cable-segregation-761185.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 305: Fuse (pages/generated/fuse-9a3304.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 309: MCB (pages/generated/mcb-ecc098.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 313: SPD (pages/generated/spd-b53065.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 314: TVS diode (pages/generated/tvs-diode-2c67fb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 315: MOV (pages/generated/mov-1bfc62.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 317: Optocoupler isolation (pages/generated/optocoupler-isolation-08239c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 318: Overcurrent protection (pages/generated/overcurrent-protection-6ef5d2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 319: Short-circuit protection (pages/generated/short-circuit-protection-cf35a4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 322: Reverse polarity protection (pages/generated/reverse-polarity-protection-971ac1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 323: Surge protection (pages/generated/surge-protection-994e64.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 325: Thermal protection (pages/generated/thermal-protection-f51b0b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 331: Conductor (pages/generated/conductor-a35a99.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 332: Insulator (pages/generated/insulator-089888.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 345: Leakage current (pages/generated/leakage-current-e7a681.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 357: Photodiode (pages/generated/photodiode-834cf5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 358: TVS diode (pages/generated/tvs-diode-86a3c0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 360: Flyback diode (pages/generated/flyback-diode-330b2f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 369: Surge protection (pages/generated/surge-protection-928e82.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 376: Ripple voltage (pages/generated/ripple-voltage-16cae4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 378: Smoothing capacitor (pages/generated/smoothing-capacitor-775949.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 384: Unregulated DC supply (pages/generated/unregulated-dc-supply-d4bfaa.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 387: Voltage regulation (pages/generated/voltage-regulation-cc3cd1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 392: Buck converter (pages/generated/buck-converter-d243ec.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 393: Boost converter (pages/generated/boost-converter-1fbbdc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 402: Dropout voltage (pages/generated/dropout-voltage-c48091.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 403: Efficiency (pages/generated/efficiency-83247f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 408: Short-circuit protection (pages/generated/short-circuit-protection-7976af.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 425: Gate (pages/generated/gate-775125.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 427: Source (pages/generated/source-0e7011.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 440: Interposing relay (pages/generated/interposing-relay-bdc1df.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 441: Relay coil (pages/generated/relay-coil-f8ac8d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 449: Coil voltage (pages/generated/coil-voltage-808c7b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 450: Coil current (pages/generated/coil-current-73aba4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 452: Dropout voltage (pages/generated/dropout-voltage-029025.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 454: Flyback diode (pages/generated/flyback-diode-cd5f92.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 455: Optocoupler isolation (pages/generated/optocoupler-isolation-40eb30.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 456: Snubber circuit (pages/generated/snubber-circuit-93c4f1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 474: Active filter (pages/generated/active-filter-6a0702.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 475: Input impedance (pages/generated/input-impedance-9f1dbb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 481: Bandwidth (pages/generated/bandwidth-a43cf8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 494: Active filter (pages/generated/active-filter-dab0e4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 499: Cutoff frequency (pages/generated/cutoff-frequency-81853c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 517: Duty cycle (pages/generated/duty-cycle-4667ce.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 529: Bit (pages/generated/bit-a2f987.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 530: Byte (pages/generated/byte-62b530.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 532: Word (pages/generated/word-860d83.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 547: Counter (pages/generated/counter-9f425e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 551: Decoder (pages/generated/decoder-f0b037.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 552: Encoder (pages/generated/encoder-16fd7f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 561: RAM (pages/generated/ram-e21b2c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 564: Digital input (pages/generated/digital-input-97bee4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 565: Digital output (pages/generated/digital-output-afe8c5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 566: Analog input (pages/generated/analog-input-9c7043.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 569: PWM output (pages/generated/pwm-output-dd23bb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 571: Counter (pages/generated/counter-f58624.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 574: Firmware (pages/generated/firmware-15e409.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 584: Dry contact (pages/generated/dry-contact-c9785f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 585: Wet contact (pages/generated/wet-contact-53e2b4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 586: Digital input (pages/generated/digital-input-511b8a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 587: Digital output (pages/generated/digital-output-6513a4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 588: Analog input (pages/generated/analog-input-99e0c5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 589: Analog output (pages/generated/analog-output-f184d9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 595: Pulse input (pages/generated/pulse-input-155403.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 596: Frequency input (pages/generated/frequency-input-70c78d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 599: NPN output (pages/generated/npn-output-d15522.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 600: PNP output (pages/generated/pnp-output-245a4b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 602: RS-485 (pages/generated/rs-485-07dec2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 606: Modbus (pages/generated/modbus-a22179.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 607: BACnet (pages/generated/bacnet-e82b3f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 608: KNX (pages/generated/knx-6d1aa6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 609: DALI (pages/generated/dali-23c80d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 610: Wiegand (pages/generated/wiegand-65bc7f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 611: OSDP (pages/generated/osdp-cee323.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 615: Speaker level (pages/generated/speaker-level-8f014d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 616: Relay interface (pages/generated/relay-interface-981f2e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 619: Linear power supply (pages/generated/linear-power-supply-386c7c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 620: SMPS (pages/generated/smps-18f470.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 622: Buck converter (pages/generated/buck-converter-da0e57.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 623: Boost converter (pages/generated/boost-converter-5f5a2c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 624: Battery charger (pages/generated/battery-charger-f4e5e2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 626: DC UPS (pages/generated/dc-ups-947e12.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 628: PoE injector (pages/generated/poe-injector-ab81df.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 629: PoE switch (pages/generated/poe-switch-c82567.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 630: PoE splitter (pages/generated/poe-splitter-04bea6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 631: Power budget (pages/generated/power-budget-70eec9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 633: Efficiency (pages/generated/efficiency-239337.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 635: Voltage regulation (pages/generated/voltage-regulation-da416d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 640: Redundant PSU (pages/generated/redundant-psu-1489c7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 646: Source (pages/generated/source-9665ad.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 649: Channel (pages/generated/channel-ffd45b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 651: Noise (pages/generated/noise-33cced.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 652: Distortion (pages/generated/distortion-8eb9aa.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 653: Interference (pages/generated/interference-64dc88.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 654: Attenuation (pages/generated/attenuation-f1b40a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 655: Amplification (pages/generated/amplification-dd0f2c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 667: Analog scaling (pages/generated/analog-scaling-171271.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 676: Bit (pages/generated/bit-fbc588.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 677: Byte (pages/generated/byte-3e2719.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 678: Word (pages/generated/word-a24562.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 679: Frame (pages/generated/frame-ed2b2b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 680: Packet (pages/generated/packet-087a6e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 688: Frequency (pages/generated/frequency-278716.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 689: Period (pages/generated/period-23fbe7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 690: Phase (pages/generated/phase-00635a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 691: Wavelength (pages/generated/wavelength-335fa8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 692: Duty cycle (pages/generated/duty-cycle-beeac5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 694: Rise time (pages/generated/rise-time-60f9c3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 696: Delay (pages/generated/delay-c08ff2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 697: Latency (pages/generated/latency-cfff21.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 698: Jitter (pages/generated/jitter-1ca808.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 699: Bandwidth (pages/generated/bandwidth-894ca2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 700: Signal-to-noise ratio (pages/generated/signal-to-noise-ratio-d142f5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 707: Settling time (pages/generated/settling-time-054423.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 711: Propagation delay (pages/generated/propagation-delay-c5d5cf.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 714: Spectrum (pages/generated/spectrum-1bb23f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 716: Harmonics (pages/generated/harmonics-865940.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 717: Bandwidth (pages/generated/bandwidth-5d3832.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 718: Frequency response (pages/generated/frequency-response-712281.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 720: Cutoff frequency (pages/generated/cutoff-frequency-e81c41.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 734: Shielding (pages/generated/shielding-afe5f7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 737: Reflection (pages/generated/reflection-9c6484.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 738: Crosstalk (pages/generated/crosstalk-c5ee18.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 743: RFI (pages/generated/rfi-1879e9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 744: Crosstalk (pages/generated/crosstalk-d2fad6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 748: Shielding (pages/generated/shielding-6bb002.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 749: Filtering (pages/generated/filtering-972c3b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 750: Cable separation (pages/generated/cable-separation-ef0c20.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 768: Amplification (pages/generated/amplification-db8e6e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 769: Attenuation (pages/generated/attenuation-a939b7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 770: Filtering (pages/generated/filtering-718045.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 771: Isolation (pages/generated/isolation-deeff6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 775: Cold-junction compensation (pages/generated/cold-junction-compensation-458e27.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 784: Full-duplex (pages/generated/full-duplex-65c531.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 790: Protocol (pages/generated/protocol-4e5d3d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 800: PoE (pages/generated/poe-1fac45.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 801: MAC address (pages/generated/mac-address-e949ec.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 802: IP address (pages/generated/ip-address-02a54c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 804: Gateway (pages/generated/gateway-b4dd8f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 805: TCP (pages/generated/tcp-687d73.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 806: UDP (pages/generated/udp-209a96.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 807: Multicast (pages/generated/multicast-5141f1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 808: Broadcast (pages/generated/broadcast-05b972.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 809: VLAN concept (pages/generated/vlan-concept-9d8c79.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 810: Throughput (pages/generated/throughput-92951a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 811: Latency (pages/generated/latency-d0a726.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 812: Packet loss (pages/generated/packet-loss-5fc08c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 813: Network bandwidth (pages/generated/network-bandwidth-07b298.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 814: A4. Sensors (pages/generated/sensors-d2cd83.html) — Duplicate slug base exists; final slug is unique.
+- Row 816: Sensor (pages/generated/sensor-561bfb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 820: Measurand (pages/generated/measurand-2f1df0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 823: Sensitivity (pages/generated/sensitivity-a43622.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 824: Resolution (pages/generated/resolution-39d243.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 825: Accuracy (pages/generated/accuracy-5e5ff5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 826: Precision (pages/generated/precision-ff7d98.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 827: Repeatability (pages/generated/repeatability-f738bd.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 828: Reproducibility (pages/generated/reproducibility-e89eae.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 831: Hysteresis (pages/generated/hysteresis-a23a5a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 832: Response time (pages/generated/response-time-034270.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 833: Rise time (pages/generated/rise-time-9d9e56.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 834: Settling time (pages/generated/settling-time-9c0f36.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 835: Drift (pages/generated/drift-f39b0c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 836: Offset (pages/generated/offset-a18a4d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 837: Calibration (pages/generated/calibration-be75f9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 848: Digital output (pages/generated/digital-output-547452.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 849: Relay output (pages/generated/relay-output-52bba8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 850: Open collector output (pages/generated/open-collector-output-15eb22.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 851: Open drain output (pages/generated/open-drain-output-5224c0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 852: NPN output (pages/generated/npn-output-42f3db.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 853: PNP output (pages/generated/pnp-output-35756a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 856: 4–20 mA output (pages/generated/420-ma-output-e16265.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 858: 0–10 V output (pages/generated/010-v-output-85bd47.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 867: Temperature sensors (pages/generated/temperature-sensors-eea013.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 868: Thermistor (pages/generated/thermistor-1e9cab.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 869: NTC (pages/generated/ntc-96f412.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 871: RTD (pages/generated/rtd-ed024b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 872: PT100 (pages/generated/pt100-feda1d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 873: PT1000 (pages/generated/pt1000-432a39.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 880: Temperature transmitter (pages/generated/temperature-transmitter-047135.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 882: Room temperature sensor (pages/generated/room-temperature-sensor-170270.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 883: Duct temperature sensor (pages/generated/duct-temperature-sensor-e33f66.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 884: Immersion temperature sensor (pages/generated/immersion-temperature-sensor-bf8248.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 886: Averaging temperature sensor (pages/generated/averaging-temperature-sensor-241670.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 887: Cold-junction compensation (pages/generated/cold-junction-compensation-8a940c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 888: Pressure sensors (pages/generated/pressure-sensors-6b37f9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 892: Pressure switch (pages/generated/pressure-switch-a98e73.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 901: Pump differential pressure sensor (pages/generated/pump-differential-pressure-sensor-674e6e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 906: Flow meter (pages/generated/flow-meter-e842f2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 907: Water flow switch (pages/generated/water-flow-switch-1b112a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 908: Air flow switch (pages/generated/air-flow-switch-6c435e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 909: Turbine flow meter (pages/generated/turbine-flow-meter-fc6b82.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 910: Magnetic flow meter (pages/generated/magnetic-flow-meter-3e64d9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 911: Ultrasonic flow meter (pages/generated/ultrasonic-flow-meter-8321d3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 912: Vortex flow meter (pages/generated/vortex-flow-meter-c31f75.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 913: Thermal flow sensor (pages/generated/thermal-flow-sensor-c85341.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 914: Differential pressure flow measurement (pages/generated/differential-pressure-flow-measurement-2ea6f8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 920: Level sensors (pages/generated/level-sensors-57f7b0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 921: Float switch (pages/generated/float-switch-5ec99e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 933: Tank level monitoring (pages/generated/tank-level-monitoring-6af578.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 937: Limit switch (pages/generated/limit-switch-c87532.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 943: Encoder (pages/generated/encoder-3ae8d6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 950: PIR sensor (pages/generated/pir-sensor-621b93.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 953: Occupancy sensor (pages/generated/occupancy-sensor-58152c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 955: Damper position feedback (pages/generated/damper-position-feedback-c67cd9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 956: Valve position feedback (pages/generated/valve-position-feedback-588b71.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 958: LDR (pages/generated/ldr-0cee52.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 959: Photodiode (pages/generated/photodiode-1e9be3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 968: Lux sensor (pages/generated/lux-sensor-5f411d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 975: Microphone (pages/generated/microphone-98c5e5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 980: Vibration sensor (pages/generated/vibration-sensor-28cda8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 991: Smoke detector (pages/generated/smoke-detector-05630b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 992: Optical smoke detector (pages/generated/optical-smoke-detector-2cd399.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 993: Photoelectric smoke detector (pages/generated/photoelectric-smoke-detector-41847f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 994: Ionization smoke detector (pages/generated/ionization-smoke-detector-1a87db.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 995: Heat detector (pages/generated/heat-detector-a82f9d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 996: Rate-of-rise heat detector (pages/generated/rate-of-rise-heat-detector-c834f3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 997: Fixed temperature heat detector (pages/generated/fixed-temperature-heat-detector-bcc7ad.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 999: CO detector (pages/generated/co-detector-87229e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1000: CO2 sensor (pages/generated/co2-sensor-e7e58b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1001: LPG detector (pages/generated/lpg-detector-085e11.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1002: Natural gas detector (pages/generated/natural-gas-detector-ae1094.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1003: Hydrogen detector (pages/generated/hydrogen-detector-491f72.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1005: Flame detector (pages/generated/flame-detector-62245d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1006: UV flame detector (pages/generated/uv-flame-detector-a04541.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1007: IR flame detector (pages/generated/ir-flame-detector-edbdb7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1008: Multi-sensor detector (pages/generated/multi-sensor-detector-e586c8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1009: Duct smoke detector (pages/generated/duct-smoke-detector-307d97.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1012: Door contact (pages/generated/door-contact-f6bb6a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1013: Magnetic contact (pages/generated/magnetic-contact-1e7d70.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1014: Roller shutter contact (pages/generated/roller-shutter-contact-db79bf.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1016: Request-to-exit sensor (pages/generated/request-to-exit-sensor-c92de3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1017: REX button (pages/generated/rex-button-e80262.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1018: Tamper switch (pages/generated/tamper-switch-d5a537.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1020: Biometric reader (pages/generated/biometric-reader-dd17b7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1021: Keypad (pages/generated/keypad-cce64f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1022: Loop detector (pages/generated/loop-detector-2cbda7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1024: Panic button (pages/generated/panic-button-e496cd.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1025: Hold-up button (pages/generated/hold-up-button-8235f8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1031: Image sensor (pages/generated/image-sensor-1789e9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1032: CMOS sensor (pages/generated/cmos-sensor-25e77b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1033: CCD sensor (pages/generated/ccd-sensor-322d6f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1034: Lens (pages/generated/lens-6b40a5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1035: Focal length (pages/generated/focal-length-ba55b3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1036: Field of view (pages/generated/field-of-view-c40868.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1037: Depth of field (pages/generated/depth-of-field-e05862.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1038: Aperture (pages/generated/aperture-bdecd4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1039: Iris (pages/generated/iris-57db6c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1040: Lux rating (pages/generated/lux-rating-127bb6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1041: WDR (pages/generated/wdr-6673f1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1042: BLC (pages/generated/blc-24029c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1043: HLC (pages/generated/hlc-b82c3d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1044: IR illumination (pages/generated/ir-illumination-05ba28.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1045: Day/night mode (pages/generated/day-night-mode-7a4340.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1046: Motion detection (pages/generated/motion-detection-bc8346.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1047: Video analytics (pages/generated/video-analytics-3b92e2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1054: Mounting height (pages/generated/mounting-height-f8fe3c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1056: Coverage area (pages/generated/coverage-area-df46c6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1057: Detection zone (pages/generated/detection-zone-3056e7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1058: Blind spot (pages/generated/blind-spot-6729b2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1060: IP rating (pages/generated/ip-rating-d85536.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1061: IK rating (pages/generated/ik-rating-18ffc6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1062: Operating temperature (pages/generated/operating-temperature-935fa3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1067: Shielding (pages/generated/shielding-79a25b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1072: Maintenance access (pages/generated/maintenance-access-20de58.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1073: False alarm reduction (pages/generated/false-alarm-reduction-5c3d7d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1078: A5. Actuators (pages/generated/actuators-8ce574.html) — Duplicate slug base exists; final slug is unique.
+- Row 1086: On/off actuator (pages/generated/on-off-actuator-099877.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1087: Modulating actuator (pages/generated/modulating-actuator-373812.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1089: Floating actuator (pages/generated/floating-actuator-f98e64.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1092: Spring-return actuator (pages/generated/spring-return-actuator-4d791b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1093: Non-spring-return actuator (pages/generated/non-spring-return-actuator-6c0310.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1098: Speed (pages/generated/speed-21b8a4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1099: Duty cycle (pages/generated/duty-cycle-a4b53d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1100: Response time (pages/generated/response-time-d777ba.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1101: Manual override (pages/generated/manual-override-ef0882.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1105: Interposing relay (pages/generated/interposing-relay-ea0724.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1108: Magnetic lock (pages/generated/magnetic-lock-ffb723.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1110: Door holder (pages/generated/door-holder-ab5d2d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1111: Bell (pages/generated/bell-5f68c2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1112: Siren (pages/generated/siren-f1a5eb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1113: Beacon (pages/generated/beacon-8e9be6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1119: Relay isolation (pages/generated/relay-isolation-fca6fd.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1137: Encoder feedback (pages/generated/encoder-feedback-c73051.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1142: Solenoid valve (pages/generated/solenoid-valve-311680.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1145: Relay coil (pages/generated/relay-coil-a621ca.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1147: Coil voltage (pages/generated/coil-voltage-4c4732.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1148: Coil current (pages/generated/coil-current-58c9c6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1149: Inrush current (pages/generated/inrush-current-a16dcb.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1151: Back EMF (pages/generated/back-emf-a575bc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1152: Flyback diode (pages/generated/flyback-diode-90cf6f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1153: Coil suppression (pages/generated/coil-suppression-850930.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1161: Solenoid valve (pages/generated/solenoid-valve-836dd0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1168: Damper actuator (pages/generated/damper-actuator-95e785.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1172: Spring-return actuator (pages/generated/spring-return-actuator-232fb4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1173: Valve feedback (pages/generated/valve-feedback-ba7093.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1174: Damper feedback (pages/generated/damper-feedback-4a455d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1179: Floating control (pages/generated/floating-control-c330d4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1182: Ceiling speaker (pages/generated/ceiling-speaker-ba346b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1183: Wall speaker (pages/generated/wall-speaker-d5afe3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1184: Horn speaker (pages/generated/horn-speaker-7f2e0e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1185: Column speaker (pages/generated/column-speaker-a79590.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1186: Cabinet speaker (pages/generated/cabinet-speaker-e32e1e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1190: Speaker sensitivity (pages/generated/speaker-sensitivity-6a6d32.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1193: 70 V speaker line (pages/generated/70-v-speaker-line-ae8a3e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1194: 100 V speaker line (pages/generated/100-v-speaker-line-d213dc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1195: Speaker tapping (pages/generated/speaker-tapping-d769d9.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1196: Attenuator (pages/generated/attenuator-526263.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1197: Zone selector (pages/generated/zone-selector-fdf56f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1201: Beacon (pages/generated/beacon-1dbbd3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1202: Strobe (pages/generated/strobe-af986a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1204: Sounder (pages/generated/sounder-7675de.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1205: Bell (pages/generated/bell-76e1c7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1206: Buzzer (pages/generated/buzzer-0d030f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1207: Siren (pages/generated/siren-3c9744.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1208: Horn (pages/generated/horn-d5b034.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1210: Exit sign (pages/generated/exit-sign-9e00a3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1216: Warning light (pages/generated/warning-light-354a8f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1218: Magnetic lock (pages/generated/magnetic-lock-e0b130.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1219: Electric strike (pages/generated/electric-strike-405b9f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1220: Electric bolt (pages/generated/electric-bolt-9cb123.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1221: Shear lock (pages/generated/shear-lock-2b71b8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1222: Turnstile (pages/generated/turnstile-38023b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1223: Tripod turnstile (pages/generated/tripod-turnstile-fba494.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1224: Full-height turnstile (pages/generated/full-height-turnstile-23b2bc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1225: Speed gate (pages/generated/speed-gate-0a9edd.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1226: Swing gate (pages/generated/swing-gate-7c5b6b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1227: Sliding gate (pages/generated/sliding-gate-6493b3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1229: Road blocker (pages/generated/road-blocker-a756c2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1230: Bollard (pages/generated/bollard-7cc1d7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1231: Door closer (pages/generated/door-closer-19f9ca.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1236: Lock power supply (pages/generated/lock-power-supply-384ec5.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1244: IR cut filter (pages/generated/ir-cut-filter-790206.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1254: Digital output (pages/generated/digital-output-3431b4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1255: Relay output (pages/generated/relay-output-ffbad6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1256: Open collector output (pages/generated/open-collector-output-260a5e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1257: Open drain output (pages/generated/open-drain-output-0467a3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1258: Triac output (pages/generated/triac-output-806179.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1264: Floating control (pages/generated/floating-control-563d68.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1270: Manual override (pages/generated/manual-override-26926d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1274: Overcurrent protection (pages/generated/overcurrent-protection-fa13f4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1275: Short-circuit protection (pages/generated/short-circuit-protection-42d26a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1276: Thermal protection (pages/generated/thermal-protection-37e29a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1278: Surge protection (pages/generated/surge-protection-2f82df.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1279: Reverse polarity protection (pages/generated/reverse-polarity-protection-7661b4.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1280: Fuse (pages/generated/fuse-6229de.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1281: MCB (pages/generated/mcb-f7e1b7.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1282: Snubber circuit (pages/generated/snubber-circuit-dacf08.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1283: Flyback diode (pages/generated/flyback-diode-0247fc.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1284: MOV (pages/generated/mov-8408c1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1285: TVS diode (pages/generated/tvs-diode-b8cf2e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1288: Interlock (pages/generated/interlock-fc2a85.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1299: Leakage current (pages/generated/leakage-current-e41669.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1304: Protective earth (pages/generated/protective-earth-e03951.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1305: Insulation (pages/generated/insulation-788d1a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1316: Short circuit (pages/generated/short-circuit-8f3aa1.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1323: Ground loop (pages/generated/ground-loop-a1f6f8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1338: PPE (pages/generated/ppe-a3e617.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1341: Eye protection (pages/generated/eye-protection-f9c470.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1348: Ladder safety (pages/generated/ladder-safety-2e2afd.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1349: Working at height (pages/generated/working-at-height-0e7842.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1353: Manual handling (pages/generated/manual-handling-35df65.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1354: Cable pulling safety (pages/generated/cable-pulling-safety-a0336f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1364: Fire detection (pages/generated/fire-detection-f5b06d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1367: Emergency communication (pages/generated/emergency-communication-77c350.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1370: Fire-rated cable (pages/generated/fire-rated-cable-105581.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1371: Fire stopping (pages/generated/fire-stopping-9b8661.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1375: Cause-and-effect matrix (pages/generated/cause-and-effect-matrix-ae8d52.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1376: Emergency shutdown (pages/generated/emergency-shutdown-55671a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1380: Equipotential bonding (pages/generated/equipotential-bonding-c199a3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1382: Earth fault (pages/generated/earth-fault-45004c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1387: Shield grounding (pages/generated/shield-grounding-499127.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1389: Cable tray bonding (pages/generated/cable-tray-bonding-1e288f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1401: Relay isolation (pages/generated/relay-isolation-ec7c64.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1403: Network isolation (pages/generated/network-isolation-a95762.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1418: Sealed lead-acid battery (pages/generated/sealed-lead-acid-battery-2ef634.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1420: Battery capacity (pages/generated/battery-capacity-8e20ed.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1422: Battery charger (pages/generated/battery-charger-aee054.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1440: SPD (pages/generated/spd-aead7b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1458: Fail-safe (pages/generated/fail-safe-ad2151.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1459: Fail-secure (pages/generated/fail-secure-eefeb6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1460: Redundancy (pages/generated/redundancy-c69b2b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1462: Fault monitoring (pages/generated/fault-monitoring-d2aff2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1463: Alarm priority (pages/generated/alarm-priority-58c0be.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1464: Emergency override (pages/generated/emergency-override-9a3d63.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1465: Manual override (pages/generated/manual-override-621167.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1467: Risk assessment (pages/generated/risk-assessment-6b78a0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1468: Single point of failure (pages/generated/single-point-of-failure-046c37.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1469: System availability (pages/generated/system-availability-ee38c8.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1474: Alarm acknowledgement (pages/generated/alarm-acknowledgement-59446b.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1475: Event logging (pages/generated/event-logging-b5161d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1477: Codes and standards awareness (pages/generated/codes-and-standards-awareness-bf32a3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1480: BS standards awareness (pages/generated/bs-standards-awareness-03e96a.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1481: EN standards awareness (pages/generated/en-standards-awareness-a6c3a3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1490: Method statement (pages/generated/method-statement-a89709.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1492: Inspection and test plan (pages/generated/inspection-and-test-plan-f64844.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1493: Testing procedure (pages/generated/testing-procedure-a35227.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1494: Commissioning procedure (pages/generated/commissioning-procedure-5f641d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1495: Authority approval (pages/generated/authority-approval-707486.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1496: Compliance statement (pages/generated/compliance-statement-fe5c90.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1497: Handover documentation (pages/generated/handover-documentation-02d967.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1500: Measurand (pages/generated/measurand-b7b26c.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1502: Accuracy (pages/generated/accuracy-7803c2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1503: Precision (pages/generated/precision-190e47.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1504: Resolution (pages/generated/resolution-341df2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1505: Sensitivity (pages/generated/sensitivity-fce958.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1511: Repeatability (pages/generated/repeatability-c1bb30.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1512: Reproducibility (pages/generated/reproducibility-e49c3e.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1513: Calibration (pages/generated/calibration-2142e0.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1519: Drift (pages/generated/drift-d36ee2.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1520: Noise floor (pages/generated/noise-floor-afc647.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1531: Continuity test (pages/generated/continuity-test-5d232d.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1534: Frequency measurement (pages/generated/frequency-measurement-7bc3e3.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1535: Duty-cycle measurement (pages/generated/duty-cycle-measurement-b0d0f6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1538: Polarity test (pages/generated/polarity-test-e3947f.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1542: Earth continuity test (pages/generated/earth-continuity-test-6a1ae6.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.
+- Row 1543: Insulation resistance test (pages/generated/insulation-resistance-test-447837.html) — Duplicate title exists elsewhere; slug uses path-aware uniqueness.; Duplicate slug base exists; final slug is unique.

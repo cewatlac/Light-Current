@@ -1,0 +1,29 @@
+{
+  "name": "light-current-static-course",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static educational course website generated from the Light Current course CSV.",
+  "scripts": {
+    "parse": "node scripts/parse-csv.js",
+    "classify": "node scripts/classify-topics.js",
+    "audit": "node scripts/audit-visuals.js",
+    "visual:plan": "node scripts/generate-visual-plan.js",
+    "visual:diagrams": "node scripts/generate-topic-diagrams.js",
+    "visual": "npm run audit && npm run visual:plan && npm run visual:diagrams",
+    "generate": "node scripts/generate-pages.js && node scripts/generate-homepage.js && node scripts/generate-tree.js && node scripts/generate-search.js && node scripts/generate-glossary.js",
+    "link": "node scripts/build-internal-link-dictionary.js && node scripts/apply-internal-links.js",
+    "validate": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js",
+    "report": "node scripts/create-reports.js",
+    "build": "npm run parse && npm run classify && npm run visual && npm run generate && npm run link && npm run validate && npm run report",
+    "dev": "node scripts/dev-server.js",
+    "test": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js"
+  },
+  "keywords": [
+    "static-site",
+    "education",
+    "course",
+    "csv-generator"
+  ],
+  "license": "UNLICENSED"
+}

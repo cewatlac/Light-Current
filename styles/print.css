@@ -1,0 +1,27 @@
+@media print {
+  .topbar,
+  .footer,
+  .hero-actions,
+  .actions,
+  .quiz-actions,
+  .toolbar {
+    display: none !important;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  .card,
+  .hero-card,
+  .sim-card {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+}

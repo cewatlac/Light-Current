@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-05-30T17:56:16.490Z",
+  "strategy_count": 13,
+  "strategies": [
+    {
+      "id": "cctv",
+      "visual_type": "system-architecture",
+      "labels": [
+        "Camera",
+        "PoE Switch",
+        "NVR / VMS",
+        "Monitor"
+      ],
+      "description": "Video signal path from camera capture through network, recording, and monitoring.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "access-control",
+      "visual_type": "wiring-diagram",
+      "labels": [
+        "Reader",
+        "Controller",
+        "Lock / REX",
+        "Door Status"
+      ],
+      "description": "Door hardware and controller relationship for access-control decisions.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "fire-alarm",
+      "visual_type": "loop-diagram",
+      "labels": [
+        "FACP",
+        "Loop / NAC",
+        "Devices",
+        "Outputs"
+      ],
+      "description": "Fire alarm control, detection, notification, and interface flow.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "bms",
+      "visual_type": "control-loop",
+      "labels": [
+        "Sensor",
+        "DDC / Controller",
+        "Actuator",
+        "HMI / Trend"
+      ],
+      "description": "Closed-loop building-control path from field sensing to dashboard feedback.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "networking",
+      "visual_type": "topology-diagram",
+      "labels": [
+        "Router",
+        "Firewall",
+        "Switch",
+        "Segments"
+      ],
+      "description": "Network segmentation and traffic path between services and field devices.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "structured-cabling",
+      "visual_type": "path-diagram",
+      "labels": [
+        "TR / Rack",
+        "Patch Panel",
+        "Cable Path",
+        "Outlet / Device"
+      ],
+      "description": "Physical cabling route from rack equipment to field outlet or device.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "audio-pa",
+      "visual_type": "signal-flow",
+      "labels": [
+        "Source",
+        "DSP / Mixer",
+        "Amplifier",
+        "Speaker Zones"
+      ],
+      "description": "Audio signal chain from source processing to amplified speaker zones.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "matv-iptv-av",
+      "visual_type": "distribution-diagram",
+      "labels": [
+        "Source",
+        "Headend",
+        "Distribution",
+        "Outlet / TV"
+      ],
+      "description": "Media distribution from antenna, dish, or server through the building network.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "healthcare-hospitality",
+      "visual_type": "workflow-diagram",
+      "labels": [
+        "Station",
+        "Controller",
+        "Display",
+        "Escalation"
+      ],
+      "description": "Room, patient, or service request flow from field station to response point.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "parking-iot-smart",
+      "visual_type": "integration-flow",
+      "labels": [
+        "Sensor",
+        "Gateway",
+        "Platform",
+        "Action"
+      ],
+      "description": "Smart-building device data flow from field sensing to platform action.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "electrical-foundation",
+      "visual_type": "concept-diagram",
+      "labels": [
+        "Source",
+        "Quantity",
+        "Load / Field",
+        "Measurement"
+      ],
+      "description": "Electrical concept relationship between source, quantity, effect, and measurement.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "project-delivery",
+      "visual_type": "process-flow",
+      "labels": [
+        "Prepare",
+        "Review",
+        "Test",
+        "Handover"
+      ],
+      "description": "Project-delivery workflow from preparation through evidence and handover.",
+      "source_type": "local-svg"
+    },
+    {
+      "id": "concept-map",
+      "visual_type": "concept-map",
+      "labels": [
+        "Parent",
+        "Topic",
+        "Related",
+        "Use"
+      ],
+      "description": "Topic relationship map connecting parent context, the current concept, and practical use.",
+      "source_type": "local-svg"
+    }
+  ]
+}
