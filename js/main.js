@@ -11,6 +11,17 @@
   document.addEventListener("scroll", updateProgress, { passive: true });
   window.addEventListener("resize", updateProgress);
 
+  document.querySelectorAll("[data-top-btn]").forEach((button) => {
+    button.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  });
+
+  document.querySelectorAll("[data-focus-btn]").forEach((button) => {
+    button.addEventListener("click", () => {
+      document.body.classList.toggle("focus-mode");
+      button.setAttribute("aria-pressed", document.body.classList.contains("focus-mode") ? "true" : "false");
+    });
+  });
+
   const reveals = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver(

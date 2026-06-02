@@ -6,3 +6,4 @@ Thumbs.db
 .tmp/
 reports/*.json
 !reports/.gitkeep
+content/generated/*.private.json

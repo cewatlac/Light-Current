@@ -15,6 +15,13 @@
     "link": "node scripts/build-internal-link-dictionary.js && node scripts/apply-internal-links.js",
     "validate": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js",
     "report": "node scripts/create-reports.js",
+    "pdf:outline": "node scripts/extract-pdf-outline.js",
+    "pdf:extract": "node scripts/extract-pdf-knowledge-map.js",
+    "pdf:map": "node scripts/map-pdf-to-topics.js",
+    "pdf:audit": "node scripts/audit-pdf-coverage.js",
+    "pdf:apply": "node scripts/apply-pdf-knowledge.js",
+    "pdf:validate": "node scripts/validate-pdf-integration.js",
+    "pdf:integrate": "npm run pdf:outline && npm run pdf:extract && npm run pdf:map && npm run pdf:audit && npm run pdf:apply && npm run pdf:validate",
     "build": "npm run parse && npm run classify && npm run visual && npm run generate && npm run link && npm run validate && npm run report",
     "dev": "node scripts/dev-server.js",
     "test": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js"

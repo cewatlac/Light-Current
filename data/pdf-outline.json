@@ -1,0 +1,2958 @@
+{
+  "generated_at": "2026-06-02T02:16:11.399Z",
+  "source_pdf": "content/manual/low-current-reference-2020.pdf",
+  "source_reference": {
+    "title_ar": "المرجع في أنظمة التيار الخفيف",
+    "title_en": "Low Current Systems for Electrical Power Engineers",
+    "author_ar": "أ. د. محمود جيلاني",
+    "year": "2020",
+    "label_ar": "المرجع في أنظمة التيار الخفيف، أ. د. محمود جيلاني، 2020",
+    "label_en": "Low Current Systems for Electrical Power Engineers, Prof. Mahmoud Gilany, 2020"
+  },
+  "page_count": 366,
+  "metadata": {
+    "/Author": "lamiaa__Ibrahim_H",
+    "/CreationDate": "D:20200613205526+02'00'",
+    "/Creator": "Microsoft® Word for Microsoft 365",
+    "/ModDate": "D:20200613210435+02'00'",
+    "/Producer": "Microsoft® Word for Microsoft 365",
+    "/Subject": "Data System"
+  },
+  "has_embedded_outline": false,
+  "extraction_note": "The PDF has no embedded bookmarks; chapter ranges and sections were inferred from visible page headers and table-of-contents text.",
+  "private_cache": "content/generated/pdf-page-cache.private.json",
+  "chapters": [
+    {
+      "id": "group-00-workflow",
+      "order": 0,
+      "title": "Introduction and project workflow",
+      "page_range": [
+        18,
+        22
+      ],
+      "section_count": 6
+    },
+    {
+      "id": "group-01-network-cabling",
+      "order": 1,
+      "title": "Network Data and Structured Cabling",
+      "page_range": [
+        23,
+        56
+      ],
+      "section_count": 26
+    },
+    {
+      "id": "group-02-bms",
+      "order": 2,
+      "title": "BMS / BAS / IBMS",
+      "page_range": [
+        57,
+        70
+      ],
+      "section_count": 14
+    },
+    {
+      "id": "group-03-telephone-voip",
+      "order": 3,
+      "title": "Telephone / VoIP / IP Telephone",
+      "page_range": [
+        71,
+        96
+      ],
+      "section_count": 19
+    },
+    {
+      "id": "group-04-matv-iptv",
+      "order": 4,
+      "title": "MATV / SMATV / IPTV",
+      "page_range": [
+        97,
+        142
+      ],
+      "section_count": 25
+    },
+    {
+      "id": "group-05-access-control",
+      "order": 5,
+      "title": "Access Control",
+      "page_range": [
+        143,
+        159
+      ],
+      "section_count": 17
+    },
+    {
+      "id": "group-06-nurse-call",
+      "order": 6,
+      "title": "Nurse Call",
+      "page_range": [
+        160,
+        170
+      ],
+      "section_count": 7
+    },
+    {
+      "id": "group-07-cctv",
+      "order": 7,
+      "title": "CCTV",
+      "page_range": [
+        171,
+        211
+      ],
+      "section_count": 41
+    },
+    {
+      "id": "group-08-fire-alarm",
+      "order": 8,
+      "title": "Fire Alarm",
+      "page_range": [
+        212,
+        274
+      ],
+      "section_count": 47
+    },
+    {
+      "id": "group-09-pa-acoustics",
+      "order": 9,
+      "title": "Sound / PA / Acoustics",
+      "page_range": [
+        275,
+        366
+      ],
+      "section_count": 81
+    }
+  ],
+  "sections": [
+    {
+      "id": "pdf-section-0001",
+      "group_id": "group-00-workflow",
+      "group": "Introduction and project workflow",
+      "title": "أعمال التيار الخفيف بالمشروعات الكبرى",
+      "printed_page": 2,
+      "start_page": 19,
+      "end_page": 19,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0002",
+      "group_id": "group-00-workflow",
+      "group": "Introduction and project workflow",
+      "title": "المشاركة في الاجتماعات التحضرية",
+      "printed_page": 2,
+      "start_page": 19,
+      "end_page": 19,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0003",
+      "group_id": "group-00-workflow",
+      "group": "Introduction and project workflow",
+      "title": "المشاركة في إعداد التقارير المبدئية",
+      "printed_page": 3,
+      "start_page": 20,
+      "end_page": 20,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0004",
+      "group_id": "group-00-workflow",
+      "group": "Introduction and project workflow",
+      "title": "المشاركة في انتاج Conceptual design drawings",
+      "printed_page": 3,
+      "start_page": 20,
+      "end_page": 20,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0005",
+      "group_id": "group-00-workflow",
+      "group": "Introduction and project workflow",
+      "title": "المرحلة الرابعة: الإعداد لطرح المشروع رسميا",
+      "printed_page": 3,
+      "start_page": 20,
+      "end_page": 20,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0006",
+      "group_id": "group-00-workflow",
+      "group": "Introduction and project workflow",
+      "title": "تقدير أحمال التيار الخفيف",
+      "printed_page": 4,
+      "start_page": 21,
+      "end_page": 22,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0007",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "ما هي شبكة الــــ DATA NETWORK؟",
+      "printed_page": 1,
+      "start_page": 23,
+      "end_page": 24,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0008",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "فوائد الـــ Data Network الخاصة بالحاسبات",
+      "printed_page": 3,
+      "start_page": 25,
+      "end_page": 25,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0009",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "مكونات النظام NETWORK HARDWARE",
+      "printed_page": 4,
+      "start_page": 26,
+      "end_page": 26,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0010",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "Data Cable:",
+      "printed_page": 5,
+      "start_page": 27,
+      "end_page": 27,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0011",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "ماذا يقصد بالـــ Traff ic ؟",
+      "printed_page": 5,
+      "start_page": 27,
+      "end_page": 27,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0012",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "أنواع الكابلات",
+      "printed_page": 6,
+      "start_page": 28,
+      "end_page": 28,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0013",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "كابلات الألياف الضوئية Fiber optic cable:",
+      "printed_page": 7,
+      "start_page": 29,
+      "end_page": 30,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0014",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "مقارنة بين الألياف الضوئية والكابلات النحاسية:",
+      "printed_page": 9,
+      "start_page": 31,
+      "end_page": 31,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0015",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "ماذا يقصد بالـــ Structure Cabling System",
+      "printed_page": 10,
+      "start_page": 32,
+      "end_page": 32,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0016",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "Data Socket:",
+      "printed_page": 11,
+      "start_page": 33,
+      "end_page": 33,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0017",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "Patch Panel:",
+      "printed_page": 12,
+      "start_page": 34,
+      "end_page": 34,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0018",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "Patch cord:",
+      "printed_page": 13,
+      "start_page": 35,
+      "end_page": 35,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0019",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "Cable organizer:",
+      "printed_page": 13,
+      "start_page": 35,
+      "end_page": 35,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0020",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "وحدة توزيع الكهرباء داخل الراك",
+      "printed_page": 14,
+      "start_page": 36,
+      "end_page": 36,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0021",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "الــ Data Network Switch",
+      "printed_page": 14,
+      "start_page": 36,
+      "end_page": 38,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0022",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "الــ Rou ter",
+      "printed_page": 17,
+      "start_page": 39,
+      "end_page": 39,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0023",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "الــ Modem",
+      "printed_page": 18,
+      "start_page": 40,
+      "end_page": 42,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0025",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "الراك Rack):",
+      "printed_page": 21,
+      "start_page": 43,
+      "end_page": 43,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0026",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "خطوات تصميم الــ DATA N ETWORK:",
+      "printed_page": 22,
+      "start_page": 44,
+      "end_page": 44,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0027",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "تذكر دائما:",
+      "printed_page": 22,
+      "start_page": 44,
+      "end_page": 47,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0028",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "أدوار مهندس القوى",
+      "printed_page": 26,
+      "start_page": 48,
+      "end_page": 48,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0029",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "نموذج تطبيقي",
+      "printed_page": 27,
+      "start_page": 49,
+      "end_page": 54,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0030",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "CODES & STANDARDS",
+      "printed_page": 33,
+      "start_page": 55,
+      "end_page": 55,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0078",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "العنصر الثامن : الــ Multi -Switch",
+      "printed_page": 101,
+      "start_page": 56,
+      "end_page": 56,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0079",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "ملحوظات عامة:",
+      "printed_page": 103,
+      "start_page": 56,
+      "end_page": 56,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0177",
+      "group_id": "group-01-network-cabling",
+      "group": "Network Data and Structured Cabling",
+      "title": "دور الـــ MM في مراقبة الـــ Tamper Switch",
+      "printed_page": 204,
+      "start_page": 56,
+      "end_page": 56,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0031",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "لماذا نحتاج أنظمة إدارة البنايات؟",
+      "printed_page": 35,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0032",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "مم يتألف نظام إدارة المباني BMS؟",
+      "printed_page": 36,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0033",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "حجم منظومة الــ BMS",
+      "printed_page": 41,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0034",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "مثال آخر: نظام إدارة البناية BMS لمركز البيانات",
+      "printed_page": 45,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0035",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "مثال آخر عن التوفير عبر استخدام الـ BMS:",
+      "printed_page": 46,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0036",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "الفوائد المباشرة من تطبيق الـ BMS:",
+      "printed_page": 47,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0037",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "ما هي المباني التي يمكن أن نطبق بها النظام؟",
+      "printed_page": 48,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0044",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "صندوق التجميع الرئيسي (Main Distribution Frame)",
+      "printed_page": 56,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0109",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "بعض أهم الشركات وأنظمة ال SOFTWARE) الخاص بها:",
+      "printed_page": 137,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0162",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "كاشف متعدد (multi sensor)",
+      "printed_page": 195,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0254",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "6. Distributed System Design (DSD) v3.5",
+      "printed_page": 309,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0255",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "خطوات الأسلوب الأول للتصميمات الصوتية",
+      "printed_page": 309,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0256",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "الأسلوب الثاني للتصميمات:",
+      "printed_page": 315,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0257",
+      "group_id": "group-02-bms",
+      "group": "BMS / BAS / IBMS",
+      "title": "الخطوة الأولي: تحديد مستوى الضوضاء الموجودة",
+      "printed_page": 315,
+      "start_page": 70,
+      "end_page": 70,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0038",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "مقدمة تاريخية",
+      "printed_page": 49,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0039",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "أنواع أنظمة التلفونات",
+      "printed_page": 53,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0040",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "مكونات أنظمة التليفونات التقليدية",
+      "printed_page": 53,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0041",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "مخرج التليفون",
+      "printed_page": 53,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0042",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "صندوق التجميع الفرعى Telephone Box، TB",
+      "printed_page": 53,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0043",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "اللوحات الوسيطة IDF) )Intermediate Distribution Frame",
+      "printed_page": 54,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0045",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "السنترال الداخلي Private automatic branch exchange (PABX)",
+      "printed_page": 57,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0046",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "كابلات التليفونات",
+      "printed_page": 58,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0047",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "أمثلة على النظام التقليدي",
+      "printed_page": 60,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0048",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "المثال الثاني",
+      "printed_page": 62,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0049",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "مثال ثالث",
+      "printed_page": 63,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0050",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "الأنظمة الحديثة (VOICE OVER INTERN ET PROTOCOL، VOIP)",
+      "printed_page": 65,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0051",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "طرق تنفيذ نظام VOIP",
+      "printed_page": 66,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0052",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "التواصل مع شخص لديه تلفون عادى",
+      "printed_page": 66,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0053",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "شرح نظام الــ IP TELEPHONE",
+      "printed_page": 67,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0054",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "مكونات نظام الــ VOIP",
+      "printed_page": 69,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0055",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "ميزات الــ IP-PBX على السنترال الخاص التقليدي",
+      "printed_page": 71,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0056",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "نظام الــ IP -ENABLE",
+      "printed_page": 73,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0057",
+      "group_id": "group-03-telephone-voip",
+      "group": "Telephone / VoIP / IP Telephone",
+      "title": "مثال لشبكة تلفونات IP:",
+      "printed_page": 73,
+      "start_page": 96,
+      "end_page": 96,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0058",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "مقدمة تاريخية",
+      "printed_page": 75,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0059",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "تاريخ الراديو",
+      "printed_page": 76,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0060",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "تاريخ التلفزيون",
+      "printed_page": 78,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0061",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "آلية عمل البث التلفزيوني",
+      "printed_page": 78,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0062",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "تاريخ أنظمة الدش في مصر",
+      "printed_page": 79,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0069",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "العنصر الأول : Antenna:",
+      "printed_page": 84,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0070",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "العنصر الثانى: الـــ Head Unit",
+      "printed_page": 86,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0071",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "العنصر الثالث: الــ Tap",
+      "printed_page": 93,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0074",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "العنصر السادس: الــ Separator",
+      "printed_page": 96,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0075",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "مثال تطبيقي:",
+      "printed_page": 97,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0076",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "منظومة الــ IF Distribution",
+      "printed_page": 98,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0077",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "العنصر السابع : الــعدسة LNB",
+      "printed_page": 100,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0080",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "نموذج لخطوات التصميم في نظام الــ MATV",
+      "printed_page": 107,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0081",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "مثال تطبيقي-2",
+      "printed_page": 111,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0082",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "مثال تطبيقي-3",
+      "printed_page": 111,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0083",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "نماذج للتصميم باستخدام البرامج الجاهزة",
+      "printed_page": 112,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0084",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "تقنية IPTV",
+      "printed_page": 114,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0085",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "منظومة البث الرقمى IPTV",
+      "printed_page": 116,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0086",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "أنواع البث التليفزيوني IPTV",
+      "printed_page": 116,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0087",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "ما المقصود بالــ VoD؟",
+      "printed_page": 117,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0088",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "كيف تعمل تقنية IPTV؟",
+      "printed_page": 117,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0089",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "ما هو جهاز الــ set -top box STB؟",
+      "printed_page": 118,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0090",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "مميزات تقنية ال IPTV:",
+      "printed_page": 118,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0091",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "سلبيات تقنية ال IPTV:",
+      "printed_page": 119,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0092",
+      "group_id": "group-04-matv-iptv",
+      "group": "MATV / SMATV / IPTV",
+      "title": "مجالات التطبيق (Applications)",
+      "printed_page": 122,
+      "start_page": 142,
+      "end_page": 142,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0024",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "الــ Server",
+      "printed_page": 20,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0093",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "مكونات النظام",
+      "printed_page": 123,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0094",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "مصطلحات هامة",
+      "printed_page": 126,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0095",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "أنواع الــ Card Read er",
+      "printed_page": 126,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0096",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "Biometric Readers",
+      "printed_page": 127,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0097",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "Access control Keypads",
+      "printed_page": 127,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0098",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "Face Recognition",
+      "printed_page": 128,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0099",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "أنواع الأقفال الكهربية Electric lock Hardware",
+      "printed_page": 128,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0100",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "Magnetic lock",
+      "printed_page": 129,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0101",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "زر الخروج REX",
+      "printed_page": 129,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0102",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "لوحة تحكم (: Door Controller",
+      "printed_page": 130,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0103",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "كمبيوتر (Access control server computer",
+      "printed_page": 131,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0104",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "نموذج تطبيقي مبسط",
+      "printed_page": 132,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0105",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "طرق تنفيذ شبكات NETWORK TOPOLOGY",
+      "printed_page": 133,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0106",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "الطريقة الأولى: الــ Serial Controllers:",
+      "printed_page": 133,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0107",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "الطريقة الثانية: IP Controller",
+      "printed_page": 135,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0108",
+      "group_id": "group-05-access-control",
+      "group": "Access Control",
+      "title": "مثال تطبيقى آخر:",
+      "printed_page": 136,
+      "start_page": 159,
+      "end_page": 159,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0110",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "الأجزاء الرئيسية لنظام IP -NURSE CALL SYSTEM CONFIGURATION)",
+      "printed_page": 139,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0111",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "محطة الممرضة Nurse Station",
+      "printed_page": 139,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0112",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "محطة المريض (Patient Station)",
+      "printed_page": 139,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0113",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "كيف يعمل النظام:",
+      "printed_page": 140,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0114",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "نظام التشغيل والمراجعة:(Management unit))",
+      "printed_page": 144,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0115",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "خطوات تصميم نظام الـ NURSE CALL التقليدي:",
+      "printed_page": 144,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0116",
+      "group_id": "group-06-nurse-call",
+      "group": "Nurse Call",
+      "title": "تصميم نظام الــ IP NCS:",
+      "printed_page": 146,
+      "start_page": 170,
+      "end_page": 170,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0117",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "الأساس العلمى للنظام",
+      "printed_page": 149,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0118",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "العناصر الأساسية في نظام المراقبة الــ ANALOG",
+      "printed_page": 150,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0119",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "الكاميرات",
+      "printed_page": 150,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0120",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "أجهزة التسجيل:",
+      "printed_page": 151,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0121",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "أهم مواصفات جهاز التسجيل:",
+      "printed_page": 151,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0122",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "أهم المخارج المتاحة في جهاز الــ DVR",
+      "printed_page": 152,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0123",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "كيفية حساب حجم التخزين المطلوب:",
+      "printed_page": 154,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0124",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "شاشات العرض MONITORS:",
+      "printed_page": 155,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0125",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "الكابلات",
+      "printed_page": 156,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0126",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "نظام الــ IP CCTV",
+      "printed_page": 156,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0127",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "وصف كاميرات الــ IP",
+      "printed_page": 159,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0128",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "ميزات حصرية لكاميرات الــ IP",
+      "printed_page": 160,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0129",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "الفروق بين نظام الــ Analog ونظام الــ IP",
+      "printed_page": 161,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0130",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "نظام الــ Video Content Analysis، VCA في المنظومة الرقمية",
+      "printed_page": 162,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0131",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "تقنية ضغط الفيديوهات Compression):",
+      "printed_page": 163,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0132",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "أسئلة هامة قبل البدء في اختيار النظام المناسب:",
+      "printed_page": 164,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0133",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "المتطلبات والمواصفات الفنية العامة لمراكز التسوق",
+      "printed_page": 165,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0134",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مواصفات أجهزة التسجيل وشروط استخدامها (نقلا عن الكود السعودى )",
+      "printed_page": 166,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0135",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "كاميرات المراقبة الأمنية (نقلا عن الكود السعودى ):",
+      "printed_page": 166,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0136",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "شاشات العرض وغرفة المراقبة والتحكم (نقلا عن الكود السعودى ):",
+      "printed_page": 167,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0137",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "تركيب الكاميرا",
+      "printed_page": 168,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0138",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "قطر العنصر الحساس",
+      "printed_page": 169,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0139",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "العلاقة بين قطر العدسة والحساس",
+      "printed_page": 170,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0140",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "المصطلحات الهامة الخاصة بكاميرات المراقبة",
+      "printed_page": 170,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0141",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "البعد البؤري focal length",
+      "printed_page": 171,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0142",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "زاوية الرؤية View Angle:",
+      "printed_page": 172,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0143",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "كيف تحسب المسافة التي تغطيها الكاميرا الواحدة Field of View، FOV؟",
+      "printed_page": 173,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0145",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح دقـة الصـورة: Ima ge Resolution",
+      "printed_page": 177,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0146",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح خطوط المسح TV lines",
+      "printed_page": 177,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0147",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح الميجا بكسل",
+      "printed_page": 178,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0148",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح الــ Optical Zoom, OZ :",
+      "printed_page": 178,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0149",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح (Digital Zoom:)",
+      "printed_page": 179,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0150",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح تعويض الإضاءة الخلفية Back Light Compensation، BLC",
+      "printed_page": 179,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0151",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح التحكم الآلي للتكبير (AGC: Automatic Gain Control:)",
+      "printed_page": 180,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0152",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح تقنية تعويض الضوء المُفرط (Highlight Compensation HLC:)",
+      "printed_page": 180,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0153",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مصطلح الحساسية للضوء sensitivity",
+      "printed_page": 181,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0154",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "أنظمة التغذية بالطاقة الكهربية للكاميرات",
+      "printed_page": 181,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0155",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "Power over Et hernet (POE):",
+      "printed_page": 182,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0156",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "أشكال الكاميرات:",
+      "printed_page": 183,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0157",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "الغرض من أنظمة إنذار وكشف الحريق",
+      "printed_page": 190,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0158",
+      "group_id": "group-07-cctv",
+      "group": "CCTV",
+      "title": "مكونات أنظمة الكشف والإنذار عن الحريق:",
+      "printed_page": 191,
+      "start_page": 211,
+      "end_page": 211,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0159",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "الحساسات أو كواشف الحريق (DETECTORS)",
+      "printed_page": 192,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0160",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشف الدخان الأيوني (ionization smoke detector)",
+      "printed_page": 193,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0161",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشف الدخان الضوئي (optical smoke detector)",
+      "printed_page": 194,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0163",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشفات دخان خطية: Beam Detector",
+      "printed_page": 195,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0164",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشف الحرارة (heat detector)",
+      "printed_page": 196,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0165",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشف اللهب (Flame Detector)",
+      "printed_page": 197,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0166",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشفات الغاز GAS DETECTORS",
+      "printed_page": 198,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0167",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "كاشفات مجاري الهواء Duct Detectors:",
+      "printed_page": 198,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0168",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "الإنذار اليدوي (Call Point:)",
+      "printed_page": 199,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0169",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "وحدات الإنذار",
+      "printed_page": 199,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0170",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "أو الإنذار الصوتي:",
+      "printed_page": 200,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0171",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "وحدات الإنذار المرئية FIRE ALARM FLASHERS",
+      "printed_page": 200,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0172",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "لوحة التحكم FIRE ALARM CONTROL PANEL -FACP)",
+      "printed_page": 201,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0173",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "معدات التحكم",
+      "printed_page": 202,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0174",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "Door Holder",
+      "printed_page": 202,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0175",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "وحدة المراقبة: Monitor Module",
+      "printed_page": 202,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0176",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "دور الـــ MM في مراقبة الــ Water Flow Swi tch",
+      "printed_page": 204,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0178",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "وحدة تحكم Control module",
+      "printed_page": 205,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0179",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "وحدات عزل ISOLATION MODUELS",
+      "printed_page": 206,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0180",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "شبكة المواسير والكابلات",
+      "printed_page": 207,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0181",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "أنواع أنظمة التحكم",
+      "printed_page": 208,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0182",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "النوع الأول: النظام التقليدي القديم: (Conventional FACP)",
+      "printed_page": 208,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0183",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "النوع الثاني: النظام المعنون addressable (Addressable type FACP)",
+      "printed_page": 209,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0184",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "النوع الثالث: منظومة الإنذار الذكية Inelegant Fire alarm system",
+      "printed_page": 212,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0185",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "النوع الرابع: Wireless system",
+      "printed_page": 213,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0186",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مقارنة بين لوحات من ثلاث شركات مختلفة",
+      "printed_page": 213,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0187",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "الربط بين اللوحات",
+      "printed_page": 214,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0188",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "لوحات التكرار:REPEATER PANELS",
+      "printed_page": 215,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0189",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "خطوات تصميم منظومة إنذار الحريق",
+      "printed_page": 215,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0190",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مرحلة التصميم الأولى: تحديد خطورة المبنى واجزائه المختلفة",
+      "printed_page": 215,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0191",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مرحلة التصميم الثانية: تقسيم مناطق الحريق:",
+      "printed_page": 219,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0192",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مرحلة التصميم الثالثة: اختيار مناطق النداء",
+      "printed_page": 220,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0193",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مرحلة التصميم الرابعة: اختيار كاشفات الحريق المناسبة وتوزيعها:",
+      "printed_page": 222,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0194",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "قواعد وضع الحساسات والمساحة التي يغطيها كل نوع منها",
+      "printed_page": 224,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0195",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "أخطاء في التصميم ينبغي تفاديها:",
+      "printed_page": 226,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0196",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "نقاط يجب أخذها في عين الاعتبار:",
+      "printed_page": 227,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0197",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مرحلة التصميم الخامسة: اختيار أجهزة الإنذار الصوتية والمرئية وتوزيعها:",
+      "printed_page": 231,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0198",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "بعض الإرشادات في حساب وتصميم أنظمة مكافحة الحريق:",
+      "printed_page": 234,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0199",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "التوصيلات الكهربائية (الأسلاك):",
+      "printed_page": 234,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0200",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مثال تطبيقي -1",
+      "printed_page": 235,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0201",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "أو: اختيار نظام الإنذار",
+      "printed_page": 235,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0202",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "ثانيا: أنواع وعدد الحساسات",
+      "printed_page": 235,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0203",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "ثالثا: تقسيم المكان المناطق Zones",
+      "printed_page": 236,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0204",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "مثال تطبيقي-3",
+      "printed_page": 239,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0205",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "حساب مكونات نظام إنذار الحريق في أحد المساجد:",
+      "printed_page": 247,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0206",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "دراسة لأسعار السوق طبقا لسعر الجنيه الاسترليني :",
+      "printed_page": 251,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0265",
+      "group_id": "group-08-fire-alarm",
+      "group": "Fire Alarm",
+      "title": "الخطوة السادسة: تكوين الــ Zones",
+      "printed_page": 325,
+      "start_page": 274,
+      "end_page": 274,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0063",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الجيل الأول: Radio Frequency, RF",
+      "printed_page": 79,
+      "start_page": 353,
+      "end_page": 353,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0064",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الجيل الثانى :بداية عصر القنوات الفضائية ( Intermidiate Frequency, IF)",
+      "printed_page": 80,
+      "start_page": 354,
+      "end_page": 354,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0065",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الجيل الثالث: نظام الدش البسيط (كما بالمنازل)",
+      "printed_page": 81,
+      "start_page": 355,
+      "end_page": 355,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0066",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الجيل الرابع : الدش المركزى",
+      "printed_page": 82,
+      "start_page": 356,
+      "end_page": 357,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0067",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "تابع الجيل الرابع: الدش المركزي ذو القنوات المحدودة كما بالفنادق:",
+      "printed_page": 84,
+      "start_page": 358,
+      "end_page": 358,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0068",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "أشهر المعدات في نظام الدش المركزي",
+      "printed_page": 84,
+      "start_page": 358,
+      "end_page": 365,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0072",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "العنصر الرابع : الــ Splitter",
+      "printed_page": 93,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0073",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "العنصر الخامس: الــ Amplifier",
+      "printed_page": 94,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0144",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "نسبة الإشارة إلى الضوضاء (Signal To Noise Ratio S/N:)",
+      "printed_page": 176,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0207",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "حاسة السمع",
+      "printed_page": 253,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0208",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "كيف تتم عملية السمع؟",
+      "printed_page": 254,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0209",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الأذن البشرية أقوى سماعة",
+      "printed_page": 254,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0210",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "موجات الصوت: تعريفات هامة",
+      "printed_page": 255,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0211",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "تردد الموجة الصوتية:",
+      "printed_page": 255,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0212",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "سرعة الصوت:",
+      "printed_page": 256,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0213",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "خصائص تمييز الأصوات",
+      "printed_page": 257,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0214",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "شدة الصوت Intensity",
+      "printed_page": 257,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0215",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "التعبير عن شدة الصوت بالديسيـبل",
+      "printed_page": 258,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0216",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "درجة (نبرة) الصوت – Pitch",
+      "printed_page": 260,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0217",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "نوع النغمة (المركبة – أساسية)",
+      "printed_page": 261,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0218",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "أهم القوانين الحاكمة للصوتيات",
+      "printed_page": 261,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0219",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "جمع شدة الأصوات المتساوية الشدة",
+      "printed_page": 262,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0220",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "جمع الأصوات غير المتساوية في الشدة",
+      "printed_page": 263,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0221",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "قانون التربيع العكسي في الأصوات",
+      "printed_page": 264,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0222",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "المكونات الرئيسية للنظام الصوتي:",
+      "printed_page": 266,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0223",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الميكروفونات MICROPHONES):)",
+      "printed_page": 268,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0224",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الميكرفون الكربونى:",
+      "printed_page": 268,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0225",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الميكروفون الشريطى (Ribbon Micro)",
+      "printed_page": 268,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0226",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الميكروفون البلورى (Crystal microphone)",
+      "printed_page": 269,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0227",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "ميكروفون السعوى (Condenser microphone",
+      "printed_page": 269,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0228",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الميكروفون الديناميكى (كهرومغناطيسية) (Dynamic microphone)",
+      "printed_page": 270,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0229",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مواصفات الميكرفون",
+      "printed_page": 271,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0230",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "زاوية استقبال الصوت",
+      "printed_page": 271,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0231",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "حساسية الميكرفون",
+      "printed_page": 272,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0232",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "معاوقة الميكرفون",
+      "printed_page": 274,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0233",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مك الإشارة (AMPLIFIER",
+      "printed_page": 275,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0234",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "توصيف الــ Amp.",
+      "printed_page": 278,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0235",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "ما معنى الــ Clipping؟",
+      "printed_page": 278,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0236",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "السماعات LOUD SPEAKERS):)",
+      "printed_page": 280,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0237",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مشاكل السماعات",
+      "printed_page": 282,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0238",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "توصيل السماعات على التوإلى والتوازي",
+      "printed_page": 282,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0239",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الأنظمة المختلفة لتوصيل السماعات بالــ Amp",
+      "printed_page": 283,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0240",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "تصنيف السماعات:",
+      "printed_page": 287,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0241",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "فاصل الترددات.crossover",
+      "printed_page": 288,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0242",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "أهم نقاط توصيف السماعات:",
+      "printed_page": 290,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0243",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الحل:",
+      "printed_page": 294,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0244",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "Horns",
+      "printed_page": 295,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0245",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مازج الصوت SOUND MIXE R",
+      "printed_page": 297,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0246",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "MATRIX SWITCH",
+      "printed_page": 299,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0247",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "ATTENUATOR",
+      "printed_page": 300,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0248",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الكابلات:",
+      "printed_page": 300,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0249",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "تصميم صوتيات غرفة اجتماعات",
+      "printed_page": 302,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0250",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مثال تطبيقي موسع",
+      "printed_page": 303,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0251",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الأنظمة الصوتية في الهواء الطلق",
+      "printed_page": 307,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0252",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "خطوات تصميم النظام الصوتي العام PA",
+      "printed_page": 308,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0253",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "أساليب التصميم",
+      "printed_page": 308,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0258",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة الثانية: تحديد الارتفاع dB المطلوب في الصوت",
+      "printed_page": 316,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0259",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة الثالثة: اختيار نوع السماعة المناسبة",
+      "printed_page": 316,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0260",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة الرابعة: اختيار قدرة السماعة",
+      "printed_page": 317,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0261",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة الخامسة: توزيع السماعات",
+      "printed_page": 318,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0262",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الطريقة الأولى",
+      "printed_page": 319,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0263",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الطريقة الثانية لتوزيع السماعات",
+      "printed_page": 322,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0264",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "حساب المسافات بين سماعات الحائط",
+      "printed_page": 324,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0266",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة السابعة: اختيار الــ Amplifier",
+      "printed_page": 326,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0267",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة الثامنة: اختيار جهاز التحكم الرئيسي للنظام",
+      "printed_page": 326,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0268",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الخطوة الأخيرة: اختيار الكابلات",
+      "printed_page": 327,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0269",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "جدول كميات المنظومة الصوتية",
+      "printed_page": 328,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0270",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "أمثلة تطبيقية:",
+      "printed_page": 330,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0271",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الأنظمة الصوتية في المساجد",
+      "printed_page": 330,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0272",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "انعكاس الصوت REFLECTION OF SOU ND",
+      "printed_page": 334,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0273",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مشكلة الصفير FEEDBACK",
+      "printed_page": 335,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0274",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "مشكلة صدى الصوت ECHO",
+      "printed_page": 335,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0275",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "زمن الترداد (RE VERBERATION TIME)",
+      "printed_page": 337,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0276",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "أهمية زمن الترداد",
+      "printed_page": 337,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0277",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "حساب زمن الترداد",
+      "printed_page": 338,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0278",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "الرن (RESONANC E)",
+      "printed_page": 339,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0279",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "ظاهرة رنين الغرفة room resonance",
+      "printed_page": 339,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0280",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "حساب الترددات الرنينية",
+      "printed_page": 339,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0281",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "تشتت الصوت DIFFUSION REFLECTION",
+      "printed_page": 340,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0282",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "امتصاص الصوت SOUND ABSORPTION",
+      "printed_page": 341,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    },
+    {
+      "id": "pdf-section-0283",
+      "group_id": "group-09-pa-acoustics",
+      "group": "Sound / PA / Acoustics",
+      "title": "LIST OF MANUFACTURERS",
+      "printed_page": 341,
+      "start_page": 366,
+      "end_page": 366,
+      "source": "table-of-contents"
+    }
+  ]
+}

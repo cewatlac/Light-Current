@@ -1,0 +1,736 @@
+{
+  "generated_at": "2026-06-02T02:16:16.318Z",
+  "source_reference": {
+    "title_ar": "المرجع في أنظمة التيار الخفيف",
+    "title_en": "Low Current Systems for Electrical Power Engineers",
+    "author_ar": "أ. د. محمود جيلاني",
+    "year": "2020",
+    "label_ar": "المرجع في أنظمة التيار الخفيف، أ. د. محمود جيلاني، 2020",
+    "label_en": "Low Current Systems for Electrical Power Engineers, Prof. Mahmoud Gilany, 2020"
+  },
+  "extraction_policy": "No public page should copy PDF paragraphs. Concepts are paraphrased into design, site, testing, warning, and visual-decision fields.",
+  "groups": [
+    {
+      "id": "group-00-workflow",
+      "order": 0,
+      "chapter": "Introduction and project workflow",
+      "terms": [
+        "low current",
+        "ELV",
+        "project workflow",
+        "preliminary design",
+        "conceptual design",
+        "tender",
+        "BOQ",
+        "load estimation",
+        "coordination",
+        "rooms"
+      ],
+      "topic_terms": [
+        "project workflow",
+        "preliminary design",
+        "conceptual design",
+        "tender documentation",
+        "BOQ",
+        "specifications",
+        "load estimation",
+        "ELV rooms",
+        "coordination"
+      ],
+      "external_references": [
+        "Project specifications",
+        "Authority and client requirements"
+      ],
+      "integration_templates": {
+        "design_ar": "ابدأ المشروع بتحديد scope لكل نظام، غرفه، متطلبات التغذية والـ UPS، ومسؤوليات التنسيق مع المعماري والميكانيكا والكهرباء.",
+        "design_en": "Start by defining each system scope, rooms, power and UPS needs, and coordination responsibilities with architecture, mechanical, and electrical teams.",
+        "site_ar": "في الموقع، اربط كل ملاحظة بمكان واضح: room، rack، riser، drawing revision، وسبب التأثير على نظام آخر.",
+        "site_en": "On site, tie each note to a clear room, rack, riser, drawing revision, and the affected adjacent system.",
+        "test_ar": "التسليم الجيد يجمع expected result، actual evidence، reference drawing، واسم المسؤول عن المراجعة.",
+        "test_en": "Good handover records expected result, actual evidence, reference drawing, and responsible reviewer.",
+        "mistakes": [
+          "Using early estimates as final load values without checking selected equipment datasheets.",
+          "Coordinating rooms late after architecture and MEP layouts are frozen."
+        ],
+        "visual_ideas": [
+          "ELV project workflow lane diagram",
+          "room and riser coordination matrix",
+          "load-estimation evidence card"
+        ]
+      },
+      "section_count": 6
+    },
+    {
+      "id": "group-01-network-cabling",
+      "order": 1,
+      "chapter": "Network Data and Structured Cabling",
+      "terms": [
+        "Network Data",
+        "LAN",
+        "WAN",
+        "traffic",
+        "data socket",
+        "structured cabling",
+        "UTP",
+        "STP",
+        "fiber optic",
+        "patch panel",
+        "patch cord",
+        "cable organizer",
+        "rack",
+        "PDU",
+        "switch",
+        "router",
+        "modem",
+        "server",
+        "scalability",
+        "UPS"
+      ],
+      "topic_terms": [
+        "Network Data",
+        "LAN",
+        "WAN",
+        "Data Cable",
+        "Structured Cabling",
+        "Copper Cable",
+        "Fiber Optic",
+        "Data Socket",
+        "Patch Panel",
+        "Patch Cord",
+        "Cable Organizer",
+        "Rack",
+        "PDU",
+        "Switch",
+        "Router",
+        "Modem",
+        "Server",
+        "Network Design"
+      ],
+      "external_references": [
+        "TIA structured cabling standards",
+        "ISO/IEC 11801",
+        "BICSI TDMM"
+      ],
+      "integration_templates": {
+        "design_ar": "صمم الشبكة كمنظومة قابلة للتوسع: عدد outlets، حجم patch panels، rack space، switch ports، PoE/UPS، ومسار copper/fiber.",
+        "design_en": "Design the network as an expandable system: outlets, patch panels, rack space, switch ports, PoE/UPS, and copper/fiber pathways.",
+        "site_ar": "تحقق من labels، مسار الكابل، bend radius، طول copper channel، ترتيب patch cords، وتهوية الراك قبل الاختبار.",
+        "site_en": "Check labels, cable route, bend radius, copper channel length, patch-cord dressing, and rack ventilation before testing.",
+        "test_ar": "اختبر wiremap/length/loss للنحاس وOTDR أو loss budget للفايبر، ثم اربط النتيجة برقم outlet أو fiber core.",
+        "test_en": "Test copper wiremap/length/loss and fiber OTDR or loss budget, then tie each result to outlet or fiber-core ID.",
+        "mistakes": [
+          "Sizing switches and patch panels for the current outlet count only, with no spare capacity.",
+          "Treating fire alarm as a normal data-network subsystem instead of life-safety infrastructure."
+        ],
+        "visual_ideas": [
+          "rack elevation with patch panel, switch, PDU, and cable organizers",
+          "LAN-to-WAN topology",
+          "copper vs fiber pathway comparison"
+        ]
+      },
+      "section_count": 26
+    },
+    {
+      "id": "group-02-bms",
+      "order": 2,
+      "chapter": "BMS / BAS / IBMS",
+      "terms": [
+        "BMS",
+        "BAS",
+        "IBMS",
+        "DDC",
+        "sensor",
+        "actuator",
+        "controller",
+        "LCP",
+        "HMI",
+        "workstation",
+        "server",
+        "software",
+        "BACnet",
+        "Modbus",
+        "LonWorks",
+        "TCP/IP",
+        "AI",
+        "AO",
+        "DI",
+        "DO",
+        "point",
+        "HVAC",
+        "AHU",
+        "data center"
+      ],
+      "topic_terms": [
+        "BMS",
+        "BAS",
+        "IBMS",
+        "DDC",
+        "Sensors",
+        "Actuators",
+        "BMS points",
+        "AI",
+        "AO",
+        "DI",
+        "DO",
+        "BACnet",
+        "Modbus",
+        "LonWorks",
+        "AHU",
+        "HVAC control",
+        "BMS integration",
+        "Data center BMS"
+      ],
+      "external_references": [
+        "ASHRAE building automation guidance",
+        "BACnet official documentation",
+        "Modbus Application Protocol"
+      ],
+      "integration_templates": {
+        "design_ar": "ابدأ BMS من point list واضح: نوع النقطة AI/AO/DI/DO، range، مكان sensor/actuator، sequence، alarms، trends، والـ protocol.",
+        "design_en": "Start BMS from a clear point list: AI/AO/DI/DO type, range, sensor/actuator location, sequence, alarms, trends, and protocol.",
+        "site_ar": "راجع wiring داخل LCP، اتجاه actuator، مكان sensor، addressing، shielding، وتطابق graphic مع الجهاز الحقيقي.",
+        "site_en": "Check LCP wiring, actuator direction, sensor placement, addressing, shielding, and graphic-to-field matching.",
+        "test_ar": "اختبر calibration، manual command، auto sequence، alarm limits، trend logging، وفشل الاتصال ثم recovery.",
+        "test_en": "Test calibration, manual command, automatic sequence, alarm limits, trend logging, communication failure, and recovery.",
+        "mistakes": [
+          "Counting points without defining ranges, units, and command authority.",
+          "Commissioning graphics before proving field wiring and sequence behavior."
+        ],
+        "visual_ideas": [
+          "BMS old vs modern architecture",
+          "AI/AO/DI/DO point schedule visual",
+          "AHU control loop with sensor, DDC, actuator, and feedback"
+        ]
+      },
+      "section_count": 14
+    },
+    {
+      "id": "group-03-telephone-voip",
+      "order": 3,
+      "chapter": "Telephone / VoIP / IP Telephone",
+      "terms": [
+        "telephone",
+        "traditional telephone",
+        "RJ11",
+        "TB",
+        "TJB",
+        "IDF",
+        "SDF",
+        "MDF",
+        "PABX",
+        "VoIP",
+        "IP Telephone",
+        "IP-PBX",
+        "SIP",
+        "gateway",
+        "IP-Enable"
+      ],
+      "topic_terms": [
+        "Telephone",
+        "RJ11",
+        "TB",
+        "TJB",
+        "IDF",
+        "SDF",
+        "MDF",
+        "PABX",
+        "VoIP",
+        "IP Telephone",
+        "IP-PBX",
+        "SIP",
+        "Gateway"
+      ],
+      "external_references": [
+        "Vendor IP-PBX manuals",
+        "SIP trunk provider requirements"
+      ],
+      "integration_templates": {
+        "design_ar": "حدد هل النظام traditional، IP، أو hybrid؛ ثم اربط ذلك بالكابلات، MDF/IDF، numbering plan، gateways، والـ power/network needs.",
+        "design_en": "Decide whether the system is traditional, IP, or hybrid, then align cabling, MDF/IDF, numbering plan, gateways, and power/network needs.",
+        "site_ar": "راجع termination في MDF/IDF، labels، نوع outlet، VLAN للصوت، QoS، وPoE للـ IP phones.",
+        "site_en": "Check MDF/IDF terminations, labels, outlet type, voice VLAN, QoS, and PoE for IP phones.",
+        "test_ar": "اختبر internal calls، external calls، transfer، emergency routing، caller ID، recording أو billing إن وجدت.",
+        "test_en": "Test internal calls, external calls, transfer, emergency routing, caller ID, and recording or billing when required.",
+        "mistakes": [
+          "Mixing analog and IP endpoint assumptions in the same outlet schedule.",
+          "Ignoring voice VLAN/QoS and then blaming the handset for poor call quality."
+        ],
+        "visual_ideas": [
+          "traditional MDF to extensions",
+          "IP-PBX voice VLAN topology",
+          "hybrid gateway flow"
+        ]
+      },
+      "section_count": 19
+    },
+    {
+      "id": "group-04-matv-iptv",
+      "order": 4,
+      "chapter": "MATV / SMATV / IPTV",
+      "terms": [
+        "MATV",
+        "SMATV",
+        "IPTV",
+        "RF",
+        "IF",
+        "antenna",
+        "headend",
+        "tap",
+        "splitter",
+        "amplifier",
+        "LNB",
+        "multiswitch",
+        "separator",
+        "loss",
+        "gain",
+        "dB",
+        "VoD",
+        "STB"
+      ],
+      "topic_terms": [
+        "MATV",
+        "SMATV",
+        "IPTV",
+        "RF",
+        "IF",
+        "Antenna",
+        "Headend",
+        "Tap",
+        "Splitter",
+        "Amplifier",
+        "LNB",
+        "Multiswitch",
+        "Separator",
+        "RF loss",
+        "VoD",
+        "STB"
+      ],
+      "external_references": [
+        "Vendor headend manuals",
+        "Coaxial distribution loss tables"
+      ],
+      "integration_templates": {
+        "design_ar": "صمم المسار حسب level budget: مصدر الإشارة، headend، amplifier gain، splitter/tap loss، cable loss، ومستوى الإشارة عند outlet.",
+        "design_en": "Design the path around the level budget: source, headend, amplifier gain, splitter/tap loss, cable loss, and outlet signal level.",
+        "site_ar": "افحص connector quality، اتجاه tap/splitter، power للـ active devices، grounding، وترتيب coax داخل الراك.",
+        "site_en": "Inspect connector quality, tap/splitter direction, power for active devices, grounding, and coax dressing inside the rack.",
+        "test_ar": "سجل RF/IF level، quality، channel scan، picture/audio result، أو multicast stability في IPTV.",
+        "test_en": "Record RF/IF level, quality, channel scan, picture/audio result, or IPTV multicast stability.",
+        "mistakes": [
+          "Adding splitters without recalculating downstream loss.",
+          "Treating IPTV as RF distribution instead of network capacity, multicast, and endpoint configuration."
+        ],
+        "visual_ideas": [
+          "RF headend distribution tree",
+          "tap/splitter loss calculator",
+          "IPTV multicast path with STB"
+        ]
+      },
+      "section_count": 25
+    },
+    {
+      "id": "group-05-access-control",
+      "order": 5,
+      "chapter": "Access Control",
+      "terms": [
+        "Access Control",
+        "card reader",
+        "biometric",
+        "keypad",
+        "face recognition",
+        "magnetic lock",
+        "electric lock",
+        "REX",
+        "door controller",
+        "server",
+        "serial",
+        "IP controller",
+        "door contact"
+      ],
+      "topic_terms": [
+        "Access Control",
+        "Card Reader",
+        "Biometric",
+        "Keypad",
+        "Face Recognition",
+        "Magnetic Lock",
+        "Electric Lock",
+        "REX",
+        "Door Controller",
+        "Door Contact",
+        "Access Control Server",
+        "Access Topology"
+      ],
+      "external_references": [
+        "SIA OSDP guidance",
+        "Door hardware and life-safety requirements"
+      ],
+      "integration_templates": {
+        "design_ar": "ابدأ من door schedule: reader type، lock type، REX، door contact، fire release، access levels، والـ fail-safe/fail-secure decision.",
+        "design_en": "Start from the door schedule: reader type, lock type, REX, door contact, fire release, access levels, and fail-safe/fail-secure decision.",
+        "site_ar": "راجع اتجاه الباب، alignment للقفل، cable cores، polarity، location للـ REX، labels، وربط fire alarm release.",
+        "site_en": "Check door swing, lock alignment, cable cores, polarity, REX location, labels, and fire-alarm release interface.",
+        "test_ar": "اختبر valid/denied card، REX، forced/held open، fire release، battery backup، event log، وtime schedule.",
+        "test_en": "Test valid/denied cards, REX, forced/held-open, fire release, battery backup, event log, and time schedule.",
+        "mistakes": [
+          "Designing the reader without coordinating lock power and egress/fire release.",
+          "Testing access granted only, while ignoring denied access and alarm states."
+        ],
+        "visual_ideas": [
+          "door control wiring diagram",
+          "serial vs IP controller topology",
+          "fire-release cause/effect path"
+        ]
+      },
+      "section_count": 17
+    },
+    {
+      "id": "group-06-nurse-call",
+      "order": 6,
+      "chapter": "Nurse Call",
+      "terms": [
+        "Nurse Call",
+        "Nurse Station",
+        "Patient Station",
+        "IP nurse call",
+        "management unit",
+        "traditional nurse call",
+        "bathroom pull cord",
+        "corridor lamp"
+      ],
+      "topic_terms": [
+        "Nurse Call",
+        "Nurse Station",
+        "Patient Station",
+        "IP Nurse Call",
+        "Management Unit",
+        "Traditional Nurse Call"
+      ],
+      "external_references": [
+        "Healthcare facility design requirements",
+        "Vendor nurse-call manuals"
+      ],
+      "integration_templates": {
+        "design_ar": "اربط كل room وbed بمحطة المريض، corridor indication، nurse station، escalation rules، integration، والـ power/network backup.",
+        "design_en": "Map each room and bed to patient station, corridor indication, nurse station, escalation rules, integration, and backed-up power/network.",
+        "site_ar": "تأكد من location عند السرير والحمام، visibility للمبة الممر، labels، cable/network، ومطابقة room numbers.",
+        "site_en": "Verify bed and bathroom station locations, corridor-lamp visibility, labels, cable/network, and room-number mapping.",
+        "test_ar": "اختبر call، cancel، assistance، emergency، escalation، display، reports، وفشل الشبكة أو التغذية.",
+        "test_en": "Test call, cancel, assistance, emergency, escalation, display, reports, and network or power failure.",
+        "mistakes": [
+          "Mapping room numbers late, causing nurse-station displays to disagree with architecture.",
+          "Testing only the call button without cancellation and escalation behavior."
+        ],
+        "visual_ideas": [
+          "room-to-nurse-station workflow",
+          "traditional vs IP nurse-call topology",
+          "escalation timeline"
+        ]
+      },
+      "section_count": 7
+    },
+    {
+      "id": "group-07-cctv",
+      "order": 7,
+      "chapter": "CCTV",
+      "terms": [
+        "CCTV",
+        "analog CCTV",
+        "IP CCTV",
+        "camera",
+        "DVR",
+        "NVR",
+        "VMS",
+        "storage",
+        "compression",
+        "VCA",
+        "sensor size",
+        "lens",
+        "focal length",
+        "FOV",
+        "S/N",
+        "resolution",
+        "TVL",
+        "megapixel",
+        "zoom",
+        "BLC",
+        "AGC",
+        "HLC",
+        "sensitivity",
+        "PoE",
+        "dome",
+        "bullet",
+        "PTZ"
+      ],
+      "topic_terms": [
+        "CCTV",
+        "Analog CCTV",
+        "IP CCTV",
+        "Camera",
+        "DVR",
+        "NVR",
+        "VMS",
+        "Storage Calculation",
+        "Compression",
+        "VCA",
+        "Sensor Size",
+        "Lens",
+        "Focal Length",
+        "FOV",
+        "S/N",
+        "Resolution",
+        "TVL",
+        "Megapixel",
+        "Zoom",
+        "BLC",
+        "AGC",
+        "HLC",
+        "Sensitivity",
+        "PoE",
+        "Dome",
+        "Bullet",
+        "PTZ"
+      ],
+      "external_references": [
+        "ONVIF specifications",
+        "Vendor camera and VMS manuals"
+      ],
+      "integration_templates": {
+        "design_ar": "صمم CCTV من هدف المشهد: identification/detection، FOV، lens، resolution، lighting، bitrate، storage retention، network، وVMS users.",
+        "design_en": "Design CCTV from the scene objective: identification/detection, FOV, lens, resolution, lighting, bitrate, retention storage, network, and VMS users.",
+        "site_ar": "راجع mounting، aiming، focus، cable/PoE، weather rating، reflections، night mode، وتنظيف العدسة.",
+        "site_en": "Check mounting, aiming, focus, cable/PoE, weather rating, reflections, night mode, and lens cleaning access.",
+        "test_ar": "اختبر live view، playback، export، day/night، motion/VCA، time sync، user permissions، وstorage estimate.",
+        "test_en": "Test live view, playback, export, day/night, motion/VCA, time sync, user permissions, and storage estimate.",
+        "mistakes": [
+          "Choosing megapixels without checking FOV and pixel density at the target.",
+          "Calculating storage without bitrate, frame rate, codec, retention, and motion assumptions."
+        ],
+        "visual_ideas": [
+          "FOV visualizer",
+          "IP CCTV topology",
+          "storage calculator",
+          "analog vs IP comparison"
+        ]
+      },
+      "section_count": 41
+    },
+    {
+      "id": "group-08-fire-alarm",
+      "order": 8,
+      "chapter": "Fire Alarm",
+      "terms": [
+        "Fire Alarm",
+        "detector",
+        "manual call point",
+        "sounder",
+        "flasher",
+        "FACP",
+        "door holder",
+        "monitor module",
+        "control module",
+        "isolation module",
+        "conventional",
+        "addressable",
+        "intelligent",
+        "wireless",
+        "zone",
+        "notification zone",
+        "cause and effect",
+        "battery",
+        "beam",
+        "heat",
+        "flame",
+        "gas",
+        "duct"
+      ],
+      "topic_terms": [
+        "Fire Alarm",
+        "Detector",
+        "Manual Call Point",
+        "MCP",
+        "Sounder",
+        "Flasher",
+        "FACP",
+        "Door Holder",
+        "Monitor Module",
+        "Control Module",
+        "Isolation Module",
+        "Conventional",
+        "Addressable",
+        "Intelligent",
+        "Wireless",
+        "Fire Alarm Zones",
+        "Notification Zones",
+        "Detector Layout",
+        "Cause and Effect",
+        "Battery"
+      ],
+      "external_references": [
+        "NFPA 72",
+        "EN 54",
+        "Local civil-defense requirements"
+      ],
+      "integration_templates": {
+        "design_ar": "ابدأ من الكود والغرض: detector type/spacing، zones، loop loading، NAC loading، battery، cause-and-effect، وinterfaces مع أنظمة أخرى.",
+        "design_en": "Start from code and purpose: detector type/spacing, zones, loop loading, NAC loading, battery, cause-and-effect, and interfaces with other systems.",
+        "site_ar": "راجع address labels، cable rating، polarity، isolators، module wiring، detector location، وموانع false alarm.",
+        "site_en": "Check address labels, cable rating, polarity, isolators, module wiring, detector location, and false-alarm risks.",
+        "test_ar": "اختبر alarm، fault، supervisory، notification، cause/effect، battery، reset/disable، والتوثيق الموقع.",
+        "test_en": "Test alarm, fault, supervisory, notification, cause/effect, battery, reset/disable, and site evidence.",
+        "mistakes": [
+          "Selecting detector type without considering environment and false-alarm sources.",
+          "Treating zones and notification zones as the same design decision."
+        ],
+        "visual_ideas": [
+          "addressable loop diagram",
+          "cause-and-effect matrix",
+          "detector selection decision tree"
+        ]
+      },
+      "section_count": 47
+    },
+    {
+      "id": "group-09-pa-acoustics",
+      "order": 9,
+      "chapter": "Sound / PA / Acoustics",
+      "terms": [
+        "sound",
+        "frequency",
+        "speed of sound",
+        "intensity",
+        "dB",
+        "pitch",
+        "microphone",
+        "amplifier",
+        "clipping",
+        "loudspeaker",
+        "speaker wiring",
+        "100V",
+        "crossover",
+        "horn",
+        "mixer",
+        "matrix",
+        "attenuator",
+        "SPL",
+        "noise",
+        "reflection",
+        "feedback",
+        "echo",
+        "reverberation",
+        "resonance",
+        "diffusion",
+        "absorption"
+      ],
+      "topic_terms": [
+        "Sound Basics",
+        "Frequency",
+        "Speed of Sound",
+        "Intensity",
+        "dB",
+        "Pitch",
+        "Microphone",
+        "Amplifier",
+        "Clipping",
+        "Loudspeaker",
+        "Speaker Wiring",
+        "100V",
+        "Crossover",
+        "Horn",
+        "Mixer",
+        "Matrix",
+        "Attenuator",
+        "PA Design",
+        "SPL",
+        "Noise",
+        "Reflection",
+        "Feedback",
+        "Echo",
+        "Reverberation",
+        "Resonance",
+        "Diffusion",
+        "Absorption"
+      ],
+      "external_references": [
+        "IEC loudspeaker and amplifier manuals",
+        "Acoustics and SPL measurement references"
+      ],
+      "integration_templates": {
+        "design_ar": "صمم PA من zone وSPL/STI target: noise level، speaker type/tap، spacing، amplifier load، priorities، وemergency override.",
+        "design_en": "Design PA from zone and SPL/STI targets: noise level, speaker type/tap, spacing, amplifier load, priorities, and emergency override.",
+        "site_ar": "راجع speaker tap، polarity، line routing، amplifier channels، labels، feedback risk، ومكان microphone.",
+        "site_en": "Check speaker tap, polarity, line routing, amplifier channels, labels, feedback risk, and microphone location.",
+        "test_ar": "اختبر SPL/STI، zone selection، priority override، fault monitoring، clipping، feedback، وbackup operation.",
+        "test_en": "Test SPL/STI, zone selection, priority override, fault monitoring, clipping, feedback, and backup operation.",
+        "mistakes": [
+          "Selecting amplifier power without summing speaker taps and spare margin.",
+          "Ignoring room acoustics, causing feedback or poor intelligibility despite enough wattage."
+        ],
+        "visual_ideas": [
+          "100V speaker zone layout",
+          "amplifier load calculator",
+          "reflection/echo waveform diagram"
+        ]
+      },
+      "section_count": 81
+    },
+    {
+      "id": "group-10-standards-handover",
+      "order": 10,
+      "chapter": "Codes, standards, testing, commissioning, and handover",
+      "terms": [
+        "codes",
+        "standards",
+        "testing",
+        "commissioning",
+        "handover",
+        "documentation",
+        "BOQ",
+        "specifications",
+        "riser diagrams",
+        "layouts",
+        "rack layouts",
+        "load estimation",
+        "tender"
+      ],
+      "topic_terms": [
+        "Codes",
+        "Standards",
+        "Testing",
+        "Commissioning",
+        "Handover",
+        "Documentation",
+        "BOQ",
+        "Specifications",
+        "Riser Diagram",
+        "Layouts",
+        "Rack Layout",
+        "Load Estimation",
+        "Tender"
+      ],
+      "external_references": [
+        "Applicable local codes",
+        "Approved project specifications"
+      ],
+      "integration_templates": {
+        "design_ar": "كل standard أو specification يجب أن يتحول إلى acceptance criteria قابلة للاختبار وليست مجرد اسم في المستند.",
+        "design_en": "Every standard or specification must become testable acceptance criteria, not just a named reference.",
+        "site_ar": "التنفيذ المقبول يعتمد على approved revision، material submittal، site condition، ومسار واضح للـ NCR أو punch item.",
+        "site_en": "Accepted work depends on approved revision, material submittal, site condition, and a clear NCR or punch-item path.",
+        "test_ar": "اجعل كل test sheet يربط النظام، المكان، الجهاز، النتيجة، الصورة أو القراءة، والتوقيع.",
+        "test_en": "Each test sheet should connect system, location, asset, result, photo or reading, and signature.",
+        "mistakes": [
+          "Writing generic pass/fail without evidence.",
+          "Using specifications without mapping clauses to drawings, BOQ, and test records."
+        ],
+        "visual_ideas": [
+          "handover evidence chain",
+          "documentation package map",
+          "commissioning decision checklist"
+        ]
+      },
+      "section_count": 2
+    }
+  ],
+  "concept_count": 285
+}

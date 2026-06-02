@@ -8,7 +8,7 @@ const topics = loadTopics();
 const units = [...new Set(topics.map((topic) => topic.unit))];
 const unitOptions = units.map((unit) => `<option value="${unit}">${unit}</option>`).join("");
 
-const body = `<body class="lang-both tree-page">
+const body = `<body class="lang-ar tree-page">
 ${siteHeader({ prefix: "./", breadcrumbHtml: "<span>Tree</span>", sectionLabel: "Explorer" })}
 <main>
   <section class="page-hero">

@@ -79,7 +79,7 @@ export function siteFooter(prefix = "./") {
   <div class="wrap footer-grid">
     <div>
       <strong>Eng Mohamed El-Sisi</strong><br>
-      <strong>Ashraf</strong><br>
+      <strong>Eng Ashraf</strong><br>
       <span>${FOOTER_COPYRIGHT}</span>
     </div>
     <nav aria-label="Footer navigation">
@@ -89,7 +89,11 @@ export function siteFooter(prefix = "./") {
       <a href="${prefix}glossary.html">Glossary</a>
     </nav>
   </div>
-</footer>`;
+</footer>
+<div class="floating-tools">
+  <button class="smallbtn" type="button" data-top-btn aria-label="Back to top">↑</button>
+  <button class="smallbtn" type="button" data-focus-btn aria-label="Focus mode" aria-pressed="false">◎</button>
+</div>`;
 }
 
 function findTopicByPath(topics, fullPath, context = {}) {
@@ -325,7 +329,7 @@ function standardTopicPage(topic, topics, context = {}) {
   const includeInteractive = topic.importance_type !== "small";
   const examples = lesson.examples.map((item) => `<li data-linkable>${escapeHtml(item)}</li>`).join("");
 
-  return `<body class="lang-both topic-page" data-topic-id="${escapeAttr(topic.id)}" data-topic-url="${escapeAttr(topic.url)}">
+  return `<body class="lang-ar topic-page" data-topic-id="${escapeAttr(topic.id)}" data-topic-url="${escapeAttr(topic.url)}">
 ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topics, context), sectionLabel: topic.importance_type })}
 <main>
   <section class="hero topic-hero">
@@ -418,7 +422,7 @@ function electricChargePage(topic, topics, context = {}) {
     .slice(0, 10);
   const relatedHtml = related.map((item) => `<li><a href="${rootRelativeUrl(topic.url, item.url)}">${escapeHtml(item.title)}</a></li>`).join("");
 
-  return `<body class="lang-both topic-page electric-charge-page" data-topic-id="${escapeAttr(topic.id)}" data-topic-url="${escapeAttr(topic.url)}">
+  return `<body class="lang-ar topic-page electric-charge-page" data-topic-id="${escapeAttr(topic.id)}" data-topic-url="${escapeAttr(topic.url)}">
 ${siteHeader({ prefix: "../../", breadcrumbHtml: breadcrumbForTopic(topic, topics, context), sectionLabel: "Gold Standard Lesson" })}
 <main>
   <section class="hero topic-hero">

@@ -8,7 +8,7 @@ const topics = loadTopics();
 const units = [...new Set(topics.map((topic) => topic.unit))];
 const unitOptions = units.map((unit) => `<option value="${unit}">${unit}</option>`).join("");
 
-const body = `<body class="lang-both glossary-page">
+const body = `<body class="lang-ar glossary-page">
 ${siteHeader({ prefix: "./", breadcrumbHtml: "<span>Glossary</span>", sectionLabel: "Glossary" })}
 <main>
   <section class="page-hero">

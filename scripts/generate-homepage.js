@@ -31,7 +31,7 @@ function countDesc(node) {
   return String(count);
 }
 
-const body = `<body class="lang-both home-page">
+const body = `<body class="lang-ar home-page">
 ${siteHeader({ prefix: "./", breadcrumbHtml: "<span>Home</span>", sectionLabel: "Static Course" })}
 <main>
   <section class="hero home-hero">

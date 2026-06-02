@@ -230,6 +230,45 @@
   flex-wrap: wrap;
 }
 
+.floating-tools {
+  position: fixed;
+  left: 18px;
+  bottom: 18px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.smallbtn {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--text);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.focus-mode .topbar .navlinks,
+.focus-mode .breadcrumb-row,
+.focus-mode .hero-actions,
+.focus-mode .stats-strip,
+.focus-mode .footer nav {
+  display: none;
+}
+
+.focus-mode .hero,
+.focus-mode .section {
+  min-height: auto;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
 input,
 select {
   min-height: 44px;

@@ -6,7 +6,7 @@ import { siteFooter, siteHeader, topPageHtml } from "./page-template.js";
 
 const topics = loadTopics();
 
-const body = `<body class="lang-both search-page">
+const body = `<body class="lang-ar search-page">
 ${siteHeader({ prefix: "./", breadcrumbHtml: "<span>Search</span>", sectionLabel: "Search" })}
 <main>
   <section class="page-hero">
