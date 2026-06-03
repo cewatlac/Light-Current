@@ -13,7 +13,9 @@
     "visual": "npm run audit && npm run visual:plan && npm run visual:diagrams",
     "generate": "node scripts/generate-pages.js && node scripts/generate-homepage.js && node scripts/generate-tree.js && node scripts/generate-search.js && node scripts/generate-glossary.js",
     "link": "node scripts/build-internal-link-dictionary.js && node scripts/apply-internal-links.js",
-    "validate": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js",
+    "electrical:build": "node scripts/rebuild-electrical-quantities-pages.js",
+    "electrical:validate": "node scripts/validate-electrical-quantities-pages.js",
+    "validate": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js && npm run electrical:validate",
     "report": "node scripts/create-reports.js",
     "pdf:outline": "node scripts/extract-pdf-outline.js",
     "pdf:extract": "node scripts/extract-pdf-knowledge-map.js",
@@ -22,9 +24,9 @@
     "pdf:apply": "node scripts/apply-pdf-knowledge.js",
     "pdf:validate": "node scripts/validate-pdf-integration.js",
     "pdf:integrate": "npm run pdf:outline && npm run pdf:extract && npm run pdf:map && npm run pdf:audit && npm run pdf:apply && npm run pdf:validate",
-    "build": "npm run parse && npm run classify && npm run visual && npm run generate && npm run link && npm run validate && npm run report",
+    "build": "npm run parse && npm run classify && npm run visual && npm run generate && npm run link && npm run electrical:build && npm run validate && npm run report",
     "dev": "node scripts/dev-server.js",
-    "test": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js"
+    "test": "node scripts/validate-pages.js && node scripts/check-links.js && node scripts/check-content-rules.js && node scripts/validate-visuals.js && node scripts/validate-electrical-quantities-pages.js"
   },
   "keywords": [
     "static-site",
